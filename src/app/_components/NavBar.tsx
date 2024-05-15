@@ -51,7 +51,7 @@ function NavBar({}: Props) {
   }, []);
 
   return (
-    <nav className="fixed left-0 top-0 flex w-full justify-center bg-blue-950 p-2 text-slate-100 lg:hidden">
+    <nav className="fixed left-0 top-0 flex w-full justify-center bg-gradient-to-r from-blue-950 to-sky-950 p-2 text-slate-100 lg:hidden">
       <Link
         href={"#about"}
         scroll={false}

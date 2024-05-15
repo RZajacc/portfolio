@@ -2,6 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+#page-grid-container {
+  display: grid;
+  row-gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+  #page-grid-container {
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "header header about about about"
+      "header header experience experience experience"
+      "header header projects projects projects";
+  }
+
+  #header {
+    grid-area: header;
+  }
+
+  #about {
+    grid-area: about;
+  }
+
+  #experience {
+    grid-area: experience;
+  }
+
+  #projects {
+    grid-area: projects;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

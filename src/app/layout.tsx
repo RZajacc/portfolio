@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
         <NavBar />
-        <main className="mt-[55px] min-h-screen bg-gradient-to-b from-blue-950 to-sky-900 p-3 text-justify text-slate-100 lg:mt-0">
+        <main className="mt-[55px] min-h-screen bg-gradient-to-b from-blue-950 to-sky-950 p-3 text-justify text-slate-100 lg:mt-0">
           {children}
         </main>
       </body>

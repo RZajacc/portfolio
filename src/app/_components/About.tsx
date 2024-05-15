@@ -4,7 +4,7 @@ type Props = {};
 
 function About({}: Props) {
   return (
-    <section id="about">
+    <section id="about" className="">
       <p>ABOUT</p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio

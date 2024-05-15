@@ -4,18 +4,19 @@
 
 #page-grid-container {
   display: grid;
-  row-gap: 2rem;
+  row-gap: 3rem;
 }
 
 @media (min-width: 1024px) {
   #page-grid-container {
     display: grid;
-    margin-top: 2rem;
+    column-gap: 3rem;
+    margin-top: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
-      "header header about about about"
-      "header header experience experience experience"
-      "header header projects projects projects";
+      "about about about header header "
+      "experience experience experience header header "
+      "projects projects projects header header ";
   }
 
   #header {
@@ -32,6 +33,27 @@
 
   #projects {
     grid-area: projects;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply text-5xl;
+  }
+  h2 {
+    @apply text-4xl;
+  }
+  h3 {
+    @apply text-3xl;
+  }
+  h4 {
+    @apply text-2xl;
+  }
+  h5 {
+    @apply text-xl;
+  }
+  h6 {
+    @apply text-lg;
   }
 }
 

@@ -5,7 +5,7 @@ import Header from "./_components/Header";
 
 export default function Page() {
   return (
-    <div id="page-grid-container" className="p-3">
+    <div id="page-grid-container" className="mt-3 p-2">
       <Header />
       <About />
       <Experience />

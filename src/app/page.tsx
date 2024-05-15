@@ -1,13 +1,13 @@
-import Test1 from "./_components/Test1";
-import Test2 from "./_components/Test2";
-import Test3 from "./_components/Test3";
+import About from "./_components/About";
+import Experience from "./_components/Experience";
+import Projects from "./_components/Projects";
 
-export default function About() {
+export default function Page() {
   return (
     <div>
-      <Test1 />
-      <Test2 />
-      <Test3 />
+      <About />
+      <Experience />
+      <Projects />
     </div>
   );
 }

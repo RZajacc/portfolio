@@ -2,7 +2,7 @@ import React from "react";
 
 type Props = {};
 
-function Test2({}: Props) {
+function Experience({}: Props) {
   return (
     <section id="experience">
       <p>EXPERIENCE</p>
@@ -46,4 +46,4 @@ function Test2({}: Props) {
   );
 }
 
-export default Test2;
+export default Experience;

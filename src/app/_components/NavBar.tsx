@@ -57,7 +57,7 @@ function NavBar({}: Props) {
         scroll={false}
         className={
           activeSection === "about"
-            ? "m-1 rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold"
+            ? " m-1 rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in"
             : "m-1 px-2 py-1"
         }
         onClick={(e) => {
@@ -71,7 +71,7 @@ function NavBar({}: Props) {
         scroll={false}
         className={
           activeSection === "experience"
-            ? "m-1 rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold"
+            ? "m-1 rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in"
             : "m-1 px-2 py-1"
         }
         onClick={(e) => {
@@ -85,7 +85,7 @@ function NavBar({}: Props) {
         scroll={false}
         className={
           activeSection === "projects"
-            ? "m-1 rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold"
+            ? "m-1 rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in"
             : "m-1 px-2 py-1"
         }
         onClick={(e) => {

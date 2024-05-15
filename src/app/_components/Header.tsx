@@ -17,18 +17,38 @@ function Header({}: Props) {
         doing my best to add German language to it.
       </p>
       <div className="mt-2 flex p-2">
-        <a href={"https://www.linkedin.com/in/rafalzajac88/"} target="blank">
+        <a
+          href={"https://www.linkedin.com/in/rafalzajac88/"}
+          target="_blank"
+          className="hover:animate-pulse"
+        >
           <FontAwesomeIcon icon={faLinkedin} className="mr-5 w-8" />
         </a>
-        <a href={"https://github.com/RZajacc"} target="blank">
+        <a
+          href={"https://github.com/RZajacc"}
+          target="_blank"
+          className="hover:animate-pulse"
+        >
           <FontAwesomeIcon
             icon={faGithub}
             className="mr-5 w-8"
             target="blank"
           />
         </a>
-        <a href={"mailto:rf.zajac@tutamail.com"}>
-          <FontAwesomeIcon icon={faEnvelope} className="w-8" target="blank" />
+        <a
+          href={"mailto:rf.zajac@tutamail.com"}
+          className="hover:animate-pulse"
+        >
+          <FontAwesomeIcon icon={faEnvelope} className="w-8" target="_blank" />
+        </a>
+      </div>
+      <div className="mt-4">
+        <a
+          href="./RafalZajacResume.pdf"
+          target="_blank"
+          className="cursor-pointer text-xl hover:animate-pulse"
+        >
+          View Full Résumé
         </a>
       </div>
     </div>

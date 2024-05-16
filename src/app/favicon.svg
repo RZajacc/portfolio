@@ -1,0 +1,57 @@
+<svg
+        viewBox="0 0 24 24"
+        width="64"
+        height="64"
+        className=" bg-slate-900 fill-none stroke-2"
+        strokeLinejoin="round"
+        strokeLinecap="round"
+      >
+        {/* Left sign */}
+        <path
+          className="stroke-lime-500 stroke-1"
+          d="
+          M 4 2
+          a 2 2 0 0 0 -2 2
+          v 7
+          a 1 1 0 0 1 -1 1
+          l -1 0
+          l 2 0
+          v 8
+          a 2 2 0 0 0 2 2
+          "
+        />
+        {/* Right sign */}
+        <path
+          className="stroke-lime-500 stroke-1"
+          d="
+          M 20 2
+          a 2 2 0 0 1 2 2
+          v 7
+          a 1 1 0 0 0 1 1
+          l 1 0
+          l -2 0
+          v 8
+          a 2 2 0 0 1 -2 2
+          "
+        />
+        {/* R letter */}
+        <path
+          className="stroke-blue-400 stroke-2"
+          d="
+        M 6 18
+        v -12
+        a 4 4 0 0 1 1 8
+        l 4 4
+        "
+        />
+        {/* Z letter */}
+        <path
+          className="stroke-rose-500 stroke-2"
+          d="
+        M 14 6
+        h 5
+        l -5 12
+        h 5
+        "
+        />
+      </svg>

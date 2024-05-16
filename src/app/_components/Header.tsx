@@ -2,7 +2,8 @@ import React from "react";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Link from "next/link";
+import linkIcon from "../../../public/link-icon.svg";
+import Image from "next/image";
 
 type Props = {};
 
@@ -46,10 +47,12 @@ function Header({}: Props) {
         <a
           href="./RafalZajacResume.pdf"
           target="_blank"
-          className="cursor-pointer text-xl hover:animate-pulse"
+          className="flex cursor-pointer text-xl hover:animate-pulse"
         >
-          View Full Résumé
+          View Full Résumé <Image src={linkIcon} alt="link-icon" />
         </a>
+
+        {/* !  */}
       </div>
     </div>
   );

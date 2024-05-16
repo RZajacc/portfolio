@@ -1,0 +1,14 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="svg" viewBox="0 0 24 24" width="64" height="64" style= 'background-color: "#0f172a"' fill="none" strokeLinejoin="round" strokeLinecap="round" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <style><![CDATA[
+       #svg {
+         background-color: white;
+       }
+    ]]></style>
+</defs>
+<path stroke-width="1" stroke = "#81c718" d="M 4 2a 2 2 0 0 0 -2 2v 7a 1 1 0 0 1 -1 1l -1 0l 2 0v 8a 2 2 0 0 0 2 2"/>
+<path stroke-width = "1" stroke="#81c718" d="M 20 2a 2 2 0 0 1 2 2v 7a 1 1 0 0 0 1 1l 1 0l -2 0v 8a 2 2 0 0 1 -2 2"/>
+<path stroke="#60a5fa" stroke-width="2" d="M 6 18v -12a 4 4 0 0 1 1 8l 4 4"/>
+<path stroke="#f43f5e" stroke-width="2" d="M 14 6h 5l -5 12h 5"/>
+</svg>

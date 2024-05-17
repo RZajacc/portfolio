@@ -33,7 +33,7 @@ function About({}: Props) {
       <p>
         That wasn&apos;t my first exposure to programming either. Prior to that,
         I had studied{" "}
-        <span className="font-bold text-fuchsia-300">computer science</span> for
+        <span className="font-bold text-fuchsia-300">Computer Science</span> for
         two years, with <span className="font-bold text-fuchsia-300">Java</span>{" "}
         as the leading programming language. Unfortunately, I wasn&apos;t able
         to continue due to the demands of my job at the time, but I am

@@ -10,12 +10,13 @@ function About({}: Props) {
         I recently graduated from{" "}
         <a
           href="https://www.codeacademyberlin.com/"
-          className="font-bold text-amber-300 hover:animate-pulse"
+          className="font-bold hover:animate-pulse"
+          target="_blank"
         >
           Code Academy Berlin
         </a>{" "}
         as a{" "}
-        <span className="font-bold text-fuchsia-300">
+        <span className="font-bold text-fuchsia-400">
           Full Stack Web Developer
         </span>
         . It was a pretty intense five months of learning under the supervision
@@ -27,14 +28,14 @@ function About({}: Props) {
         software (Data Volley) where all games are represented in simple code
         form. It&apos;s a pretty powerful software, but I was missing some
         features, so I started learning{" "}
-        <span className="font-bold text-fuchsia-300">Python</span> to get a bit
+        <span className="font-bold text-fuchsia-400">Python</span> to get a bit
         more out of these files and make some changes to them automatically.
       </p>
       <p>
         That wasn&apos;t my first exposure to programming either. Prior to that,
         I had studied{" "}
-        <span className="font-bold text-fuchsia-300">Computer Science</span> for
-        two years, with <span className="font-bold text-fuchsia-300">Java</span>{" "}
+        <span className="font-bold text-fuchsia-400">Computer Science</span> for
+        two years, with <span className="font-bold text-fuchsia-400">Java</span>{" "}
         as the leading programming language. Unfortunately, I wasn&apos;t able
         to continue due to the demands of my job at the time, but I am
         considering going back.

@@ -5,7 +5,7 @@ xmlns="http://www.w3.org/2000/svg">
 <defs>
     <style><![CDATA[
        #svg {
-         background-color: #0f172a;
+         background-color: transparent;
        }
     ]]></style>
 </defs>
@@ -13,5 +13,5 @@ xmlns="http://www.w3.org/2000/svg">
 <path stroke-width="2" stroke = "#f43f5e" d="M 6 2a 3 3 0 0 0 -3 3v 6a 1 1 0 0 1 -1 1l -1 0l 2 0v 7a 3 3 0 0 0 3 3"/>
 <path stroke-width = "2" stroke="#f43f5e" d="M 18 2a 3 3 0 0 1 3 3v 6a 1 1 0 0 0 1 1l 1 0l -2 0v 7a 3 3 0 0 1 -3 3"/>
 <!-- Letter R -->
-<path stroke="#fcd34d" stroke-width="3" d="M 9 20v -15a 3 3 0 0 1 3 9l 4 5"/>
+<path stroke="#0f172a" stroke-width="3" d="M 9 20v -15a 4 3 0 0 1 1 8a6 6 0 0 1 5 5 l 0 2"/>
 </svg>

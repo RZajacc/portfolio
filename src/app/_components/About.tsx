@@ -1,12 +1,12 @@
 import React from "react";
-import x from "../../../public/favicon.svg";
+import x from "/public/favicon2.svg";
 import Image from "next/image";
 
 type Props = {};
 
 function About({}: Props) {
   return (
-    <section id="about" className="">
+    <section id="about">
       <p>ABOUT</p>
       <Image src={x} alt="x" />
       <p>

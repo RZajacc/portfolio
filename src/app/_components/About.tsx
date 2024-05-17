@@ -9,7 +9,7 @@ function About({}: Props) {
     <section id="about">
       <p>ABOUT</p>
       <Image src={x} alt="x" />
-      <p>
+      <p className="italic">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
         similique fugit rerum autem iste, velit aliquam, quia vitae alias quae
         ducimus explicabo quas error magnam aspernatur ab perferendis quidem

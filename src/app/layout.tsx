@@ -23,7 +23,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const pointer = document.querySelector("#cursor") as HTMLElement;
   return (
     <html lang="en" className="scroll-smooth">
       <body className={inter.className} onMouseMove={cursorStyle}>

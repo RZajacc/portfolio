@@ -46,12 +46,18 @@ function Projects({}: Props) {
           to see the corresponding Github repository.
         </p>
         <div className="proj-entry__image mt-3">
-          <Image
-            src={marsRover}
-            alt="mars-rover-page-image"
-            width={250}
-            className="b mx-auto rounded-xl"
-          />
+          <a
+            href="https://marsroverapp.netlify.app/"
+            className="hover:animate-pulse"
+            target="_blank"
+          >
+            <Image
+              src={marsRover}
+              alt="mars-rover-page-image"
+              width={250}
+              className="b mx-auto rounded-xl"
+            />
+          </a>
         </div>
         <div className="proj-entry__stack mt-3 flex flex-wrap">
           <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
@@ -105,12 +111,18 @@ function Projects({}: Props) {
           to see the corresponding Github repository.
         </p>
         <div className="proj-entry__image mt-3">
-          <Image
-            src={forkit}
-            alt="mars-rover-page-image"
-            width={250}
-            className="b mx-auto rounded-xl"
-          />
+          <a
+            href="https://forkitorleaveit.netlify.app/"
+            className="hover:animate-pulse"
+            target="_blank"
+          >
+            <Image
+              src={forkit}
+              alt="mars-rover-page-image"
+              width={250}
+              className="b mx-auto rounded-xl"
+            />
+          </a>
         </div>
         <div className="proj-entry__stack mt-3 flex flex-wrap">
           <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
@@ -152,22 +164,26 @@ function Projects({}: Props) {
           <p>
             It is currently being refactored in a different repository than the
             one linked to. The changes will be quite large, ranging from
-            application functionality to improving the stack. The current stack
-            is as shown in the bullet points below.
+            application functionality to improving the stack.
           </p>
           <p className="text-gray-400">
             <span className="font-bold">Target stack:</span> NextJS, React,
             Typescript, TailwindCSS, NodeJS, ExpressJS, MongoDB, GraphQL
           </p>
         </div>
-        {/* To inlcunde later */}
         <div className="proj-entry__image mt-3">
-          <Image
-            src={totart}
-            alt="mars-rover-page-image"
-            width={250}
-            className="b mx-auto rounded-xl"
-          />
+          <a
+            href="https://github.com/RZajacc/totArt"
+            target="_blank"
+            className="hover:animate-pulse"
+          >
+            <Image
+              src={totart}
+              alt="mars-rover-page-image"
+              width={250}
+              className="b mx-auto rounded-xl"
+            />
+          </a>
         </div>
         <div className="proj-entry__stack mt-3 flex flex-wrap">
           <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
@@ -218,14 +234,19 @@ function Projects({}: Props) {
             will not change.
           </p>
         </div>
-        {/* To inlcunde later */}
         <div className="proj-entry__image mt-3">
-          <Image
-            src={codask}
-            alt="mars-rover-page-image"
-            width={250}
-            className="b mx-auto rounded-xl"
-          />
+          <a
+            href="https://github.com/helene-abiassi/CodaSk"
+            target="_blank"
+            className="hover:animate-pulse"
+          >
+            <Image
+              src={codask}
+              alt="mars-rover-page-image"
+              width={250}
+              className="b mx-auto rounded-xl"
+            />
+          </a>
         </div>
         <div className="proj-entry__stack mt-3 flex flex-wrap">
           <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">

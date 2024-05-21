@@ -4,7 +4,7 @@ type Props = {};
 
 function Footer({}: Props) {
   return (
-    <div className="mb-6 text-gray-400">
+    <div className="mb-6 text-gray-400 lg:col-span-3">
       And finally the project you are currently looking at. It was built with
       <span className="font-bold text-gray-300"> NextJS</span>, and{" "}
       <span className="font-bold text-gray-300">React</span>. Styled with{" "}

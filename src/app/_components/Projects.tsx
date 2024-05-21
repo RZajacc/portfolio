@@ -26,8 +26,23 @@ function Projects({}: Props) {
         </div>
         <p>
           Web application for people interested in space exploration. Users can
-          search and view images of selected Mars rovers retrieved from the NASA
-          API.
+          search and view images of selected Mars rovers retrieved from the{" "}
+          <a
+            href="https://api.nasa.gov/"
+            target="_blank"
+            className="font-bold hover:animate-pulse"
+          >
+            NASA API
+          </a>
+          . If you want to have a look at the code click{" "}
+          <a
+            href="https://github.com/RZajacc/MarsRover_3.0"
+            target="_blank"
+            className="font-bold hover:animate-pulse"
+          >
+            here
+          </a>{" "}
+          to see the corresponding Github repository.
         </p>
         <div className="mt-3">
           <Image
@@ -71,7 +86,23 @@ function Projects({}: Props) {
         </div>
         <p>
           Food blog-style web application that allows users to browse and save
-          their favourite recipes. Based on the Spoonacular API.
+          their favourite recipes. Based on the{" "}
+          <a
+            href="https://spoonacular.com/food-api/"
+            target="_blank"
+            className="font-bold hover:animate-pulse"
+          >
+            Spoonacular API
+          </a>
+          . If you want to have a look at the code click{" "}
+          <a
+            href="https://github.com/RZajacc/ForkIt_2.0"
+            target="_blank"
+            className="font-bold hover:animate-pulse"
+          >
+            here
+          </a>{" "}
+          to see the corresponding Github repository.
         </p>
         <div className="mt-3">
           <Image

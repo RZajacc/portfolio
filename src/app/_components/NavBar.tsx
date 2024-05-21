@@ -1,15 +1,14 @@
 "use client";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { MouseEvent, useEffect, useState } from "react";
 
 type Props = {};
 
 function NavBar({}: Props) {
   const [activeSection, setActiveSection] = useState("");
-
   // Handling scrolling into element on the page
   const handleLinkClick = (
-    e: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+    e: MouseEvent<HTMLAnchorElement, MouseEvent>,
     sectionID: string,
   ) => {
     e.preventDefault();

@@ -14,8 +14,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 const cursorStyle = (e: MouseEvent<HTMLBodyElement>) => {
   let cursor = document.querySelector("#cursor") as HTMLElement;
-  cursor.style.top = e.pageY + "px";
-  cursor.style.left = e.pageX + "px";
+  cursor.style.top = e.pageY - scrollY + "px";
+  cursor.style.left = e.pageX - scrollX + "px";
 };
 
 export default function RootLayout({
@@ -23,6 +23,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const pointer = document.querySelector("#cursor") as HTMLElement;
   return (
     <html lang="en" className="scroll-smooth">
       <body className={inter.className} onMouseMove={cursorStyle}>

@@ -11,8 +11,8 @@ function Projects({}: Props) {
     <section id="projects">
       <h4 className="font-bold">PROJECTS</h4>
       {/* Mars rover project */}
-      <div className="mt-5">
-        <div className="flex justify-center">
+      <div className="proj-entry mt-5">
+        <div className="proj-entry__title flex justify-center ">
           <h6 className="font-bold">
             <a
               href="https://marsroverapp.netlify.app/"
@@ -24,7 +24,7 @@ function Projects({}: Props) {
           </h6>
           <Image src={linkIcon} alt="link-icon" />
         </div>
-        <p>
+        <p className="proj-entry__description">
           Web application for people interested in space exploration. Users can
           search and view images of selected Mars rovers retrieved from the{" "}
           <a
@@ -44,7 +44,7 @@ function Projects({}: Props) {
           </a>{" "}
           to see the corresponding Github repository.
         </p>
-        <div className="mt-3">
+        <div className="proj-entry__image mt-3">
           <Image
             src={marsRover}
             alt="mars-rover-page-image"
@@ -52,7 +52,7 @@ function Projects({}: Props) {
             className="b mx-auto rounded-xl"
           />
         </div>
-        <div className="mt-3 flex flex-wrap">
+        <div className="proj-entry__stack mt-3 flex flex-wrap">
           <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             JavaScript
           </button>
@@ -71,8 +71,8 @@ function Projects({}: Props) {
         </div>
       </div>
       {/* Forkit it project */}
-      <div className="mt-5">
-        <div className="flex justify-center">
+      <div className="proj-entry mt-5">
+        <div className="proj-entry__title flex justify-center">
           <h6 className="font-bold">
             <a
               href="https://forkitorleaveit.netlify.app/"
@@ -84,7 +84,7 @@ function Projects({}: Props) {
           </h6>
           <Image src={linkIcon} alt="link-icon" />
         </div>
-        <p>
+        <p className="proj-entry__description">
           Food blog-style web application that allows users to browse and save
           their favourite recipes. Based on the{" "}
           <a
@@ -104,7 +104,7 @@ function Projects({}: Props) {
           </a>{" "}
           to see the corresponding Github repository.
         </p>
-        <div className="mt-3">
+        <div className="proj-entry__image mt-3">
           <Image
             src={forkit}
             alt="mars-rover-page-image"
@@ -112,7 +112,7 @@ function Projects({}: Props) {
             className="b mx-auto rounded-xl"
           />
         </div>
-        <div className="mt-3 flex flex-wrap ">
+        <div className="proj-entry__stack mt-3 flex flex-wrap">
           <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             React
           </button>
@@ -128,8 +128,8 @@ function Projects({}: Props) {
         </div>
       </div>
       {/* Totart project */}
-      <div className="mt-5">
-        <div className="flex justify-center">
+      <div className="proj-entry mt-5">
+        <div className="proj-entry__title flex justify-center">
           <h6 className="font-bold">
             <a
               href="https://github.com/RZajacc/totArt"
@@ -141,12 +141,12 @@ function Projects({}: Props) {
           </h6>
           <Image src={linkIcon} alt="link-icon" />
         </div>
-        <p>
+        <p className="proj-entry__description">
           Web application that allows its users to create and share content
           about interesting but lesser-known places in Berlin.
         </p>
         {/* Current state */}
-        <div>
+        <div className="proj-entry__state">
           <h6 className="mt-2 font-bold text-fuchsia-500">
             Current state of the app:
           </h6>
@@ -154,21 +154,15 @@ function Projects({}: Props) {
             It is currently being refactored in a different repository than the
             one linked to. The changes will be quite large, ranging from
             application functionality to improving the stack. The current stack
-            is as shown in the bullet points below. Target stack:
+            is as shown in the bullet points below.
           </p>
-          <ul className="list-inside list-disc px-3">
-            <li>NextJS</li>
-            <li>React</li>
-            <li>Typescript</li>
-            <li>TailwindCSS</li>
-            <li>NodeJS</li>
-            <li>ExpressJS</li>
-            <li>MongoDB</li>
-            <li>GraphQL</li>
-          </ul>
+          <p className="text-gray-400">
+            <span className="font-bold">Target stack:</span> NextJS, React,
+            Typescript, TailwindCSS, NodeJS, ExpressJS, MongoDB, GraphQL
+          </p>
         </div>
         {/* To inlcunde later */}
-        {/* <div className="mt-3">
+        {/* <div className="proj-entry__image mt-3">
           <Image
             src={marsRover}
             alt="mars-rover-page-image"
@@ -176,7 +170,7 @@ function Projects({}: Props) {
             className="b mx-auto rounded-xl"
           />
         </div> */}
-        <div className="mt-3 flex flex-wrap">
+        <div className="proj-entry__stack mt-3 flex flex-wrap">
           <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             React
           </button>
@@ -198,8 +192,8 @@ function Projects({}: Props) {
         </div>
       </div>
       {/* Codask */}
-      <div className="mt-5">
-        <div className="flex justify-center">
+      <div className="proj-entry mt-5">
+        <div className="proj-entry__title flex justify-center">
           <h6 className="font-bold">
             <a
               href="https://github.com/helene-abiassi/CodaSk"
@@ -211,13 +205,13 @@ function Projects({}: Props) {
           </h6>
           <Image src={linkIcon} alt="link-icon" />
         </div>
-        <p>
+        <p className="proj-entry__description">
           A collaborative project that aims to create an online platform for
           Code Academy students to share knowledge and help each other solve
           problems.
         </p>
         {/* Current state */}
-        <div>
+        <div className="proj-entry__state">
           <h6 className="mt-2 font-bold text-fuchsia-500">
             Current state of the app:
           </h6>
@@ -228,7 +222,7 @@ function Projects({}: Props) {
           </p>
         </div>
         {/* To inlcunde later */}
-        {/* <div className="mt-3">
+        {/* <div className="proj-entry__image mt-3">
           <Image
             src={marsRover}
             alt="mars-rover-page-image"
@@ -236,7 +230,7 @@ function Projects({}: Props) {
             className="b mx-auto rounded-xl"
           />
         </div> */}
-        <div className="mt-3 flex flex-wrap">
+        <div className="proj-entry__stack mt-3 flex flex-wrap">
           <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             NextJS
           </button>

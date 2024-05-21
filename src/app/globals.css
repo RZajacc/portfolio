@@ -53,6 +53,40 @@
   .exp-entry__description {
     grid-area: description;
   }
+
+  .proj-entry {
+    display: grid;
+    column-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "image image title title title"
+      "image image description description description"
+      "image image state state state"
+      "stack stack stack stack stack";
+    /* Height adjusted to icon default height */
+    grid-template-rows: 32px auto auto;
+  }
+
+  .proj-entry__image {
+    grid-area: image;
+  }
+
+  .proj-entry__title {
+    grid-area: title;
+  }
+
+  .proj-entry__description {
+    grid-area: description;
+  }
+
+  .proj-entry__state {
+    grid-area: state;
+  }
+
+  .proj-entry__stack {
+    grid-area: stack;
+    margin-top: 0.5rem;
+  }
 }
 
 @media (min-width: 1024px) {

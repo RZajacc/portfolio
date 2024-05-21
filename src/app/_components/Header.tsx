@@ -47,7 +47,7 @@ function Header({}: Props) {
         <a
           href="./RafalZajacResume.pdf"
           target="_blank"
-          className="flex cursor-pointer text-xl hover:animate-pulse"
+          className="flex cursor-none text-xl hover:animate-pulse"
         >
           View Full Résumé <Image src={linkIcon} alt="link-icon" />
         </a>

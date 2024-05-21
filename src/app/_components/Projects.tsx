@@ -13,18 +13,17 @@ function Projects({}: Props) {
     <section id="projects">
       <h4 className="font-bold">PROJECTS</h4>
       {/* Mars rover project */}
-      <div className="proj-entry mt-5">
+      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
         <div className="proj-entry__title flex justify-center ">
           <h6 className="font-bold">
             <a
               href="https://marsroverapp.netlify.app/"
-              className="hover:animate-pulse"
+              className="flex hover:animate-pulse"
               target="blank"
             >
-              Mars Rover
+              Mars Rover <Image src={linkIcon} alt="link-icon" />
             </a>
           </h6>
-          <Image src={linkIcon} alt="link-icon" />
         </div>
         <p className="proj-entry__description">
           Web application for people interested in space exploration. Users can
@@ -73,18 +72,17 @@ function Projects({}: Props) {
         </div>
       </div>
       {/* Forkit it project */}
-      <div className="proj-entry mt-5">
+      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
         <div className="proj-entry__title flex justify-center">
           <h6 className="font-bold">
             <a
               href="https://forkitorleaveit.netlify.app/"
               target="_blank"
-              className="hover:animate-pulse"
+              className="flex hover:animate-pulse"
             >
-              ForkIt
+              ForkIt <Image src={linkIcon} alt="link-icon" />
             </a>
           </h6>
-          <Image src={linkIcon} alt="link-icon" />
         </div>
         <p className="proj-entry__description">
           Food blog-style web application that allows users to browse and save
@@ -130,18 +128,17 @@ function Projects({}: Props) {
         </div>
       </div>
       {/* Totart project */}
-      <div className="proj-entry mt-5">
+      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
         <div className="proj-entry__title flex justify-center">
           <h6 className="font-bold">
             <a
               href="https://github.com/RZajacc/totArt"
-              className="hover:animate-pulse"
+              className="flex hover:animate-pulse"
               target="blank"
             >
-              Totart
+              Totart <Image src={linkIcon} alt="link-icon" />
             </a>
           </h6>
-          <Image src={linkIcon} alt="link-icon" />
         </div>
         <p className="proj-entry__description">
           Web application that allows its users to create and share content
@@ -194,18 +191,17 @@ function Projects({}: Props) {
         </div>
       </div>
       {/* Codask */}
-      <div className="proj-entry mt-5">
+      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
         <div className="proj-entry__title flex justify-center">
           <h6 className="font-bold">
             <a
               href="https://github.com/helene-abiassi/CodaSk"
-              className="hover:animate-pulse"
+              className="flex hover:animate-pulse"
               target="blank"
             >
-              Codask
+              Codask <Image src={linkIcon} alt="link-icon" />
             </a>
           </h6>
-          <Image src={linkIcon} alt="link-icon" />
         </div>
         <p className="proj-entry__description">
           A collaborative project that aims to create an online platform for

@@ -8,7 +8,7 @@ function NavBar({}: Props) {
   const [activeSection, setActiveSection] = useState("");
   // Handling scrolling into element on the page
   const handleLinkClick = (
-    e: MouseEvent<HTMLAnchorElement, MouseEvent>,
+    e: React.MouseEvent<HTMLAnchorElement>,
     sectionID: string,
   ) => {
     e.preventDefault();

@@ -7,7 +7,7 @@ function Experience({}: Props) {
   return (
     <section id="experience">
       <h4 className="font-bold">EXPERIENCE</h4>
-      <div className="exp-entry mt-3">
+      <div className="exp-entry mt-3 rounded-sm p-1 hover:bg-slate-200/10">
         <h6 className="exp-entry__title font-bold text-amber-500">
           Full Stack Web Development
         </h6>
@@ -28,7 +28,7 @@ function Experience({}: Props) {
           based work in SCRUM methodology.
         </p>
       </div>
-      <div className="exp-entry mt-3">
+      <div className="exp-entry mt-3 rounded-sm p-1 hover:bg-slate-200/10">
         <h6 className="exp-entry__title font-bold text-amber-500">Scout</h6>
         <p className="exp-entry__location font-bold">
           <a

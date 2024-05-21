@@ -6,7 +6,10 @@ import Footer from "./_components/Footer";
 
 export default function Page() {
   return (
-    <div id="page-grid-container" className="mt-3 p-2">
+    <div
+      id="page-grid-container"
+      className="mx-auto mt-3 max-w-xl p-2 lg:max-w-5xl"
+    >
       <Header />
       <About />
       <Experience />

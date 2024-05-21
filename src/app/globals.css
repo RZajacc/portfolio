@@ -27,6 +27,12 @@
   row-gap: 3rem;
 }
 
+@media (min-width: 640px) {
+  #experience {
+    display: grid;
+  }
+}
+
 @media (min-width: 1024px) {
   #page-grid-container {
     display: grid;

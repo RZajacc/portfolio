@@ -33,12 +33,11 @@ function NavBar({}: Props) {
       const sections = document.querySelectorAll("section");
       // Set current location
       let currentSection = "";
-
       // Loop through sections and define which one is active
       sections.forEach((section) => {
         const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        if (scrollY >= sectionTop - sectionHeight / 3) {
+        // Activate new section short before it starts
+        if (scrollY >= sectionTop - 100) {
           currentSection = section.getAttribute("id")!;
         }
       });

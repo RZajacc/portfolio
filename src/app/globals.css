@@ -69,6 +69,7 @@
 
   .proj-entry__image {
     grid-area: image;
+    align-self: center;
   }
 
   .proj-entry__title {

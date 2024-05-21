@@ -3,6 +3,8 @@ import React from "react";
 import linkIcon from "/public/link-icon.svg";
 import marsRover from "/public/mars_rover.jpeg";
 import forkit from "/public/forkit.jpeg";
+import totart from "/public/totart.jpg";
+import codask from "/public/codask.jpg";
 
 type Props = {};
 
@@ -162,14 +164,14 @@ function Projects({}: Props) {
           </p>
         </div>
         {/* To inlcunde later */}
-        {/* <div className="proj-entry__image mt-3">
+        <div className="proj-entry__image mt-3">
           <Image
-            src={marsRover}
+            src={totart}
             alt="mars-rover-page-image"
             width={250}
             className="b mx-auto rounded-xl"
           />
-        </div> */}
+        </div>
         <div className="proj-entry__stack mt-3 flex flex-wrap">
           <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             React
@@ -216,20 +218,19 @@ function Projects({}: Props) {
             Current state of the app:
           </h6>
           <p>
-            This application is not yet fully functional or responsive, so in
-            this case it will be a continuation of work rather than a
-            refactoring.
+            This application is missing a few features but the overall design
+            will not change.
           </p>
         </div>
         {/* To inlcunde later */}
-        {/* <div className="proj-entry__image mt-3">
+        <div className="proj-entry__image mt-3">
           <Image
-            src={marsRover}
+            src={codask}
             alt="mars-rover-page-image"
             width={250}
             className="b mx-auto rounded-xl"
           />
-        </div> */}
+        </div>
         <div className="proj-entry__stack mt-3 flex flex-wrap">
           <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             NextJS

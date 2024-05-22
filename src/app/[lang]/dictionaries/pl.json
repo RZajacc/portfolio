@@ -11,6 +11,25 @@
   },
   "header": {
     "description": "Ciągle uczę się czegoś nowego i zagłębiam się w tematy, które już znam. Pracuję głównie ze stackiem MERN. Staram się również dodać do niego język niemiecki.",
-    "resume": " Zobacz pełne CV"
+    "resume": " Zobacz CV"
+  },
+  "about": {
+    "title": "O mnie",
+    "p1": {
+      "part1": "Niedawno ukończyłem bootcamp w ",
+      "part2": " jako ",
+      "part3": ". To było pięć bardzo intensywnych miesięcy nauki pod okiem mentora. To jednak nie był początek mojej przygody z programowaniem."
+    },
+    "p2": {
+      "part1": "Przed podjęciem nauki pracowałem jako statystyk w klubie siatkarskim. Moje obowiązki skupiały się głównie na zbieraniu informacji na temat przeciwnych drużyn z wykorzystaniem specjalnego oprogramowania (Data Volley), w którym każdy mecz reprezentowany jest w postaci prostego kodu. To bardzo zaawansowane oprogramowanie jednak brakowało mi w nim paru funkcjonalności, więc zacząłem się uczyć języka programowania ",
+      "part2": " aby móc wyciągnąć z tych danych nieco więcej i zautomatyzować niektóre czynności."
+    },
+    "p3": {
+      "part1": "To również nie był początek mojej przygody z programowanie. Wcześniej studiowałem ",
+      "part2": " informatykę",
+      "part3": "przez dwa lata z językiem ",
+      "part4": "jako wiodącym językiem programowania. Niestety z powodu wymagań mojej ówczesnej pracy nie mogłem dokończyć studiów, ale rozważam powrót do nich."
+    },
+    "p4": "Podsumowując, mimo, że nie jest to moje pierwsze podejście do programowania to nigdy nie próbowałem uczynić z tego swojego zawodu. Do teraz!"
   }
 }

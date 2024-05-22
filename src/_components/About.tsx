@@ -1,50 +1,58 @@
 import React from "react";
 
-type Props = {};
+type Props = {
+  lang: {
+    title: string;
+    p1: {
+      part1: string;
+      part2: string;
+      part3: string;
+    };
+    p2: {
+      part1: string;
+      part2: string;
+    };
+    p3: {
+      part1: string;
+      part2: string;
+      part3: string;
+      part4: string;
+    };
+    p4: string;
+  };
+};
 
-function About({}: Props) {
+function About({ lang }: Props) {
   return (
     <section id="about">
-      <h4 className="font-bold">About</h4>
+      <h4 className="font-bold">{lang.title}</h4>
       <p>
-        I recently graduated from{" "}
+        {lang.p1.part1}
         <a
           href="https://www.codeacademyberlin.com/"
           className="font-bold hover:animate-pulse"
           target="_blank"
         >
           Code Academy Berlin
-        </a>{" "}
-        as a{" "}
+        </a>
+        {lang.p1.part2}
         <span className="font-bold text-fuchsia-400">
           Full Stack Web Developer
         </span>
-        . It was a pretty intense five months of learning under the supervision
-        of a mentor. However, it wasn&apos;t my first contact with coding.
+        {lang.p1.part3}
       </p>
       <p>
-        Before that I worked as a volleyball scout. My daily tasks were mainly
-        focused on gathering information about other teams using a special
-        software (Data Volley) where all games are represented in simple code
-        form. It&apos;s a pretty powerful software, but I was missing some
-        features, so I started learning{" "}
-        <span className="font-bold text-fuchsia-400">Python</span> to get a bit
-        more out of these files and make some changes to them automatically.
+        {lang.p2.part1}
+        <span className="font-bold text-fuchsia-400">Python</span>
+        {lang.p2.part2}
       </p>
       <p>
-        That wasn&apos;t my first exposure to programming either. Prior to that,
-        I had studied{" "}
-        <span className="font-bold text-fuchsia-400">Computer Science</span> for
-        two years, with <span className="font-bold text-fuchsia-400">Java</span>{" "}
-        as the leading programming language. Unfortunately, I wasn&apos;t able
-        to continue due to the demands of my job at the time, but I am
-        considering going back.
+        {lang.p3.part1}
+        <span className="font-bold text-fuchsia-400">{lang.p3.part2}</span>{" "}
+        {lang.p3.part3} <span className="font-bold text-fuchsia-400">Java</span>{" "}
+        {lang.p3.part4}
       </p>
-      <p>
-        So, even though I have had a couple of approaches to programming, I have
-        never seriously tried to make it my career until now. This time I have
-        decided to go all in!
-      </p>
+      <p>{lang.p4}</p>
     </section>
   );
 }

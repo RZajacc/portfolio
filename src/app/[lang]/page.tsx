@@ -23,7 +23,7 @@ export default async function Page({ params: { lang } }: Props) {
       <NavBar lang={intl.navbar} />
       <LanguageSwitch lang={intl.lang} />
       <Header lang={intl.header} />
-      <About />
+      <About lang={intl.about} />
       <Experience />
       <Projects />
       <Footer />

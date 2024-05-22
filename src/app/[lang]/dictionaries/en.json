@@ -10,7 +10,26 @@
     "projects": "Projects"
   },
   "header": {
-    "description": "Constantly learning something new and diving deeper into topics that I&apos;m already familiar with. I work mainly with MERN stack. Also doing my best to add German language to it.",
-    "resume": " View Full Résumé"
+    "description": "Constantly learning something new and diving deeper into topics that I'm already familiar with. I work mainly with MERN stack. Also doing my best to add German language to it.",
+    "resume": " View Résumé"
+  },
+  "about": {
+    "title": "About",
+    "p1": {
+      "part1": "I recently graduated from ",
+      "part2": " as a ",
+      "part3": ". It was a pretty intense five months of learning under the supervision of a mentor. However, it wasn't my first contact with coding."
+    },
+    "p2": {
+      "part1": "Before that I worked as a volleyball scout. My daily tasks were mainly focused on gathering information about other teams using a special software (Data Volley) where all games are represented in simple code form. It's a pretty powerful software, but I was missing some features, so I started learning ",
+      "part2": " to get a bit more out of these files and make some changes to them automatically."
+    },
+    "p3": {
+      "part1": "That wasn't my first exposure to programming either. Prior to that, I had studied ",
+      "part2": " Computer Science",
+      "part3": "for two years, with",
+      "part4": "as the leading programming language. Unfortunately, I wasn't able to continue due to the demands of my job at the time, but I am considering going back."
+    },
+    "p4": "So, even though I have had a couple of approaches to programming, I have never seriously tried to make it my career until now. This time I have decided to go all in!"
   }
 }

@@ -1,5 +1,9 @@
 {
-  "get_started": "通过编辑开始",
+  "navbar": {
+    "about": "O mnie",
+    "experience": "Doświadczenie",
+    "projects": "Projekty"
+  },
   "doc": "查找关于 Next.js 功能和 API 的深入信息。",
   "learn": "通过互动课程学习 Next.js，包括测验！",
   "template": "探索 Next.js 13 的示范环境。",

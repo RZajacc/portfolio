@@ -1,9 +1,11 @@
 import About from "../../_components/About";
 import Experience from "../../_components/Experience";
 import Projects from "../../_components/Projects";
+import LanguageSwitch from "../../_components/LanguageSwitch";
 import Header from "../../_components/Header";
 import Footer from "../../_components/Footer";
 import { Locale, getDictionary } from "./dictionaries";
+import NavBar from "@/_components/NavBar";
 
 type Props = {
   params: {
@@ -18,7 +20,9 @@ export default async function Page({ params: { lang } }: Props) {
       id="page-grid-container"
       className="mx-auto mt-3 max-w-xl p-2 lg:max-w-5xl"
     >
-      <Header intl={intl} />
+      <NavBar navData={intl.navbar} />
+      <LanguageSwitch />
+      <Header />
       <About />
       <Experience />
       <Projects />

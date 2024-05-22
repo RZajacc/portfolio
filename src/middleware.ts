@@ -4,7 +4,7 @@ import Negotiator from "negotiator";
 import { NextRequest, NextResponse } from "next/server";
 
 let defaultLocale = "en";
-let locales = ["cn", "de", "en"];
+let locales = ["en", "de", "pl"];
 
 // Get the preferred locale, similar to above or using a library
 function getLocale(request: NextRequest) {

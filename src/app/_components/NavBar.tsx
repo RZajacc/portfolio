@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { MouseEvent, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 type Props = {};
 

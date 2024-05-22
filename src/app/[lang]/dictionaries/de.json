@@ -1,11 +1,16 @@
 {
+  "lang": {
+    "en": "Englisch",
+    "de": "Deutsch",
+    "pl": "Polnisch"
+  },
   "navbar": {
     "about": "Über mich",
     "experience": "Erfahrung",
     "projects": "Projekte"
   },
-  "doc": "Finden Sie ausführliche Informationen zu den Funktionen und der API von Next.js.",
-  "learn": "Erfahren Sie mehr über Next.js in einem interaktiven Kurs mit Quizfragen!",
-  "template": "Erkunden Sie den Next.js 13-Spielplatz.",
-  "deploy": "Bereiten Sie Ihre Next.js-Website sofort für die Bereitstellung auf einer gemeinsam nutzbaren URL mit Vercel vor."
+  "header": {
+    "description": "Ich lerne ständig etwas Neues und vertiefe mich in Themen, mit denen ich bereits vertraut bin. Ich arbeite hauptsächlich mit dem MERN-Stack. Ich tue auch mein Bestes, um die deutsche Sprache hinzuzufügen.",
+    "resume": " Vollständigen Lebenslauf anzeigen"
+  }
 }

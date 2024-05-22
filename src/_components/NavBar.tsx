@@ -3,14 +3,14 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 type Props = {
-  navData: {
+  lang: {
     about: string;
     experience: string;
     projects: string;
   };
 };
 
-function NavBar({ navData }: Props) {
+function NavBar({ lang }: Props) {
   const [activeSection, setActiveSection] = useState("");
   // Handling scrolling into element on the page
   const handleLinkClick = (
@@ -68,7 +68,7 @@ function NavBar({ navData }: Props) {
           handleLinkClick(e, "about");
         }}
       >
-        {navData.about}
+        {lang.about}
       </Link>
       <Link
         href={"#experience"}
@@ -82,7 +82,7 @@ function NavBar({ navData }: Props) {
           handleLinkClick(e, "experience");
         }}
       >
-        {navData.experience}
+        {lang.experience}
       </Link>
       <Link
         href={"#projects"}
@@ -96,7 +96,7 @@ function NavBar({ navData }: Props) {
           handleLinkClick(e, "projects");
         }}
       >
-        {navData.projects}
+        {lang.projects}
       </Link>
     </nav>
   );

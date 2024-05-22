@@ -2,11 +2,16 @@
 
 import { Locale } from "@/app/[lang]/dictionaries";
 import { useRouter } from "next/navigation";
-import { FC } from "react";
 
-type Props = {};
+type Props = {
+  lang: {
+    en: string;
+    de: string;
+    pl: string;
+  };
+};
 
-const SwitchLang: FC<Props> = () => {
+const SwitchLang = ({ lang }: Props) => {
   const router = useRouter();
 
   const switchLang = (lang: Locale) => {
@@ -16,13 +21,13 @@ const SwitchLang: FC<Props> = () => {
   return (
     <div id="lang" className="space-x-3 text-center">
       <button className="cursor-none" onClick={() => switchLang("en")}>
-        English
+        {lang.en}
       </button>
       <button className="cursor-none" onClick={() => switchLang("de")}>
-        Deutch
+        {lang.de}
       </button>
       <button className="cursor-none" onClick={() => switchLang("pl")}>
-        Polski
+        {lang.pl}
       </button>
     </div>
   );

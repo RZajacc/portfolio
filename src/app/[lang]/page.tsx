@@ -20,9 +20,9 @@ export default async function Page({ params: { lang } }: Props) {
       id="page-grid-container"
       className="mx-auto mt-3 max-w-xl p-2 lg:max-w-5xl"
     >
-      <NavBar navData={intl.navbar} />
-      <LanguageSwitch />
-      <Header />
+      <NavBar lang={intl.navbar} />
+      <LanguageSwitch lang={intl.lang} />
+      <Header lang={intl.header} />
       <About />
       <Experience />
       <Projects />

@@ -1,11 +1,16 @@
 {
+  "lang": {
+    "en": "English",
+    "de": "German",
+    "pl": "Polish"
+  },
   "navbar": {
     "about": "About",
     "experience": "Experience",
     "projects": "Projects"
   },
-  "doc": "Find in-depth information about Next.js features and API.",
-  "learn": "Learn about Next.js in an interactive course with&nbsp;quizzes!",
-  "template": "Explore the Next.js 13 playground.",
-  "deploy": "Instantly deploy your Next.js site to a shareable URL with Vercel."
+  "header": {
+    "description": "Constantly learning something new and diving deeper into topics that I&apos;m already familiar with. I work mainly with MERN stack. Also doing my best to add German language to it.",
+    "resume": " View Full Résumé"
+  }
 }

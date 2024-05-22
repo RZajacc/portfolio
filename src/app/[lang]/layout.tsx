@@ -1,7 +1,7 @@
 "use client";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import NavBar from "./_components/NavBar";
+import NavBar from "../../_components/NavBar";
 import { MouseEvent, useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"] });

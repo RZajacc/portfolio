@@ -7,7 +7,7 @@ import Image from "next/image";
 
 type Props = {};
 
-function Header({}: Props) {
+function Header({ intl }: Props) {
   return (
     <div id="header" className="lg:sticky lg:top-20 lg:h-1/3">
       <h3 className="font-bold">Rafał Zając</h3>

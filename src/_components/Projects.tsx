@@ -72,8 +72,7 @@ function Projects({ lang }: Props) {
             <Image
               src={marsRover}
               alt="mars-rover-page-image"
-              width={250}
-              className="b mx-auto rounded-xl"
+              className="b mx-auto rounded-sm"
             />
           </a>
         </div>
@@ -136,8 +135,7 @@ function Projects({ lang }: Props) {
             <Image
               src={forkit}
               alt="mars-rover-page-image"
-              width={250}
-              className="b mx-auto rounded-xl"
+              className="b mx-auto rounded-sm"
             />
           </a>
         </div>
@@ -190,8 +188,7 @@ function Projects({ lang }: Props) {
             <Image
               src={totart}
               alt="mars-rover-page-image"
-              width={250}
-              className="b mx-auto rounded-xl"
+              className="b mx-auto rounded-sm"
             />
           </a>
         </div>
@@ -246,8 +243,7 @@ function Projects({ lang }: Props) {
             <Image
               src={codask}
               alt="mars-rover-page-image"
-              width={250}
-              className="b mx-auto rounded-xl"
+              className="b mx-auto rounded-sm"
             />
           </a>
         </div>

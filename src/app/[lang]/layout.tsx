@@ -49,12 +49,21 @@ export default function RootLayout({
       }
     };
 
+    const handleClickEvent = () => {
+      // If mouse pointer was moved previously I will delete pointer here
+      const isHidden = cursor.classList.contains("hidden");
+      if (!isHidden) {
+        cursor.classList.add("hidden");
+      }
+    };
+
     // Fire events
     window.addEventListener("touchstart", handleTouch);
     window.addEventListener("touchend", handleTouch);
     window.addEventListener("mousemove", handleMouseMove);
     window.addEventListener("mousedown", handleMouseClick);
     window.addEventListener("mouseup", handleMouseClick);
+    window.addEventListener("click", handleClickEvent);
 
     // Clean event listeners
     return () => {

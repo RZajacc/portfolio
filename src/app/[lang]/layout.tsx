@@ -22,7 +22,7 @@ export default function RootLayout({
     let cursor = document.querySelector("#cursor") as HTMLDivElement;
 
     // Remove cursor if touchscreen is being used
-    const handleTouchStart = () => {
+    const handleTouch = () => {
       // If mouse pointer was moved previously I will delete pointer here
       const isHidden = cursor.classList.contains("hidden");
       if (!isHidden) {
@@ -39,15 +39,30 @@ export default function RootLayout({
       }
     };
 
+    // Add the cursor when action with mouse is made
+    const handleMouseClick = () => {
+      // Cursor is hidden as default
+      const isHidden = cursor.classList.contains("hidden");
+
+      if (isHidden) {
+        cursor.classList.remove("hidden");
+      }
+    };
+
     // Fire events
-    window.addEventListener("touchstart", handleTouchStart);
-    // Add the cursor (remove hidden class) when mouse cursor is being moved
+    window.addEventListener("touchstart", handleTouch);
+    window.addEventListener("touchend", handleTouch);
     window.addEventListener("mousemove", handleMouseMove);
+    window.addEventListener("mousedown", handleMouseClick);
+    window.addEventListener("mouseup", handleMouseClick);
 
     // Clean event listeners
     return () => {
-      window.removeEventListener("touchstart", handleTouchStart);
+      window.removeEventListener("touchstart", handleTouch);
+      window.removeEventListener("touchend", handleTouch);
       window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("mousedown", handleMouseClick);
+      window.removeEventListener("mouseup", handleMouseClick);
     };
   }, []);
 

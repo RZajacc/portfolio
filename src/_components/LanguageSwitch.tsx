@@ -2,7 +2,6 @@
 import { Locale } from "@/app/[lang]/dictionaries";
 import { usePathname, useRouter } from "next/navigation";
 import { ChangeEvent, useState } from "react";
-import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 type Props = {};
 
@@ -23,21 +22,12 @@ const SwitchLang = ({}: Props) => {
   };
   return (
     <div className="space-x-1 text-center">
-      {/* Render the right flag */}
-      {currentLang === "pl" && (
-        <span className="fi fi-pl fis rounded-full"></span>
-      )}
-      {currentLang === "en" && (
-        <span className="fi fi-gb fis rounded-full"></span>
-      )}
-      {currentLang === "de" && (
-        <span className="fi fi-de fis rounded-full"></span>
-      )}
       <select
         value={currentLang}
         onChange={handleLangSel}
         className=" rounded-sm bg-slate-600 py-1"
       >
+        {/* Depending on the browser it will render either flag or contry code */}
         <option value="en">&#x1F1EC;&#x1F1E7;</option>
         <option value="de">&#x1F1E9;&#x1F1EA;</option>
         <option value="pl">&#x1F1F5;&#x1F1F1;</option>

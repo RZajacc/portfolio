@@ -36,5 +36,23 @@
     "title": "DOŚWIADCZENIE",
     "entry1": "Pełnowymiarowy, stacjonarny bootcamp obejmujący 840h pracy opartej na projektach w metodologii SCRUM.",
     "entry2": "Analiza gry przeciwnika, z wykorzystaniem własnych skryptów napisanych w języku Python w celu lepszej i bardziej przystępnej wizualnie prezentacji danych dla sztabu i zawodników."
+  },
+  "projects": {
+    "title": "PROJEKTY",
+    "click": ". Jeżeli masz ochotę zajrzeć do kodu aplikacji kliknij ",
+    "here": "tutaj ",
+    "git": "aby przejść do repozytorium na Github.",
+    "state_title": "Obecny stan aplikacji:",
+    "MarsRover": "Aplikacja dla osób interesujących się eksploracją kosmosu. Użytkownica mogą wyświetlać zdjęcia wybranego przez siebie marsjańskiego łazika które są pobierane z ",
+    "ForkIt": "Aplikacja wzorowana na blogach kulinarnych, pozwala użytkownikom na wyszukiwanie przepisów i zapisywanie ulubionych w swoim profilu. Dane aplikacji pochodzą z ",
+    "Totart": {
+      "desc": " Aplikacja umożliwiająca użytkownikom publikowanie postów na temat interesujących ale mniej znanych miejsc w Berlinie.",
+      "state": " Obecnie aplikacja jest w trakcie przebudowy w repozytorium pod innym adresem niż ten do którego prowadzi obecny link. Zmiany będą dość spore i obejmą nie tylko funkcjonalność ale zmieni się też stack na którym jest zbudowana.",
+      "target": "Docelowy stack:"
+    },
+    "Codask": {
+      "desc": "Grupowy projekt mający na celu storzenie platformy dla studentów Code Academy do dzielenie się wiedzą i pomocy w rozwiązywaniu napotanych problemów.",
+      "state": "Aplikacji brakuje kilku funkcjonalności, jednak ogólny jej obraz nie ulegnie zmianie."
+    }
   }
 }

@@ -6,12 +6,31 @@ import forkit from "/public/forkit.jpeg";
 import totart from "/public/totart.jpg";
 import codask from "/public/codask.jpg";
 
-type Props = {};
+type Props = {
+  lang: {
+    title: string;
+    click: string;
+    here: string;
+    git: string;
+    state_title: string;
+    MarsRover: string;
+    ForkIt: string;
+    Totart: {
+      desc: string;
+      state: string;
+      target: string;
+    };
+    Codask: {
+      desc: string;
+      state: string;
+    };
+  };
+};
 
-function Projects({}: Props) {
+function Projects({ lang }: Props) {
   return (
     <section id="projects">
-      <h4 className="font-bold">PROJECTS</h4>
+      <h4 className="font-bold">{lang.title}</h4>
       {/* Mars rover project */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
         <div className="proj-entry__title flex justify-center ">
@@ -26,8 +45,7 @@ function Projects({}: Props) {
           </h6>
         </div>
         <p className="proj-entry__description">
-          Web application for people interested in space exploration. Users can
-          search and view images of selected Mars rovers retrieved from the{" "}
+          {lang.MarsRover}
           <a
             href="https://api.nasa.gov/"
             target="_blank"
@@ -35,15 +53,15 @@ function Projects({}: Props) {
           >
             NASA API
           </a>
-          . If you want to have a look at the code click{" "}
+          {lang.click}
           <a
             href="https://github.com/RZajacc/MarsRover_3.0"
             target="_blank"
             className="font-bold hover:animate-pulse"
           >
-            here
-          </a>{" "}
-          to see the corresponding Github repository.
+            {lang.here}
+          </a>
+          {lang.git}
         </p>
         <div className="proj-entry__image mt-3">
           <a
@@ -91,8 +109,7 @@ function Projects({}: Props) {
           </h6>
         </div>
         <p className="proj-entry__description">
-          Food blog-style web application that allows users to browse and save
-          their favourite recipes. Based on the{" "}
+          {lang.ForkIt}
           <a
             href="https://spoonacular.com/food-api/"
             target="_blank"
@@ -100,15 +117,15 @@ function Projects({}: Props) {
           >
             Spoonacular API
           </a>
-          . If you want to have a look at the code click{" "}
+          {lang.click}
           <a
             href="https://github.com/RZajacc/ForkIt_2.0"
             target="_blank"
             className="font-bold hover:animate-pulse"
           >
-            here
+            {lang.here}
           </a>{" "}
-          to see the corresponding Github repository.
+          {lang.git}
         </p>
         <div className="proj-entry__image mt-3">
           <a
@@ -152,23 +169,16 @@ function Projects({}: Props) {
             </a>
           </h6>
         </div>
-        <p className="proj-entry__description">
-          Web application that allows its users to create and share content
-          about interesting but lesser-known places in Berlin.
-        </p>
+        <p className="proj-entry__description">{lang.Totart.desc}</p>
         {/* Current state */}
         <div className="proj-entry__state">
           <h6 className="mt-2 font-bold text-fuchsia-500">
-            Current state of the app:
+            {lang.state_title}
           </h6>
-          <p>
-            It is currently being refactored in a different repository than the
-            one linked to. The changes will be quite large, ranging from
-            application functionality to improving the stack.
-          </p>
+          <p>{lang.Totart.state}</p>
           <p className="text-gray-400">
-            <span className="font-bold">Target stack:</span> NextJS, React,
-            Typescript, TailwindCSS, NodeJS, ExpressJS, MongoDB, GraphQL
+            <span className="font-bold">{lang.Totart.target}</span> NextJS,
+            React, Typescript, TailwindCSS, NodeJS, ExpressJS, MongoDB, GraphQL
           </p>
         </div>
         <div className="proj-entry__image mt-3">
@@ -219,20 +229,13 @@ function Projects({}: Props) {
             </a>
           </h6>
         </div>
-        <p className="proj-entry__description">
-          A collaborative project that aims to create an online platform for
-          Code Academy students to share knowledge and help each other solve
-          problems.
-        </p>
+        <p className="proj-entry__description">{lang.Codask.desc}</p>
         {/* Current state */}
         <div className="proj-entry__state">
           <h6 className="mt-2 font-bold text-fuchsia-500">
-            Current state of the app:
+            {lang.state_title}
           </h6>
-          <p>
-            This application is missing a few features but the overall design
-            will not change.
-          </p>
+          <p>{lang.Codask.state}</p>
         </div>
         <div className="proj-entry__image mt-3">
           <a

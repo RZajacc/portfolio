@@ -36,5 +36,23 @@
     "title": "ERFAHRUNG",
     "entry1": "Vollzeit Coding Bootcamp vor Ort mit 840 Stunden praktischer, projektbasierter Arbeit in SCRUM Methodik.",
     "entry2": "Ein Spieleanalyst, der bei seiner täglichen Arbeit selbst erstellte Python-Tools verwendet, um dem Team Daten besser und verständlicher zu präsentieren."
+  },
+  "projects": {
+    "title": "PROJKTE",
+    "click": ". Wenn Sie einen Blick auf den Code werfen wollen, klicken Sie auf ",
+    "here": "hier ",
+    "git": "um das entsprechende Github-Repository zu sehen.",
+    "state_title": "Aktueller Zustand der App:",
+    "MarsRover": "Web-Applikation für Menschen, die sich für die Erforschung des Weltraums interessieren. Die Nutzer können Bilder ausgewählter Marsrover aus dem Internet suchen und betrachten. ",
+    "ForkIt": "Web-Applikation im Stil eines Food-Blogs, mit der Nutzer ihre Lieblingsrezepte durchsuchen und speichern können. Basierend auf dem",
+    "Totart": {
+      "desc": " Web-Applikation, die es ihren Nutzern ermöglicht, Inhalte über interessante, aber weniger bekannte Orte in Berlin zu erstellen und zu teilen.",
+      "state": " Es wird derzeit in einem anderen Repository überarbeitet als dem, mit dem es verlinkt ist. Die Änderungen werden recht umfangreich sein und reichen von der Applikationfunktionalität bis zur Verbesserung des Stacks.",
+      "target": "Ziel stack:"
+    },
+    "Codask": {
+      "desc": "Ein gemeinschaftliches Projekt, das eine Online-Plattform für Code Academy Studenten schaffen soll, um Wissen auszutauschen und sich gegenseitig bei der Lösung von Problemen zu helfen.",
+      "state": "Dieser Applikation fehlen noch ein paar Funktionen, aber das Gesamtdesign wird sich nicht ändern."
+    }
   }
 }

@@ -25,7 +25,7 @@ export default async function Page({ params: { lang } }: Props) {
       <Header lang={intl.header} />
       <About lang={intl.about} />
       <Experience lang={intl.experience} />
-      <Projects />
+      <Projects lang={intl.projects} />
       <Footer />
     </div>
   );

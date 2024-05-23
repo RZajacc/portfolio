@@ -147,14 +147,9 @@ body:hover #cursor {
     margin-top: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
-      "lang lang lang lang lang"
       "about about about header header "
       "experience experience experience header header "
       "projects projects projects header header ";
-  }
-
-  #lang {
-    grid-area: lang;
   }
 
   #header {

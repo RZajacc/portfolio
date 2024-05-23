@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import LanguageSwitch from "./LanguageSwitch";
 
 type Props = {
   lang: {
@@ -55,7 +56,7 @@ function NavBar({ lang }: Props) {
   }, []);
 
   return (
-    <nav className="fixed left-0 top-0 flex w-full justify-center bg-gradient-to-r from-blue-950 to-sky-950 p-2 text-slate-100">
+    <nav className="fixed left-0 top-0 flex w-full items-baseline justify-center bg-gradient-to-r from-blue-950 to-sky-950 p-2 align-middle text-slate-100">
       <Link
         href={"#about"}
         scroll={false}
@@ -98,6 +99,7 @@ function NavBar({ lang }: Props) {
       >
         {lang.projects}
       </Link>
+      <LanguageSwitch />
     </nav>
   );
 }

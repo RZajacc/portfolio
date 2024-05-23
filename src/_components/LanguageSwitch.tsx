@@ -4,15 +4,9 @@ import { usePathname, useRouter } from "next/navigation";
 import { ChangeEvent, useState } from "react";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 
-type Props = {
-  lang: {
-    en: string;
-    de: string;
-    pl: string;
-  };
-};
+type Props = {};
 
-const SwitchLang = ({ lang }: Props) => {
+const SwitchLang = ({}: Props) => {
   const router = useRouter();
 
   const switchLang = (lang: Locale) => {
@@ -28,8 +22,8 @@ const SwitchLang = ({ lang }: Props) => {
     switchLang(e.target.value as Locale);
   };
   return (
-    <div id="lang" className="space-x-1 text-center">
-      {/* TEST */}
+    <div className="space-x-1 text-center">
+      {/* Render the right flag */}
       {currentLang === "pl" && (
         <span className="fi fi-pl fis rounded-full"></span>
       )}
@@ -42,7 +36,7 @@ const SwitchLang = ({ lang }: Props) => {
       <select
         value={currentLang}
         onChange={handleLangSel}
-        className=" rounded-sm bg-slate-500 py-1"
+        className=" rounded-sm bg-slate-600 py-1"
       >
         <option value="en">&#x1F1EC;&#x1F1E7;</option>
         <option value="de">&#x1F1E9;&#x1F1EA;</option>

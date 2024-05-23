@@ -1,12 +1,18 @@
 import Image from "next/image";
 import React from "react";
 
-type Props = {};
+type Props = {
+  lang: {
+    title: string;
+    entry1: string;
+    entry2: string;
+  };
+};
 
-function Experience({}: Props) {
+function Experience({ lang }: Props) {
   return (
     <section id="experience">
-      <h4 className="font-bold">EXPERIENCE</h4>
+      <h4 className="font-bold">{lang.title}</h4>
       <div className="exp-entry mt-3 rounded-sm p-1 hover:bg-slate-200/10">
         <h6 className="exp-entry__title font-bold text-amber-500">
           Full Stack Web Development
@@ -23,10 +29,7 @@ function Experience({}: Props) {
         <small className="exp-entry__date text-gray-400">
           07/2023 - 12-2023
         </small>
-        <p className="exp-entry__description">
-          Full-Time on site coding bootcamp covering 840h of practical project
-          based work in SCRUM methodology.
-        </p>
+        <p className="exp-entry__description">{lang.entry1}</p>
       </div>
       <div className="exp-entry mt-3 rounded-sm p-1 hover:bg-slate-200/10">
         <h6 className="exp-entry__title font-bold text-amber-500">Scout</h6>
@@ -40,10 +43,7 @@ function Experience({}: Props) {
           </a>
         </p>
         <small className="exp-entry__date text-gray-400">2019 - 2023</small>
-        <p className="exp-entry__description">
-          A game analyst who uses self-built Python tools in his daily work to
-          present data to the team in a better and more readable way.
-        </p>
+        <p className="exp-entry__description">{lang.entry2}</p>
       </div>
     </section>
   );

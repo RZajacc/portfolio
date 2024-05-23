@@ -31,5 +31,10 @@
       "part4": "as the leading programming language. Unfortunately, I wasn't able to continue due to the demands of my job at the time, but I am considering going back."
     },
     "p4": "So, even though I have had a couple of approaches to programming, I have never seriously tried to make it my career until now. This time I have decided to go all in!"
+  },
+  "experience": {
+    "title": "EXPERIENCE",
+    "entry1": "Full-Time on site coding bootcamp covering 840h of practical project based work in SCRUM methodology.",
+    "entry2": "A game analyst who uses self-built Python tools in his daily work to present data to the team in a better and more readable way."
   }
 }

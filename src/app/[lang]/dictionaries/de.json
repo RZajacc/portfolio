@@ -31,5 +31,10 @@
       "part4": "als die führende Programmiersprache. Leider konnte ich aufgrund der Anforderungen meines damaligen Jobs nicht weitermachen, aber ich denke darüber nach, wieder zurückzukehren."
     },
     "p4": "Obwohl ich schon einige Male mit dem Programmieren zu tun hatte, habe ich bisher nie ernsthaft versucht, es zu meinem Beruf zu machen. Diesmal habe ich mich entschlossen, voll einzusteigen!"
+  },
+  "experience": {
+    "title": "ERFAHRUNG",
+    "entry1": "Vollzeit Coding Bootcamp vor Ort mit 840 Stunden praktischer, projektbasierter Arbeit in SCRUM Methodik.",
+    "entry2": "Ein Spieleanalyst, der bei seiner täglichen Arbeit selbst erstellte Python-Tools verwendet, um dem Team Daten besser und verständlicher zu präsentieren."
   }
 }

@@ -10,49 +10,49 @@
     "projects": "Projekte"
   },
   "header": {
-    "description": "Ich lerne ständig etwas Neues und vertiefe mich in Themen, mit denen ich bereits vertraut bin. Ich arbeite hauptsächlich mit dem MERN-Stack. Ich tue auch mein Bestes, um die deutsche Sprache hinzuzufügen.",
+    "description": "Ich lerne ständig etwas Neues und vertiefe mich in Themen, mit denen ich bereits vertraut bin. Ich arbeite hauptsächlich mit dem MERN-Stack. Auch mit der deutschen Sprache tue ich mein Bestes..",
     "resume": "Lebenslauf anzeigen"
   },
   "about": {
     "title": "Über mich",
     "p1": {
       "part1": "Ich habe vor kurzem mein Studium an der ",
-      "part2": " abgeschlossen als ",
-      "part3": ". Es waren ziemlich intensive fünf Monate des Lernens unter der Aufsicht eines Mentors. Allerdings war das nicht mein erster Kontakt mit dem Programmieren."
+      "part2": " als ",
+      "part3": " abgeschlossen. Es waren fünf intensive Monate des Lernens unter der Aufsicht eines Mentors. Aber das war nicht mein erster Kontakt mit der Programmierung."
     },
     "p2": {
-      "part1": "Davor habe ich als Volleyball-Scout gearbeitet. Meine täglichen Aufgaben konzentrierten sich hauptsächlich auf das Sammeln von Informationen über andere Mannschaften mithilfe einer speziellen Software (Data Volley), in der alle Spiele in einfacher Codeform dargestellt werden. Es ist eine ziemlich leistungsfähige Software, aber mir fehlten einige Funktionen, also begann ich ",
+      "part1": "Davor habe ich als Volleyball-Scout gearbeitet. Meine täglichen Aufgaben konzentrierten sich hauptsächlich auf das Sammeln von Informationen über andere Mannschaften mithilfe einer speziellen Software (Data Volley), die alle Spiele in einfacher Codeform darstellt. Es ist eine ziemlich mächtige Software, aber mir fehlten einige Funktionen, also begann ich ",
       "part2": " zu lernen um mehr aus diesen Dateien herauszuholen und einige Änderungen automatisch vorzunehmen."
     },
     "p3": {
-      "part1": "Das war auch nicht meine erste Begegnung mit der Programmierung. Davor hatte ich studiert ",
+      "part1": "Das war auch nicht meine erste Begegnung mit der Programmierung. Davor hatte ich zwei jahre lang ",
       "part2": " Computer Science",
-      "part3": "zwei Jahre lang, mit",
-      "part4": "als die führende Programmiersprache. Leider konnte ich aufgrund der Anforderungen meines damaligen Jobs nicht weitermachen, aber ich denke darüber nach, wieder zurückzukehren."
+      "part3": "studiert, mit",
+      "part4": "als Hauptprogrammiersprache Programmiersprache. Leider konnte ich wegen der Anforderungen meines damaligen Jobs nicht weitermachen, aber ich denke darüber nach, wieder einzusteigen."
     },
-    "p4": "Obwohl ich schon einige Male mit dem Programmieren zu tun hatte, habe ich bisher nie ernsthaft versucht, es zu meinem Beruf zu machen. Diesmal habe ich mich entschlossen, voll einzusteigen!"
+    "p4": "Obwohl ich schon einige Male mit dem Programmieren zu tun hatte, habe ich nie ernsthaft versucht, es zu meinem Beruf zu machen. Dieses Mal habe ich mich entschlossen, es wirklich zu tun!"
   },
   "experience": {
     "title": "ERFAHRUNG",
-    "entry1": "Vollzeit Coding Bootcamp vor Ort mit 840 Stunden praktischer, projektbasierter Arbeit in SCRUM Methodik.",
-    "entry2": "Ein Spieleanalyst, der bei seiner täglichen Arbeit selbst erstellte Python-Tools verwendet, um dem Team Daten besser und verständlicher zu präsentieren."
+    "entry1": "Vollzeit Coding Bootcamp vor Ort mit 840 Stunden praktischer, projektbasierter Arbeit in der SCRUM-Methodik.",
+    "entry2": "Ein Spieleanalyst, der bei seiner täglichen Arbeit selbst entwickelte Python-Tools einsetzt, um dem Team Daten besser und verständlicher zu präsentieren."
   },
   "projects": {
     "title": "PROJKTE",
-    "click": ". Wenn Sie einen Blick auf den Code werfen wollen, klicken Sie auf ",
+    "click": ". Um den Code einzusehen, klicken Sie auf ",
     "here": "hier ",
-    "git": "um das entsprechende Github-Repository zu sehen.",
+    "git": "um zum entsprechenden Github-Repository zu gelangen..",
     "state_title": "Aktueller Zustand der App:",
-    "MarsRover": "Web-Applikation für Menschen, die sich für die Erforschung des Weltraums interessieren. Die Nutzer können Bilder ausgewählter Marsrover aus dem Internet suchen und betrachten. ",
+    "MarsRover": "Web-Applikation für Menschen, die sich für die Erforschung des Weltraums interessieren. Die Nutzer können Bilder ausgewählter Marsrover suchen und betrachten. Die Daten stammen von der ",
     "ForkIt": "Web-Applikation im Stil eines Food-Blogs, mit der Nutzer ihre Lieblingsrezepte durchsuchen und speichern können. Basierend auf dem",
     "Totart": {
       "desc": " Web-Applikation, die es ihren Nutzern ermöglicht, Inhalte über interessante, aber weniger bekannte Orte in Berlin zu erstellen und zu teilen.",
-      "state": " Es wird derzeit in einem anderen Repository überarbeitet als dem, mit dem es verlinkt ist. Die Änderungen werden recht umfangreich sein und reichen von der Applikationfunktionalität bis zur Verbesserung des Stacks.",
+      "state": " Es wird derzeit in einem anderen Repository als dem, mit dem es verknüpft ist, überarbeitet. Die Änderungen werden ziemlich umfangreich sein und reichen von der Funktionalität der Applikation bis zur Verbesserung des Stacks.",
       "target": "Ziel stack:"
     },
     "Codask": {
-      "desc": "Ein gemeinschaftliches Projekt, das eine Online-Plattform für Code Academy Studenten schaffen soll, um Wissen auszutauschen und sich gegenseitig bei der Lösung von Problemen zu helfen.",
-      "state": "Dieser Applikation fehlen noch ein paar Funktionen, aber das Gesamtdesign wird sich nicht ändern."
+      "desc": "Ein Gemeinschaftsprojekt zur Schaffung einer Online-Plattform für Code Academy Studenten, um Wissen auszutauschen und sich gegenseitig bei der Lösung von Problemen zu helfen.",
+      "state": "Dieser Applikation fehlen noch einige Funktionen, aber das Gesamtdesign wird sich nicht ändern."
     }
   },
   "footer": "Und schließlich das Projekt, das Sie gerade sehen. Es wurde mit NextJS und React erstellt. Entworfen mit TailwindCSS und im Einsatz auf Vercel. Ich hoffe, es gefällt Ihnen!"

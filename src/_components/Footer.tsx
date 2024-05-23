@@ -1,16 +1,18 @@
 import React from "react";
 
-type Props = {};
+type Props = {
+  lang: string;
+};
 
-function Footer({}: Props) {
+function Footer({ lang }: Props) {
   return (
     <div className="mb-6 text-gray-400 lg:col-span-3">
-      And finally the project you are currently looking at. It was built with
-      <span className="font-bold text-gray-300"> NextJS</span>, and{" "}
-      <span className="font-bold text-gray-300">React</span>. Styled with{" "}
-      <span className="font-bold text-gray-300">TailwindCSS</span> and deployed
-      on <span className="font-bold text-gray-300">Vercel</span>. Hope you like
-      it!
+      {lang}
+      {/* <span className="font-bold text-gray-300"> NextJS</span>, {lang.and}
+      <span className="font-bold text-gray-300"> React</span>. {lang.style}
+      <span className="font-bold text-gray-300"> TailwindCSS </span>
+      {lang.deploy} <span className="font-bold text-gray-300"> Vercel</span>.{" "}
+      {lang.end} */}
     </div>
   );
 }

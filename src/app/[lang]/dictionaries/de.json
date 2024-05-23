@@ -54,5 +54,6 @@
       "desc": "Ein gemeinschaftliches Projekt, das eine Online-Plattform für Code Academy Studenten schaffen soll, um Wissen auszutauschen und sich gegenseitig bei der Lösung von Problemen zu helfen.",
       "state": "Dieser Applikation fehlen noch ein paar Funktionen, aber das Gesamtdesign wird sich nicht ändern."
     }
-  }
+  },
+  "footer": "Und schließlich das Projekt, das Sie gerade sehen. Es wurde mit NextJS und React erstellt. Entworfen mit TailwindCSS und im Einsatz auf Vercel. Ich hoffe, es gefällt Ihnen!"
 }

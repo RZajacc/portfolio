@@ -54,5 +54,6 @@
       "desc": "A collaborative project that aims to create an online platform for Code Academy students to share knowledge and help each other solve problems.",
       "state": "This application is missing a few features but the overall design will not change."
     }
-  }
+  },
+  "footer": "And finally the project you are currently looking at. It was built with NextJS and React. Styled with TailwindCSS, and deployed on Vercel. Hope you like it!"
 }

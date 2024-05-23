@@ -54,5 +54,6 @@
       "desc": "Grupowy projekt mający na celu storzenie platformy dla studentów Code Academy do dzielenie się wiedzą i pomocy w rozwiązywaniu napotanych problemów.",
       "state": "Aplikacji brakuje kilku funkcjonalności, jednak ogólny jej obraz nie ulegnie zmianie."
     }
-  }
+  },
+  "footer": "I w końcu projekt na który teraz patrzysz. Został zbudowany z NextJS i React. Styl stworzony z TailwindCSS i wdrożenie z Vercel. Mam nadzieję, że Ci się podoba!"
 }

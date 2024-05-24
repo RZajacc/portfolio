@@ -37,7 +37,7 @@ function Projects({ lang }: Props) {
           <h6 className="font-bold">
             <a
               href="https://marsroverapp.netlify.app/"
-              className="flex hover:animate-pulse"
+              className="cursor-myhand flex hover:animate-pulse"
               target="blank"
             >
               Mars Rover <Image src={linkIcon} alt="link-icon" />
@@ -49,7 +49,7 @@ function Projects({ lang }: Props) {
           <a
             href="https://api.nasa.gov/"
             target="_blank"
-            className="font-bold hover:animate-pulse"
+            className="cursor-myhand font-bold hover:animate-pulse"
           >
             NASA API
           </a>
@@ -66,7 +66,7 @@ function Projects({ lang }: Props) {
         <div className="proj-entry__image mt-3">
           <a
             href="https://marsroverapp.netlify.app/"
-            className="hover:animate-pulse"
+            className="cursor-myhand hover:animate-pulse"
             target="_blank"
           >
             <Image
@@ -101,7 +101,7 @@ function Projects({ lang }: Props) {
             <a
               href="https://forkitorleaveit.netlify.app/"
               target="_blank"
-              className="flex hover:animate-pulse"
+              className="cursor-myhand flex hover:animate-pulse"
             >
               ForkIt <Image src={linkIcon} alt="link-icon" />
             </a>
@@ -112,7 +112,7 @@ function Projects({ lang }: Props) {
           <a
             href="https://spoonacular.com/food-api/"
             target="_blank"
-            className="font-bold hover:animate-pulse"
+            className="cursor-myhand font-bold hover:animate-pulse"
           >
             Spoonacular API
           </a>
@@ -129,7 +129,7 @@ function Projects({ lang }: Props) {
         <div className="proj-entry__image mt-3">
           <a
             href="https://forkitorleaveit.netlify.app/"
-            className="hover:animate-pulse"
+            className="cursor-myhand hover:animate-pulse"
             target="_blank"
           >
             <Image
@@ -160,7 +160,7 @@ function Projects({ lang }: Props) {
           <h6 className="font-bold">
             <a
               href="https://github.com/RZajacc/totArt"
-              className="flex hover:animate-pulse"
+              className="cursor-myhand flex hover:animate-pulse"
               target="blank"
             >
               Totart <Image src={linkIcon} alt="link-icon" />
@@ -183,7 +183,7 @@ function Projects({ lang }: Props) {
           <a
             href="https://github.com/RZajacc/totArt"
             target="_blank"
-            className="hover:animate-pulse"
+            className="cursor-myhand hover:animate-pulse"
           >
             <Image
               src={totart}
@@ -219,7 +219,7 @@ function Projects({ lang }: Props) {
           <h6 className="font-bold">
             <a
               href="https://github.com/helene-abiassi/CodaSk"
-              className="flex hover:animate-pulse"
+              className="cursor-myhand flex hover:animate-pulse"
               target="blank"
             >
               Codask <Image src={linkIcon} alt="link-icon" />
@@ -238,7 +238,7 @@ function Projects({ lang }: Props) {
           <a
             href="https://github.com/helene-abiassi/CodaSk"
             target="_blank"
-            className="hover:animate-pulse"
+            className="cursor-myhand hover:animate-pulse"
           >
             <Image
               src={codask}

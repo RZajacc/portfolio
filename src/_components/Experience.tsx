@@ -21,7 +21,7 @@ function Experience({ lang }: Props) {
           <a
             href="https://www.codeacademyberlin.com/"
             target="_blank"
-            className="hover:animate-pulse"
+            className="cursor-myhand hover:animate-pulse"
           >
             Code Academy Berlin
           </a>
@@ -37,7 +37,7 @@ function Experience({ lang }: Props) {
           <a
             href="https://www.berlin-recycling-volleys.de/"
             target="_blank"
-            className="hover:animate-pulse"
+            className="cursor-myhand hover:animate-pulse"
           >
             Berlin Recycling Volleys
           </a>

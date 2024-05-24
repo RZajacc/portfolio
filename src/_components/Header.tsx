@@ -22,14 +22,14 @@ function Header({ lang }: Props) {
         <a
           href={"https://www.linkedin.com/in/rafalzajac88/"}
           target="_blank"
-          className="hover:animate-pulse"
+          className="cursor-myhand hover:animate-pulse"
         >
           <FontAwesomeIcon icon={faLinkedin} className="mr-5 w-8" />
         </a>
         <a
           href={"https://github.com/RZajacc"}
           target="_blank"
-          className="hover:animate-pulse"
+          className="cursor-myhand hover:animate-pulse"
         >
           <FontAwesomeIcon
             icon={faGithub}
@@ -39,7 +39,7 @@ function Header({ lang }: Props) {
         </a>
         <a
           href={"mailto:rf.zajac@tutamail.com"}
-          className="hover:animate-pulse"
+          className="=hover:animate-pulse cursor-myhand"
         >
           <FontAwesomeIcon icon={faEnvelope} className="w-8" target="_blank" />
         </a>
@@ -48,7 +48,7 @@ function Header({ lang }: Props) {
         <a
           href="./RafalZajacResume.pdf"
           target="_blank"
-          className="flex cursor-none text-xl hover:animate-pulse"
+          className="cursor-myhand flex w-36 text-xl hover:animate-pulse"
         >
           {lang.resume} <Image src={linkIcon} alt="link-icon" />
         </a>

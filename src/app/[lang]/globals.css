@@ -22,16 +22,14 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/* -----ANIMATED CURSOR----- */
 body {
-  cursor: none;
+  cursor:
+    url("/mycursor.svg") 12 12,
+    default;
 }
 
-a {
-  cursor: none;
-}
-
-#cursor {
+/* -----ANIMATED CURSOR----- */
+/* #cursor {
   position: fixed;
   width: 20px;
   height: 20px;
@@ -43,9 +41,9 @@ a {
   pointer-events: none;
   animation: animate 5s linear infinite;
   z-index: 100;
-}
+} */
 
-#cursor::before {
+/* #cursor::before {
   content: "";
   position: absolute;
   left: -2.5px;
@@ -58,9 +56,9 @@ a {
 
 body:hover #cursor {
   transform: translate(-1px, 5px) rotate(15deg) scale(1);
-}
+} */
 
-@keyframes animate {
+/* @keyframes animate {
   0% {
     filter: drop-shadow(0 0 5px #0f0) drop-shadow(0 0 52px #0f0)
       drop-shadow(0 0 2px #0f0) hue-rotate(0deg);
@@ -69,7 +67,7 @@ body:hover #cursor {
     filter: drop-shadow(0 0 5px #0f0) drop-shadow(0 0 5px #0f0)
       drop-shadow(0 0 5px #0f0) hue-rotate(360deg);
   }
-}
+} */
 /* -----ANIMATED CURSOR----- */
 
 #page-grid-container {

@@ -30,7 +30,7 @@ function About({ lang }: Props) {
         {lang.p1.part1}
         <a
           href="https://www.codeacademyberlin.com/"
-          className="font-bold hover:animate-pulse"
+          className="cursor-myhand font-bold hover:animate-pulse"
           target="_blank"
         >
           Code Academy Berlin

@@ -48,7 +48,7 @@ function Header({ lang }: Props) {
         <a
           href="./RafalZajacResume.pdf"
           target="_blank"
-          className="cursor-myhand flex w-36 text-xl hover:animate-pulse"
+          className="cursor-myhand flex w-56 text-xl hover:animate-pulse"
         >
           {lang.resume} <Image src={linkIcon} alt="link-icon" />
         </a>

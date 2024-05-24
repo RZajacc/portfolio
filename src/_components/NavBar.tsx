@@ -62,8 +62,8 @@ function NavBar({ lang }: Props) {
         scroll={false}
         className={
           activeSection === "about"
-            ? "cursor-myhand my-1 rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in lg:mx-1"
-            : "cursor-myhand my-1  px-2 py-1 lg:mx-1"
+            ? "cursor-myhand my-1 rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in hover:animate-pulse lg:mx-1"
+            : "cursor-myhand my-1 px-2  py-1 hover:animate-pulse lg:mx-1"
         }
         onClick={(e) => {
           handleLinkClick(e, "about");
@@ -76,8 +76,8 @@ function NavBar({ lang }: Props) {
         scroll={false}
         className={
           activeSection === "experience"
-            ? "cursor-myhand my-1 rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in lg:mx-1"
-            : "cursor-myhand my-1 px-2 py-1 lg:mx-1"
+            ? "cursor-myhand my-1 rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in hover:animate-pulse lg:mx-1"
+            : "cursor-myhand my-1 px-2 py-1 hover:animate-pulse lg:mx-1"
         }
         onClick={(e) => {
           handleLinkClick(e, "experience");
@@ -90,8 +90,8 @@ function NavBar({ lang }: Props) {
         scroll={false}
         className={
           activeSection === "projects"
-            ? "cursor-myhand my-1 mr-1 rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in lg:mx-1"
-            : "cursor-myhand my-1 px-2 py-1 lg:mx-1"
+            ? "cursor-myhand my-1 mr-1 rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in hover:animate-pulse lg:mx-1"
+            : "cursor-myhand my-1 px-2 py-1 hover:animate-pulse lg:mx-1"
         }
         onClick={(e) => {
           handleLinkClick(e, "projects");

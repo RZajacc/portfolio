@@ -39,7 +39,7 @@ function Header({ lang }: Props) {
         </a>
         <a
           href={"mailto:rf.zajac@tutamail.com"}
-          className="=hover:animate-pulse cursor-myhand"
+          className="cursor-myhand hover:animate-pulse"
         >
           <FontAwesomeIcon icon={faEnvelope} className="w-8" target="_blank" />
         </a>

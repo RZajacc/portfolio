@@ -5,7 +5,7 @@ type Props = {
 };
 
 function Footer({ lang }: Props) {
-  return <div className="mb-6 text-gray-400 lg:col-span-3">{lang}</div>;
+  return <div className="mb-6 text-gray-400 lg:col-span-4">{lang}</div>;
 }
 
 export default Footer;

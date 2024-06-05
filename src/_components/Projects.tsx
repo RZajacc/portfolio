@@ -31,13 +31,76 @@ function Projects({ lang }: Props) {
   return (
     <section id="projects">
       <h4 className="font-bold">{lang.title}</h4>
+      {/* Forkit it project */}
+      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
+        <div className="proj-entry__title flex justify-center">
+          <h6 className="font-bold">
+            <a
+              href="https://forkitorleaveit.netlify.app/"
+              target="_blank"
+              className="flex cursor-myhand hover:animate-pulse"
+            >
+              ForkIt <Image src={linkIcon} alt="link-icon" />
+            </a>
+          </h6>
+        </div>
+        <p className="proj-entry__description">
+          {lang.ForkIt}
+          <a
+            href="https://spoonacular.com/food-api/"
+            target="_blank"
+            className="cursor-myhand font-bold hover:animate-pulse"
+          >
+            Spoonacular API
+          </a>
+          {lang.click}
+          <a
+            href="https://github.com/RZajacc/ForkIt_2.0"
+            target="_blank"
+            className="font-bold hover:animate-pulse"
+          >
+            {lang.here}
+          </a>{" "}
+          {lang.git}
+        </p>
+        <div className="proj-entry__image mt-3">
+          <a
+            href="https://forkitorleaveit.netlify.app/"
+            className="cursor-myhand hover:animate-pulse"
+            target="_blank"
+          >
+            <Image
+              src={forkit}
+              alt="mars-rover-page-image"
+              className="b mx-auto rounded-sm"
+            />
+          </a>
+        </div>
+        <div className="proj-entry__stack mt-3 flex flex-wrap">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            React
+          </button>
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            TypeScript
+          </button>
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            SCSS
+          </button>
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            Firebase
+          </button>
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            Vite
+          </button>
+        </div>
+      </div>
       {/* Mars rover project */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
         <div className="proj-entry__title flex justify-center ">
           <h6 className="font-bold">
             <a
               href="https://marsroverapp.netlify.app/"
-              className="cursor-myhand flex hover:animate-pulse"
+              className="flex cursor-myhand hover:animate-pulse"
               target="blank"
             >
               Mars Rover <Image src={linkIcon} alt="link-icon" />
@@ -77,80 +140,20 @@ function Projects({ lang }: Props) {
           </a>
         </div>
         <div className="proj-entry__stack mt-3 flex flex-wrap">
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             JavaScript
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             TypeScript
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             SCSS
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             Vitest
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             Webpack
-          </button>
-        </div>
-      </div>
-      {/* Forkit it project */}
-      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <div className="proj-entry__title flex justify-center">
-          <h6 className="font-bold">
-            <a
-              href="https://forkitorleaveit.netlify.app/"
-              target="_blank"
-              className="cursor-myhand flex hover:animate-pulse"
-            >
-              ForkIt <Image src={linkIcon} alt="link-icon" />
-            </a>
-          </h6>
-        </div>
-        <p className="proj-entry__description">
-          {lang.ForkIt}
-          <a
-            href="https://spoonacular.com/food-api/"
-            target="_blank"
-            className="cursor-myhand font-bold hover:animate-pulse"
-          >
-            Spoonacular API
-          </a>
-          {lang.click}
-          <a
-            href="https://github.com/RZajacc/ForkIt_2.0"
-            target="_blank"
-            className="font-bold hover:animate-pulse"
-          >
-            {lang.here}
-          </a>{" "}
-          {lang.git}
-        </p>
-        <div className="proj-entry__image mt-3">
-          <a
-            href="https://forkitorleaveit.netlify.app/"
-            className="cursor-myhand hover:animate-pulse"
-            target="_blank"
-          >
-            <Image
-              src={forkit}
-              alt="mars-rover-page-image"
-              className="b mx-auto rounded-sm"
-            />
-          </a>
-        </div>
-        <div className="proj-entry__stack mt-3 flex flex-wrap">
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            React
-          </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            TypeScript
-          </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            SCSS
-          </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            Firebase
           </button>
         </div>
       </div>
@@ -160,7 +163,7 @@ function Projects({ lang }: Props) {
           <h6 className="font-bold">
             <a
               href="https://github.com/RZajacc/totArt"
-              className="cursor-myhand flex hover:animate-pulse"
+              className="flex cursor-myhand hover:animate-pulse"
               target="blank"
             >
               Totart <Image src={linkIcon} alt="link-icon" />
@@ -193,23 +196,29 @@ function Projects({ lang }: Props) {
           </a>
         </div>
         <div className="proj-entry__stack mt-3 flex flex-wrap">
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             React
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             TypeScript
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             Bootstrap
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             NodeJS
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             ExpressJS
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             MongoDB
+          </button>
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            JWT
+          </button>
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            Passport
           </button>
         </div>
       </div>
@@ -219,7 +228,7 @@ function Projects({ lang }: Props) {
           <h6 className="font-bold">
             <a
               href="https://github.com/helene-abiassi/CodaSk"
-              className="cursor-myhand flex hover:animate-pulse"
+              className="flex cursor-myhand hover:animate-pulse"
               target="blank"
             >
               Codask <Image src={linkIcon} alt="link-icon" />
@@ -248,29 +257,32 @@ function Projects({ lang }: Props) {
           </a>
         </div>
         <div className="proj-entry__stack mt-3 flex flex-wrap">
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             NextJS
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             React
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             TypeScript
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             TailwindCSS
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             NodeJS
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             ExpressJS
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             MongoDB
           </button>
-          <button className="m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             GraphQL
+          </button>
+          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            NextAuth
           </button>
         </div>
       </div>

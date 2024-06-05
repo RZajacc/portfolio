@@ -15,6 +15,7 @@ const config: Config = {
       },
       cursor: {
         myhand: "url(/hand-pointer.svg), pointer",
+        mycursor: "url(/mycursor.svg), default",
       },
     },
   },

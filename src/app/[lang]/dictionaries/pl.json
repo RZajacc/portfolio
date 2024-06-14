@@ -47,8 +47,7 @@
     "ForkIt": "Aplikacja wzorowana na blogach kulinarnych, pozwala użytkownikom na wyszukiwanie przepisów i zapisywanie ulubionych w swoim profilu. Dane aplikacji pochodzą z ",
     "Totart": {
       "desc": " Aplikacja umożliwiająca użytkownikom publikowanie postów na temat interesujących ale mniej znanych miejsc w Berlinie.",
-      "state": " Obecnie aplikacja jest w trakcie przebudowy w repozytorium pod innym adresem niż ten do którego prowadzi obecny link. Zmiany będą dość spore i obejmą nie tylko funkcjonalność ale zmieni się też stack na którym jest zbudowana.",
-      "target": "Docelowy stack:"
+      "state": " Obecnie aplikacja jest w trakcie przebudowy. Aby dowiedzieć się więcej na temat obecnego stanu aplikacji zobacz repozytorium pod podanym linkiem. "
     },
     "Codask": {
       "desc": "Grupowy projekt mający na celu storzenie platformy dla studentów Code Academy do dzielenie się wiedzą i pomocy w rozwiązywaniu napotanych problemów.",

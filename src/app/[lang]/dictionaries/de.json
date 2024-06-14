@@ -38,7 +38,7 @@
     "entry2": "Ein Spieleanalyst, der bei seiner täglichen Arbeit selbst entwickelte Python-Tools einsetzt, um dem Team Daten besser und verständlicher zu präsentieren."
   },
   "projects": {
-    "title": "PROJKTE",
+    "title": "PROJEKTE",
     "click": ". Um den Code einzusehen, klicken Sie auf ",
     "here": "hier ",
     "git": "um zum entsprechenden Github-Repository zu gelangen..",
@@ -47,8 +47,7 @@
     "ForkIt": "Web-Applikation im Stil eines Food-Blogs, mit der Nutzer ihre Lieblingsrezepte durchsuchen und speichern können. Basierend auf dem ",
     "Totart": {
       "desc": " Web-Applikation, die es ihren Nutzern ermöglicht, Inhalte über interessante, aber weniger bekannte Orte in Berlin zu erstellen und zu teilen.",
-      "state": " Es wird derzeit in einem anderen Repository als dem, mit dem es verknüpft ist, überarbeitet. Die Änderungen werden ziemlich umfangreich sein und reichen von der Funktionalität der Applikation bis zur Verbesserung des Stacks.",
-      "target": "Ziel stack:"
+      "state": " Es wird derzeit überarbeitet. Bitte besuchen Sie das entsprechende GitHub Repository unter dem angegebenen Link, um mehr über den Fortschritt zu erfahren."
     },
     "Codask": {
       "desc": "Ein Gemeinschaftsprojekt zur Schaffung einer Online-Plattform für Code Academy Studenten, um Wissen auszutauschen und sich gegenseitig bei der Lösung von Problemen zu helfen.",

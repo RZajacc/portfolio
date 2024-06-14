@@ -47,8 +47,7 @@
     "ForkIt": "Food blog-style web application that allows users to browse and save their favourite recipes. Based on the ",
     "Totart": {
       "desc": " Web application that allows its users to create and share content about interesting but lesser-known places in Berlin.",
-      "state": " It is currently being refactored in a different repository than the one linked to. The changes will be quite large, ranging from application functionality to improving the stack.",
-      "target": "Target stack:"
+      "state": " It is currently being refactored. Please visit corresponding GitHub repository with provided link to see more details about the progress."
     },
     "Codask": {
       "desc": "A collaborative project that aims to create an online platform for Code Academy students to share knowledge and help each other solve problems.",

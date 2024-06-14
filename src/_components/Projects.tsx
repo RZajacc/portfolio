@@ -31,6 +31,134 @@ function Projects({ lang }: Props) {
   return (
     <section id="projects">
       <h4 className="font-bold">{lang.title}</h4>
+      {/* Codask */}
+      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
+        <div className="proj-entry__title flex justify-center">
+          <h6 className="font-bold">
+            <a
+              href="https://github.com/helene-abiassi/CodaSk"
+              className="flex cursor-myhand hover:animate-pulse"
+              target="blank"
+            >
+              Codask <Image src={linkIcon} alt="link-icon" />
+            </a>
+          </h6>
+        </div>
+        <p className="proj-entry__description">{lang.Codask.desc}</p>
+        {/* Current state */}
+        <div className="proj-entry__state">
+          <h6 className="mt-2 font-bold text-fuchsia-500">
+            {lang.state_title}
+          </h6>
+          <p>{lang.Codask.state}</p>
+        </div>
+        <div className="proj-entry__image mt-3">
+          <a
+            href="https://github.com/helene-abiassi/CodaSk"
+            target="_blank"
+            className="cursor-myhand hover:animate-pulse"
+          >
+            <Image
+              src={codask}
+              alt="mars-rover-page-image"
+              className="b mx-auto rounded-sm"
+            />
+          </a>
+        </div>
+        <div className="proj-entry__stack mt-3 flex flex-wrap">
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            NextJS
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            React
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            TypeScript
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            TailwindCSS
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            NodeJS
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            ExpressJS
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            MongoDB
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            GraphQL
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            NextAuth
+          </button>
+        </div>
+      </div>
+      {/* Totart project */}
+      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
+        <div className="proj-entry__title flex justify-center">
+          <h6 className="font-bold">
+            <a
+              href="https://github.com/RZajacc/totArt_v.2.0"
+              className="flex cursor-myhand hover:animate-pulse"
+              target="blank"
+            >
+              Totart <Image src={linkIcon} alt="link-icon" />
+            </a>
+          </h6>
+        </div>
+        <p className="proj-entry__description">{lang.Totart.desc}</p>
+        {/* Current state */}
+        <div className="proj-entry__state">
+          <h6 className="mt-2 font-bold text-fuchsia-500">
+            {lang.state_title}
+          </h6>
+          <p>{lang.Totart.state}</p>
+        </div>
+        <div className="proj-entry__image mt-3">
+          <a
+            href="https://github.com/RZajacc/totArt_v.2.0"
+            target="_blank"
+            className="cursor-myhand hover:animate-pulse"
+          >
+            <Image
+              src={totart}
+              alt="mars-rover-page-image"
+              className="b mx-auto rounded-sm"
+            />
+          </a>
+        </div>
+        <div className="proj-entry__stack mt-3 flex flex-wrap">
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            NextJS
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            React
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            TypeScript
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            TailwindCSS
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            NodeJS
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            ExpressJS
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            MongoDB
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            JWT
+          </button>
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+            Passport
+          </button>
+        </div>
+      </div>
       {/* Forkit it project */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
         <div className="proj-entry__title flex justify-center">
@@ -77,19 +205,19 @@ function Projects({ lang }: Props) {
           </a>
         </div>
         <div className="proj-entry__stack mt-3 flex flex-wrap">
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             React
           </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             TypeScript
           </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             SCSS
           </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             Firebase
           </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             Vite
           </button>
         </div>
@@ -140,149 +268,20 @@ function Projects({ lang }: Props) {
           </a>
         </div>
         <div className="proj-entry__stack mt-3 flex flex-wrap">
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             JavaScript
           </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             TypeScript
           </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             SCSS
           </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             Vitest
           </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
+          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             Webpack
-          </button>
-        </div>
-      </div>
-      {/* Totart project */}
-      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <div className="proj-entry__title flex justify-center">
-          <h6 className="font-bold">
-            <a
-              href="https://github.com/RZajacc/totArt"
-              className="flex cursor-myhand hover:animate-pulse"
-              target="blank"
-            >
-              Totart <Image src={linkIcon} alt="link-icon" />
-            </a>
-          </h6>
-        </div>
-        <p className="proj-entry__description">{lang.Totart.desc}</p>
-        {/* Current state */}
-        <div className="proj-entry__state">
-          <h6 className="mt-2 font-bold text-fuchsia-500">
-            {lang.state_title}
-          </h6>
-          <p>{lang.Totart.state}</p>
-          <p className="text-gray-400">
-            <span className="font-bold">{lang.Totart.target}</span> NextJS,
-            React, Typescript, TailwindCSS, NodeJS, ExpressJS, MongoDB, GraphQL
-          </p>
-        </div>
-        <div className="proj-entry__image mt-3">
-          <a
-            href="https://github.com/RZajacc/totArt"
-            target="_blank"
-            className="cursor-myhand hover:animate-pulse"
-          >
-            <Image
-              src={totart}
-              alt="mars-rover-page-image"
-              className="b mx-auto rounded-sm"
-            />
-          </a>
-        </div>
-        <div className="proj-entry__stack mt-3 flex flex-wrap">
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            React
-          </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            TypeScript
-          </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            Bootstrap
-          </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            NodeJS
-          </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            ExpressJS
-          </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            MongoDB
-          </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            JWT
-          </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            Passport
-          </button>
-        </div>
-      </div>
-      {/* Codask */}
-      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <div className="proj-entry__title flex justify-center">
-          <h6 className="font-bold">
-            <a
-              href="https://github.com/helene-abiassi/CodaSk"
-              className="flex cursor-myhand hover:animate-pulse"
-              target="blank"
-            >
-              Codask <Image src={linkIcon} alt="link-icon" />
-            </a>
-          </h6>
-        </div>
-        <p className="proj-entry__description">{lang.Codask.desc}</p>
-        {/* Current state */}
-        <div className="proj-entry__state">
-          <h6 className="mt-2 font-bold text-fuchsia-500">
-            {lang.state_title}
-          </h6>
-          <p>{lang.Codask.state}</p>
-        </div>
-        <div className="proj-entry__image mt-3">
-          <a
-            href="https://github.com/helene-abiassi/CodaSk"
-            target="_blank"
-            className="cursor-myhand hover:animate-pulse"
-          >
-            <Image
-              src={codask}
-              alt="mars-rover-page-image"
-              className="b mx-auto rounded-sm"
-            />
-          </a>
-        </div>
-        <div className="proj-entry__stack mt-3 flex flex-wrap">
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            NextJS
-          </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            React
-          </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            TypeScript
-          </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            TailwindCSS
-          </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            NodeJS
-          </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            ExpressJS
-          </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            MongoDB
-          </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            GraphQL
-          </button>
-          <button className="cursor-mycursor m-1 rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            NextAuth
           </button>
         </div>
       </div>

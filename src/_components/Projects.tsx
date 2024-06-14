@@ -18,7 +18,6 @@ type Props = {
     Totart: {
       desc: string;
       state: string;
-      target: string;
     };
     Codask: {
       desc: string;

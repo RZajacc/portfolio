@@ -46,9 +46,9 @@ function Header({ lang }: Props) {
       </div>
       <div className="mt-4">
         <a
-          href="./RafalZajacResume.pdf"
+          href="./RafalZajac_Resume.pdf"
           target="_blank"
-          className="cursor-myhand flex w-56 text-xl hover:animate-pulse"
+          className="flex w-56 cursor-myhand text-xl hover:animate-pulse"
         >
           {lang.resume} <Image src={linkIcon} alt="link-icon" />
         </a>

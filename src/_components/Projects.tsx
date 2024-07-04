@@ -211,7 +211,7 @@ function Projects({ lang }: Props) {
             TypeScript
           </button>
           <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            SCSS
+            Sass
           </button>
           <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             Firebase
@@ -274,7 +274,7 @@ function Projects({ lang }: Props) {
             TypeScript
           </button>
           <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            SCSS
+            Sass
           </button>
           <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
             Vitest

@@ -3,7 +3,7 @@ import React from "react";
 import linkIcon from "/public/link-icon.svg";
 import marsRover from "/public/mars_rover.jpeg";
 import forkit from "/public/forkit.jpeg";
-import totart from "/public/totart.jpg";
+import totart from "/public/totart.png";
 import codask from "/public/codask.jpg";
 
 type Props = {
@@ -99,7 +99,7 @@ function Projects({ lang }: Props) {
         <div className="proj-entry__title flex justify-center">
           <h6 className="font-bold">
             <a
-              href="https://github.com/RZajacc/totArt_v.2.0"
+              href="https://tot-art-v-2-0.vercel.app/"
               className="flex cursor-myhand hover:animate-pulse"
               target="blank"
             >
@@ -107,17 +107,22 @@ function Projects({ lang }: Props) {
             </a>
           </h6>
         </div>
-        <p className="proj-entry__description">{lang.Totart.desc}</p>
-        {/* Current state */}
-        <div className="proj-entry__state">
-          <h6 className="mt-2 font-bold text-fuchsia-500">
-            {lang.state_title}
-          </h6>
-          <p>{lang.Totart.state}</p>
-        </div>
-        <div className="proj-entry__image mt-3">
+        <p className="proj-entry__description">
+          {lang.Totart.desc}
+          {lang.click}
           <a
             href="https://github.com/RZajacc/totArt_v.2.0"
+            target="_blank"
+            className="font-bold hover:animate-pulse"
+          >
+            {lang.here}
+          </a>{" "}
+          {lang.git}
+        </p>
+
+        <div className="proj-entry__image mt-3">
+          <a
+            href="https://tot-art-v-2-0.vercel.app/"
             target="_blank"
             className="cursor-myhand hover:animate-pulse"
           >

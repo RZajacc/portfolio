@@ -31,14 +31,13 @@ function Projects({ lang }: Props) {
     <section id="projects">
       <h4 className="font-bold">{lang.title}</h4>
 
-      {/* Totart project */}
+      {/* TOTART PROJECT */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        {/* Project title */}
         <TitleSection
           projectUrl="https://tot-art-v-2-0.vercel.app/"
           projectTitle="totArt"
         />
-        {/* Project description */}
+
         <DescriptionSection
           description={lang.Totart}
           gitHubURL="https://github.com/RZajacc/totArt_v.2.0"
@@ -51,14 +50,12 @@ function Projects({ lang }: Props) {
           />
         </DescriptionSection>
 
-        {/* Image section */}
         <ImageSection
           projectURL="https://tot-art-v-2-0.vercel.app/"
           imageData={totArtImage}
           imageAltText="Totart project image"
         />
 
-        {/* Tech Stack section */}
         <TechStackSection
           techStack={[
             "NextJS",
@@ -75,7 +72,7 @@ function Projects({ lang }: Props) {
         />
       </div>
 
-      {/* Codask */}
+      {/* CODASK PROJECT */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
         {/* Project title */}
         <TitleSection
@@ -83,7 +80,6 @@ function Projects({ lang }: Props) {
           projectTitle="CodaSk"
         />
 
-        {/* Project description */}
         <DescriptionSection
           description={lang.Codask}
           gitHubURL="https://github.com/helene-abiassi/CodaSk"
@@ -93,18 +89,16 @@ function Projects({ lang }: Props) {
           <DescriptionLink
             label="Figma"
             url="https://www.figma.com/design/EvR6lR70uN6tXBimvGPnVR/Codask---Public?node-id=0-1&node-type=canvas&t=eiqCdGfBDypqMns4-0"
-            clickText={lang.clickHere}
+            clickText={lang.clickHere + "!"}
           />
         </DescriptionSection>
 
-        {/* Image section */}
         <ImageSection
           projectURL="https://github.com/helene-abiassi/CodaSk"
           imageData={codeAskImage}
           imageAltText="Codask project image"
         />
 
-        {/* Tech Stack section */}
         <TechStackSection
           techStack={[
             "NextJS",
@@ -120,15 +114,13 @@ function Projects({ lang }: Props) {
         />
       </div>
 
-      {/* Forkit it project */}
+      {/* FORKIT PROJECT */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        {/* Project title */}
         <TitleSection
           projectUrl="https://forkitorleaveit.netlify.app/"
           projectTitle="ForkIt"
         />
 
-        {/* Project description */}
         <DescriptionSection
           description={lang.ForkIt}
           gitHubURL="https://github.com/RZajacc/ForkIt_2.0"
@@ -143,14 +135,12 @@ function Projects({ lang }: Props) {
           <DescriptionSpan label={lang.deployment} text="Neflify" />
         </DescriptionSection>
 
-        {/* Image section */}
         <ImageSection
           projectURL="https://forkitorleaveit.netlify.app/"
           imageData={forkitImage}
           imageAltText="Forkit project image"
         />
 
-        {/* Tech Stack section */}
         <TechStackSection
           techStack={[
             "React",
@@ -163,14 +153,13 @@ function Projects({ lang }: Props) {
         />
       </div>
 
-      {/* Mars rover project */}
+      {/* MARS ROVER PROJECT */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        {/* Project title */}
         <TitleSection
           projectUrl="https://marsroverapp.netlify.app/"
           projectTitle="Mars Rover"
         />
-        {/* Project description */}
+
         <DescriptionSection
           description={lang.MarsRover}
           gitHubURL="https://github.com/RZajacc/MarsRover_3.0"
@@ -185,14 +174,12 @@ function Projects({ lang }: Props) {
           <DescriptionSpan label={lang.deployment} text="Neflify" />
         </DescriptionSection>
 
-        {/* Image section */}
         <ImageSection
           projectURL="https://marsroverapp.netlify.app/"
           imageData={marsRoverImage}
           imageAltText="Mars rover project image"
         />
 
-        {/* Tech Stack section */}
         <TechStackSection
           techStack={["JavaScript", "TypeScript", "Sass", "Vitest", "Webpack"]}
         />

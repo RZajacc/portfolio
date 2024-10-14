@@ -39,20 +39,14 @@
   },
   "projects": {
     "title": "PROJEKTY",
-    "click": ". Jeżeli masz ochotę zajrzeć do kodu aplikacji kliknij ",
-    "here": "tutaj ",
-    "git": "aby przejść do repozytorium na Github.",
-    "state_title": "Obecny stan aplikacji:",
-    "MarsRover": "Aplikacja dla osób interesujących się eksploracją kosmosu. Użytkownica mogą wyświetlać zdjęcia wybranego przez siebie marsjańskiego łazika które są pobierane z ",
-    "ForkIt": "Aplikacja wzorowana na blogach kulinarnych, pozwala użytkownikom na wyszukiwanie przepisów i zapisywanie ulubionych w swoim profilu. Dane aplikacji pochodzą z ",
-    "Totart": {
-      "desc": " Aplikacja umożliwiająca użytkownikom publikowanie postów na temat interesujących ale mniej znanych miejsc w Berlinie.",
-      "state": " Obecnie aplikacja jest w trakcie przebudowy. Aby dowiedzieć się więcej na temat obecnego stanu aplikacji zobacz repozytorium pod podanym linkiem. "
-    },
-    "Codask": {
-      "desc": "Grupowy projekt mający na celu storzenie platformy dla studentów Code Academy do dzielenie się wiedzą i pomocy w rozwiązywaniu napotanych problemów.",
-      "state": "Aplikacji brakuje kilku funkcjonalności, jednak ogólny jej obraz nie ulegnie zmianie."
-    }
+    "gitHub": "Repozytorium GitHub: ",
+    "deployment": "Wdrożenie: ",
+    "clickHere": "Kliknij tutaj",
+    "data": "Dane: ",
+    "Totart": " Aplikacja umożliwiająca użytkownikom publikowanie postów na temat interesujących ale mniej znanych miejsc w Berlinie.",
+    "Codask": "Grupowy projekt mający na celu storzenie platformy dla studentów Code Academy do dzielenie się wiedzą i pomocy w rozwiązywaniu napotanych problemów.",
+    "ForkIt": "Aplikacja wzorowana na blogach kulinarnych, pozwala użytkownikom na wyszukiwanie przepisów i zapisywanie ulubionych w swoim profilu.",
+    "MarsRover": "Aplikacja dla osób interesujących się eksploracją kosmosu. Użytkownicy mogą wyświetlać zdjęcia wybranego przez siebie marsjańskiego łazika."
   },
   "footer": "I w końcu projekt na który teraz patrzysz. Został zbudowany z NextJS i React. Styl stworzony z TailwindCSS i wdrożenie z Vercel. Mam nadzieję, że Ci się podoba!"
 }

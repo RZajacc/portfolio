@@ -8,24 +8,21 @@ import marsRoverImage from "/public/mars_rover.jpeg";
 import TitleSection from "./projects/TitleSection";
 import TechStackSection from "./projects/TechStackSection";
 import ImageSection from "./projects/ImageSection";
+import DescriptionSection from "./projects/DescriptionSection";
+import DescriptionSpan from "./projects/DescriptionSpan";
+import DescriptionLink from "./projects/DescriptionLink";
 
 type Props = {
   lang: {
     title: string;
-    click: string;
-    here: string;
-    git: string;
-    state_title: string;
+    gitHub: string;
+    deployment: string;
+    clickHere: string;
+    data: string;
+    Totart: string;
     MarsRover: string;
     ForkIt: string;
-    Totart: {
-      desc: string;
-      state: string;
-    };
-    Codask: {
-      desc: string;
-      state: string;
-    };
+    Codask: string;
   };
 };
 
@@ -42,18 +39,17 @@ function Projects({ lang }: Props) {
           projectTitle="totArt"
         />
         {/* Project description */}
-        <p className="proj-entry__description">
-          {lang.Totart.desc}
-          {lang.click}
-          <a
-            href="https://github.com/RZajacc/totArt_v.2.0"
-            target="_blank"
-            className="font-bold hover:animate-pulse"
-          >
-            {lang.here}
-          </a>{" "}
-          {lang.git}
-        </p>
+        <DescriptionSection
+          description={lang.Totart}
+          gitHubURL="https://github.com/RZajacc/totArt_v.2.0"
+          gitHubText={lang.gitHub}
+          clickHereText={lang.clickHere}
+        >
+          <DescriptionSpan
+            label={lang.deployment}
+            text="Vercel, Render (REST API)"
+          />
+        </DescriptionSection>
 
         {/* Image section */}
         <ImageSection
@@ -86,8 +82,20 @@ function Projects({ lang }: Props) {
           projectUrl="https://github.com/helene-abiassi/CodaSk"
           projectTitle="CodaSk"
         />
+
         {/* Project description */}
-        <p className="proj-entry__description">{lang.Codask.desc}</p>
+        <DescriptionSection
+          description={lang.Codask}
+          gitHubURL="https://github.com/helene-abiassi/CodaSk"
+          gitHubText={lang.gitHub}
+          clickHereText={lang.clickHere}
+        >
+          <DescriptionLink
+            label="Figma"
+            url="https://www.figma.com/design/EvR6lR70uN6tXBimvGPnVR/Codask---Public?node-id=0-1&node-type=canvas&t=eiqCdGfBDypqMns4-0"
+            clickText={lang.clickHere}
+          />
+        </DescriptionSection>
 
         {/* Image section */}
         <ImageSection
@@ -119,26 +127,21 @@ function Projects({ lang }: Props) {
           projectUrl="https://forkitorleaveit.netlify.app/"
           projectTitle="ForkIt"
         />
+
         {/* Project description */}
-        <p className="proj-entry__description">
-          {lang.ForkIt}
-          <a
-            href="https://spoonacular.com/food-api/"
-            target="_blank"
-            className="cursor-myhand font-bold hover:animate-pulse"
-          >
-            Spoonacular API
-          </a>
-          {lang.click}
-          <a
-            href="https://github.com/RZajacc/ForkIt_2.0"
-            target="_blank"
-            className="font-bold hover:animate-pulse"
-          >
-            {lang.here}
-          </a>{" "}
-          {lang.git}
-        </p>
+        <DescriptionSection
+          description={lang.ForkIt}
+          gitHubURL="https://github.com/RZajacc/ForkIt_2.0"
+          gitHubText={lang.gitHub}
+          clickHereText={lang.clickHere}
+        >
+          <DescriptionLink
+            label={lang.data}
+            url="https://spoonacular.com/food-api"
+            clickText="Spoonacular API"
+          />
+          <DescriptionSpan label={lang.deployment} text="Neflify" />
+        </DescriptionSection>
 
         {/* Image section */}
         <ImageSection
@@ -168,25 +171,19 @@ function Projects({ lang }: Props) {
           projectTitle="Mars Rover"
         />
         {/* Project description */}
-        <p className="proj-entry__description">
-          {lang.MarsRover}
-          <a
-            href="https://api.nasa.gov/"
-            target="_blank"
-            className="cursor-myhand font-bold hover:animate-pulse"
-          >
-            NASA API
-          </a>
-          {lang.click}
-          <a
-            href="https://github.com/RZajacc/MarsRover_3.0"
-            target="_blank"
-            className="font-bold hover:animate-pulse"
-          >
-            {lang.here}
-          </a>
-          {lang.git}
-        </p>
+        <DescriptionSection
+          description={lang.MarsRover}
+          gitHubURL="https://github.com/RZajacc/MarsRover_3.0"
+          gitHubText={lang.gitHub}
+          clickHereText={lang.clickHere}
+        >
+          <DescriptionLink
+            label={lang.data}
+            url="https://api.nasa.gov/"
+            clickText="NASA API"
+          />
+          <DescriptionSpan label={lang.deployment} text="Neflify" />
+        </DescriptionSection>
 
         {/* Image section */}
         <ImageSection

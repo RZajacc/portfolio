@@ -39,20 +39,14 @@
   },
   "projects": {
     "title": "PROJECTS",
-    "click": ". If you want to have a look at the code click ",
-    "here": "here ",
-    "git": "to see the corresponding Github repository.",
-    "state_title": "Current state of the app:",
-    "MarsRover": "Web application for people interested in space exploration. Users can search and view images of selected Mars rovers retrieved from the ",
-    "ForkIt": "Food blog-style web application that allows users to browse and save their favourite recipes. Based on the ",
-    "Totart": {
-      "desc": " Web application that allows its users to create and share content about interesting but lesser-known places in Berlin.",
-      "state": " It is currently being refactored. Please visit corresponding GitHub repository with provided link to see more details about the progress."
-    },
-    "Codask": {
-      "desc": "A collaborative project that aims to create an online platform for Code Academy students to share knowledge and help each other solve problems.",
-      "state": "This application is missing a few features but the overall design will not change."
-    }
+    "gitHub": "Github repository: ",
+    "deployment": "Deployed to: ",
+    "clickHere": "Click here",
+    "data": "Data: ",
+    "Totart": " Web application that allows its users to create and share content about interesting but lesser-known places in Berlin.",
+    "Codask": "A collaborative project that aims to create an online platform for Code Academy students to share knowledge and help each other solve problems.",
+    "ForkIt": "Food blog-style web application that allows users to browse and save their favourite recipes.",
+    "MarsRover": "Web application for people interested in space exploration. Users can search and view images of selected Mars rovers."
   },
   "footer": "And finally the project you are currently looking at. It was built with NextJS and React. Styled with TailwindCSS, and deployed on Vercel. Hope you like it!"
 }

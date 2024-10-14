@@ -34,8 +34,8 @@
   },
   "experience": {
     "title": "ERFAHRUNG",
-    "entry1": "Vollzeit Coding Bootcamp vor Ort mit 840 Stunden praktischer, projektbasierter Arbeit in der SCRUM-Methodik.",
-    "entry2": "Ein Spieleanalyst, der bei seiner täglichen Arbeit selbst entwickelte Python-Tools einsetzt, um dem Team Daten besser und verständlicher zu präsentieren."
+    "codac": "Vollzeit Coding Bootcamp vor Ort mit 840 Stunden praktischer, projektbasierter Arbeit in der SCRUM-Methodik.",
+    "brv": "Ein Spieleanalyst, der bei seiner täglichen Arbeit selbst entwickelte Python-Tools einsetzt, um dem Team Daten besser und verständlicher zu präsentieren."
   },
   "projects": {
     "title": "PROJEKTE",

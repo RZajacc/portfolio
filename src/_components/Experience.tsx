@@ -4,8 +4,8 @@ import React from "react";
 type Props = {
   lang: {
     title: string;
-    entry1: string;
-    entry2: string;
+    codac: string;
+    brv: string;
   };
 };
 
@@ -29,7 +29,7 @@ function Experience({ lang }: Props) {
         <small className="exp-entry__date text-gray-400">
           07/2023 - 12-2023
         </small>
-        <p className="exp-entry__description">{lang.entry1}</p>
+        <p className="exp-entry__description">{lang.codac}</p>
       </div>
       <div className="exp-entry mt-3 rounded-sm p-1 hover:bg-slate-200/10">
         <h6 className="exp-entry__title font-bold text-amber-500">Scout</h6>
@@ -43,7 +43,7 @@ function Experience({ lang }: Props) {
           </a>
         </p>
         <small className="exp-entry__date text-gray-400">2019 - 2023</small>
-        <p className="exp-entry__description">{lang.entry2}</p>
+        <p className="exp-entry__description">{lang.brv}</p>
       </div>
     </section>
   );

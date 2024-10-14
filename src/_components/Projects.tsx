@@ -1,10 +1,13 @@
-import Image from "next/image";
 import React from "react";
-import linkIcon from "/public/link-icon.svg";
-import marsRover from "/public/mars_rover.jpeg";
-import forkit from "/public/forkit.jpeg";
-import totart from "/public/totart.png";
-import codask from "/public/codask.jpg";
+// Images
+import totArtImage from "/public/totart.png";
+import codeAskImage from "/public/codask.jpg";
+import forkitImage from "/public/forkit.jpeg";
+import marsRoverImage from "/public/mars_rover.jpeg";
+// Project sections
+import TitleSection from "./projects/TitleSection";
+import TechStackSection from "./projects/TechStackSection";
+import ImageSection from "./projects/ImageSection";
 
 type Props = {
   lang: {
@@ -30,83 +33,15 @@ function Projects({ lang }: Props) {
   return (
     <section id="projects">
       <h4 className="font-bold">{lang.title}</h4>
-      {/* Codask */}
-      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <div className="proj-entry__title flex justify-center">
-          <h6 className="font-bold">
-            <a
-              href="https://github.com/helene-abiassi/CodaSk"
-              className="flex cursor-myhand hover:animate-pulse"
-              target="blank"
-            >
-              Codask <Image src={linkIcon} alt="link-icon" />
-            </a>
-          </h6>
-        </div>
-        <p className="proj-entry__description">{lang.Codask.desc}</p>
-        {/* Current state */}
-        <div className="proj-entry__state">
-          <h6 className="mt-2 font-bold text-fuchsia-500">
-            {lang.state_title}
-          </h6>
-          <p>{lang.Codask.state}</p>
-        </div>
-        <div className="proj-entry__image mt-3">
-          <a
-            href="https://github.com/helene-abiassi/CodaSk"
-            target="_blank"
-            className="cursor-myhand hover:animate-pulse"
-          >
-            <Image
-              src={codask}
-              alt="mars-rover-page-image"
-              className="b mx-auto rounded-sm"
-            />
-          </a>
-        </div>
-        <div className="proj-entry__stack mt-3 flex flex-wrap">
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            NextJS
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            React
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            TypeScript
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            TailwindCSS
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            NodeJS
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            ExpressJS
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            MongoDB
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            GraphQL
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            NextAuth
-          </button>
-        </div>
-      </div>
+
       {/* Totart project */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <div className="proj-entry__title flex justify-center">
-          <h6 className="font-bold">
-            <a
-              href="https://tot-art-v-2-0.vercel.app/"
-              className="flex cursor-myhand hover:animate-pulse"
-              target="blank"
-            >
-              Totart <Image src={linkIcon} alt="link-icon" />
-            </a>
-          </h6>
-        </div>
+        {/* Project title */}
+        <TitleSection
+          projectUrl="https://tot-art-v-2-0.vercel.app/"
+          projectTitle="totArt"
+        />
+        {/* Project description */}
         <p className="proj-entry__description">
           {lang.Totart.desc}
           {lang.click}
@@ -120,62 +55,71 @@ function Projects({ lang }: Props) {
           {lang.git}
         </p>
 
-        <div className="proj-entry__image mt-3">
-          <a
-            href="https://tot-art-v-2-0.vercel.app/"
-            target="_blank"
-            className="cursor-myhand hover:animate-pulse"
-          >
-            <Image
-              src={totart}
-              alt="mars-rover-page-image"
-              className="b mx-auto rounded-sm"
-            />
-          </a>
-        </div>
-        <div className="proj-entry__stack mt-3 flex flex-wrap">
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            NextJS
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            React
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            TypeScript
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            TailwindCSS
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            NodeJS
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            ExpressJS
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            MongoDB
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            JWT
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            Passport
-          </button>
-        </div>
+        {/* Image section */}
+        <ImageSection
+          projectURL="https://tot-art-v-2-0.vercel.app/"
+          imageData={totArtImage}
+          imageAltText="Totart project image"
+        />
+
+        {/* Tech Stack section */}
+        <TechStackSection
+          techStack={[
+            "NextJS",
+            "React",
+            "SWR",
+            "TypeScript",
+            "TailwindCSS",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "JWT",
+            "Passport",
+          ]}
+        />
       </div>
+
+      {/* Codask */}
+      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
+        {/* Project title */}
+        <TitleSection
+          projectUrl="https://github.com/helene-abiassi/CodaSk"
+          projectTitle="CodaSk"
+        />
+        {/* Project description */}
+        <p className="proj-entry__description">{lang.Codask.desc}</p>
+
+        {/* Image section */}
+        <ImageSection
+          projectURL="https://github.com/helene-abiassi/CodaSk"
+          imageData={codeAskImage}
+          imageAltText="Codask project image"
+        />
+
+        {/* Tech Stack section */}
+        <TechStackSection
+          techStack={[
+            "NextJS",
+            "React",
+            "TypeScript",
+            "TailwindCSS",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "GraphQL",
+            "NextAuth",
+          ]}
+        />
+      </div>
+
       {/* Forkit it project */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <div className="proj-entry__title flex justify-center">
-          <h6 className="font-bold">
-            <a
-              href="https://forkitorleaveit.netlify.app/"
-              target="_blank"
-              className="flex cursor-myhand hover:animate-pulse"
-            >
-              ForkIt <Image src={linkIcon} alt="link-icon" />
-            </a>
-          </h6>
-        </div>
+        {/* Project title */}
+        <TitleSection
+          projectUrl="https://forkitorleaveit.netlify.app/"
+          projectTitle="ForkIt"
+        />
+        {/* Project description */}
         <p className="proj-entry__description">
           {lang.ForkIt}
           <a
@@ -195,50 +139,35 @@ function Projects({ lang }: Props) {
           </a>{" "}
           {lang.git}
         </p>
-        <div className="proj-entry__image mt-3">
-          <a
-            href="https://forkitorleaveit.netlify.app/"
-            className="cursor-myhand hover:animate-pulse"
-            target="_blank"
-          >
-            <Image
-              src={forkit}
-              alt="mars-rover-page-image"
-              className="b mx-auto rounded-sm"
-            />
-          </a>
-        </div>
-        <div className="proj-entry__stack mt-3 flex flex-wrap">
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            React
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            TypeScript
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            Sass
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            Firebase
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            Vite
-          </button>
-        </div>
+
+        {/* Image section */}
+        <ImageSection
+          projectURL="https://forkitorleaveit.netlify.app/"
+          imageData={forkitImage}
+          imageAltText="Forkit project image"
+        />
+
+        {/* Tech Stack section */}
+        <TechStackSection
+          techStack={[
+            "React",
+            "React-router",
+            "TypeScript",
+            "Sass",
+            "Firebase",
+            "Vite",
+          ]}
+        />
       </div>
+
       {/* Mars rover project */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <div className="proj-entry__title flex justify-center ">
-          <h6 className="font-bold">
-            <a
-              href="https://marsroverapp.netlify.app/"
-              className="flex cursor-myhand hover:animate-pulse"
-              target="blank"
-            >
-              Mars Rover <Image src={linkIcon} alt="link-icon" />
-            </a>
-          </h6>
-        </div>
+        {/* Project title */}
+        <TitleSection
+          projectUrl="https://marsroverapp.netlify.app/"
+          projectTitle="Mars Rover"
+        />
+        {/* Project description */}
         <p className="proj-entry__description">
           {lang.MarsRover}
           <a
@@ -258,36 +187,18 @@ function Projects({ lang }: Props) {
           </a>
           {lang.git}
         </p>
-        <div className="proj-entry__image mt-3">
-          <a
-            href="https://marsroverapp.netlify.app/"
-            className="cursor-myhand hover:animate-pulse"
-            target="_blank"
-          >
-            <Image
-              src={marsRover}
-              alt="mars-rover-page-image"
-              className="b mx-auto rounded-sm"
-            />
-          </a>
-        </div>
-        <div className="proj-entry__stack mt-3 flex flex-wrap">
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            JavaScript
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            TypeScript
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            Sass
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            Vitest
-          </button>
-          <button className="m-1 cursor-mycursor rounded-2xl border-2 border-amber-500 px-3 py-1 text-sm text-amber-500">
-            Webpack
-          </button>
-        </div>
+
+        {/* Image section */}
+        <ImageSection
+          projectURL="https://marsroverapp.netlify.app/"
+          imageData={marsRoverImage}
+          imageAltText="Mars rover project image"
+        />
+
+        {/* Tech Stack section */}
+        <TechStackSection
+          techStack={["JavaScript", "TypeScript", "Sass", "Vitest", "Webpack"]}
+        />
       </div>
     </section>
   );

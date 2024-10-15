@@ -34,8 +34,22 @@
   },
   "experience": {
     "title": "DOŚWIADCZENIE",
-    "codac": "Pełnowymiarowy, stacjonarny bootcamp obejmujący 840h pracy opartej na projektach w metodologii SCRUM.",
-    "brv": "Analiza gry przeciwnika, z wykorzystaniem własnych skryptów napisanych w języku Python w celu lepszej i bardziej przystępnej wizualnie prezentacji danych dla sztabu i zawodników."
+    "codac": {
+      "title": "Programista Full Stack",
+      "desc": "Pełnowymiarowy, stacjonarny bootcamp obejmujący 840h pracy opartej na projektach w metodologii SCRUM."
+    },
+    "brv": {
+      "title": "Statystyk",
+      "desc": "Analiza gry przeciwnika, z wykorzystaniem własnych skryptów napisanych w języku Python w celu lepszej i bardziej przystępnej wizualnie prezentacji danych dla sztabu i zawodników."
+    },
+    "dg": {
+      "title": "Statystyk",
+      "desc": "Do moich zadań jako statystyka należało zbieranie zdanych, przygotowanie meczowej strategii i jej prezentacja dla zespołu."
+    },
+    "awf": {
+      "title": "Technik",
+      "desc": "Jako techink byłem zaangażowany w pozyskiwanie i opracowywanie danych w ramach prowadzonych przez zakład projektów badawczych."
+    }
   },
   "projects": {
     "title": "PROJEKTY",

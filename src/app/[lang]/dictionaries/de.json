@@ -34,8 +34,22 @@
   },
   "experience": {
     "title": "ERFAHRUNG",
-    "codac": "Vollzeit Coding Bootcamp vor Ort mit 840 Stunden praktischer, projektbasierter Arbeit in der SCRUM-Methodik.",
-    "brv": "Ein Spieleanalyst, der bei seiner täglichen Arbeit selbst entwickelte Python-Tools einsetzt, um dem Team Daten besser und verständlicher zu präsentieren."
+    "codac": {
+      "title": "Full Stack Web Entwicklung",
+      "desc": "Vollzeit Coding Bootcamp vor Ort mit 840 Stunden praktischer, projektbasierter Arbeit in der SCRUM-Methodik."
+    },
+    "brv": {
+      "title": "Spiel analyst",
+      "desc": "Ein Spieleanalyst, der bei seiner täglichen Arbeit selbst entwickelte Python-Tools einsetzt, um dem Team Daten besser und verständlicher zu präsentieren."
+    },
+    "dg": {
+      "title": "Spiel analyst",
+      "desc": "Als Spielanalytiker sammelte und analysierte ich Daten, um Spielstrategien zu entwickeln, und präsentierte meine Ergebnisse dem Team."
+    },
+    "awf": {
+      "title": "Techniker",
+      "desc": "Als Techniker war ich aktiv an der Datenerfassung und -vorverarbeitung für verschiedene wissenschaftliche Projekte innerhalb der Abteilung beteiligt."
+    }
   },
   "projects": {
     "title": "PROJEKTE",

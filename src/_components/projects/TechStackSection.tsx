@@ -8,8 +8,8 @@ type Props = {
 function TechStack({ techStack }: Props) {
   return (
     <div className="proj-entry__stack mt-3 flex flex-wrap">
-      {techStack.map((label) => {
-        return <TechStackPill label={label} />;
+      {techStack.map((label, idx) => {
+        return <TechStackPill label={label} key={idx} />;
       })}
     </div>
   );

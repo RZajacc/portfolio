@@ -34,8 +34,22 @@
   },
   "experience": {
     "title": "EXPERIENCE",
-    "codac": "Full-Time on site coding bootcamp covering 840h of practical project based work in SCRUM methodology.",
-    "brv": "A game analyst who uses self-built Python tools in his daily work to present data to the team in a better and more readable way."
+    "codac": {
+      "title": "Full Stack Web Development",
+      "desc": "Full-Time on site coding bootcamp covering 840h of practical project based work in SCRUM methodology."
+    },
+    "brv": {
+      "title": "Game analyst",
+      "desc": "A game analyst who uses self-built Python tools in his daily work to present data to the team in a better and more readable way."
+    },
+    "dg": {
+      "title": "Game analyst",
+      "desc": "As a game analyst, I collected and analyzed data to develop strategies, and presented insights to the team."
+    },
+    "awf": {
+      "title": "Technician",
+      "desc": "As a technician, I was actively involved in data collection and pre-processing for various scientific projects within the department."
+    }
   },
   "projects": {
     "title": "PROJECTS",

@@ -1,6 +1,5 @@
-import Image from "next/image";
 import React from "react";
-import ExperienceElement from "./experience/experienceElement";
+import ExperienceElement from "./experience/ExperienceElement";
 
 type Props = {
   lang: {

@@ -17,7 +17,7 @@ export default async function Page({ params: { lang } }: Props) {
   return (
     <div
       id="page-grid-container"
-      className="mx-auto mt-3 max-w-3xl p-2 lg:max-w-4xl"
+      className="mx-auto mt-3 max-w-4xl p-2 lg:max-w-6xl"
     >
       <NavBar lang={intl.navbar} />
       <Header lang={intl.header} />

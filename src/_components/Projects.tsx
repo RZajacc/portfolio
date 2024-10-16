@@ -4,6 +4,7 @@ import totArtImage from "/public/totart.png";
 import codeAskImage from "/public/codask.jpg";
 import forkitImage from "/public/forkit.jpeg";
 import marsRoverImage from "/public/mars_rover.jpeg";
+import ecosphereImage from "/public/ecosphere.png";
 // Project sections
 import TitleSection from "./projects/TitleSection";
 import TechStackSection from "./projects/TechStackSection";
@@ -19,6 +20,7 @@ type Props = {
     deployment: string;
     clickHere: string;
     data: string;
+    Ecosphere: string;
     Totart: string;
     MarsRover: string;
     ForkIt: string;
@@ -30,6 +32,39 @@ function Projects({ lang }: Props) {
   return (
     <section id="projects">
       <h4 className="font-bold">{lang.title}</h4>
+
+      {/* Ecosphere PROJECT */}
+      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
+        <TitleSection
+          projectUrl="https://github.com/RZajacc/EcoSphere"
+          projectTitle="EcoSphere"
+        />
+
+        <DescriptionSection
+          description={lang.Ecosphere}
+          gitHubURL="https://github.com/RZajacc/EcoSphere"
+          gitHubText={lang.gitHub}
+          clickHereText={lang.clickHere}
+        />
+
+        <ImageSection
+          projectURL="https://github.com/RZajacc/EcoSphere"
+          imageData={ecosphereImage}
+          imageAltText="EcoSphere project image"
+        />
+
+        <TechStackSection
+          techStack={[
+            "NextJS",
+            "React",
+            "TypeScript",
+            "TailwindCSS",
+            "NodeJS",
+            "ExpressJS",
+            "PostgreSQL",
+          ]}
+        />
+      </div>
 
       {/* TOTART PROJECT */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">

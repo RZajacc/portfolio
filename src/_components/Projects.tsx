@@ -57,11 +57,17 @@ function Projects({ lang }: Props) {
           techStack={[
             "NextJS",
             "React",
+            "SWR",
+            "ZOD",
             "TypeScript",
             "TailwindCSS",
             "NodeJS",
             "ExpressJS",
             "PostgreSQL",
+            "JWT",
+            "Passport",
+            "Bcrypt",
+            "Multer",
             "Google Cloud Storage",
           ]}
         />
@@ -104,6 +110,8 @@ function Projects({ lang }: Props) {
             "MongoDB",
             "JWT",
             "Passport",
+            "Bcrypt",
+            "Multer",
           ]}
         />
       </div>

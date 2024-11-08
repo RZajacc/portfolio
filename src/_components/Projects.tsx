@@ -62,6 +62,7 @@ function Projects({ lang }: Props) {
             "NodeJS",
             "ExpressJS",
             "PostgreSQL",
+            "Google Cloud Storage",
           ]}
         />
       </div>

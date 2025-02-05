@@ -76,8 +76,8 @@ function Projects({ lang }: Props) {
       {/* TOTART PROJECT */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
         <TitleSection
-          projectUrl="https://tot-art-v-2-0.vercel.app/"
-          projectTitle="totArt"
+          projectUrl="http://ec2-3-87-231-53.compute-1.amazonaws.com:3000/"
+          projectTitle="TotArt"
         />
 
         <DescriptionSection
@@ -88,12 +88,12 @@ function Projects({ lang }: Props) {
         >
           <DescriptionSpan
             label={lang.deployment}
-            text="Vercel, Render (REST API)"
+            text="AWS-EC2"
           />
         </DescriptionSection>
 
         <ImageSection
-          projectURL="https://tot-art-v-2-0.vercel.app/"
+          projectURL="http://ec2-3-87-231-53.compute-1.amazonaws.com:3000/"
           imageData={totArtImage}
           imageAltText="Totart project image"
         />
@@ -112,6 +112,7 @@ function Projects({ lang }: Props) {
             "Passport",
             "Bcrypt",
             "Multer",
+            "Docker"
           ]}
         />
       </div>
@@ -120,13 +121,13 @@ function Projects({ lang }: Props) {
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
         {/* Project title */}
         <TitleSection
-          projectUrl="https://github.com/helene-abiassi/CodaSk"
+          projectUrl="https://github.com/RZajacc/CodaSk"
           projectTitle="CodaSk"
         />
 
         <DescriptionSection
           description={lang.Codask}
-          gitHubURL="https://github.com/helene-abiassi/CodaSk"
+          gitHubURL="https://github.com/RZajacc/CodaSk"
           gitHubText={lang.gitHub}
           clickHereText={lang.clickHere}
         >
@@ -138,7 +139,7 @@ function Projects({ lang }: Props) {
         </DescriptionSection>
 
         <ImageSection
-          projectURL="https://github.com/helene-abiassi/CodaSk"
+          projectURL="https://github.com/RZajacc/CodaSk"
           imageData={codeAskImage}
           imageAltText="Codask project image"
         />

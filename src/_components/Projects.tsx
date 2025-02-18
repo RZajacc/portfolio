@@ -33,6 +33,86 @@ function Projects({ lang }: Props) {
     <section id="projects">
       <h4 className="font-bold">{lang.title}</h4>
 
+      {/* TOTART PROJECT */}
+      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
+        <TitleSection
+          projectUrl="http://ec2-3-87-231-53.compute-1.amazonaws.com:3000/"
+          projectTitle="TotArt"
+        />
+
+        <DescriptionSection
+          description={lang.Totart}
+          gitHubURL="https://github.com/RZajacc/totArt_v.2.0"
+          gitHubText={lang.gitHub}
+          clickHereText={lang.clickHere}
+        >
+          <DescriptionSpan label={lang.deployment} text="AWS-EC2" />
+        </DescriptionSection>
+
+        <ImageSection
+          projectURL="http://ec2-3-87-231-53.compute-1.amazonaws.com:3000/"
+          imageData={totArtImage}
+          imageAltText="Totart project image"
+        />
+
+        <TechStackSection
+          techStack={[
+            "NextJS",
+            "React",
+            "SWR",
+            "TypeScript",
+            "TailwindCSS",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "JWT",
+            "Passport",
+            "Bcrypt",
+            "Multer",
+            "Docker",
+          ]}
+        />
+      </div>
+
+      {/* FORKIT PROJECT */}
+      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
+        <TitleSection
+          projectUrl="https://forkitorleaveit.netlify.app/"
+          projectTitle="ForkIt"
+        />
+
+        <DescriptionSection
+          description={lang.ForkIt}
+          gitHubURL="https://github.com/RZajacc/ForkIt_2.0"
+          gitHubText={lang.gitHub}
+          clickHereText={lang.clickHere}
+        >
+          <DescriptionLink
+            label={lang.data}
+            url="https://spoonacular.com/food-api"
+            clickText="Spoonacular API"
+          />
+          <DescriptionSpan label={lang.deployment} text="Neflify" />
+        </DescriptionSection>
+
+        <ImageSection
+          projectURL="https://forkitorleaveit.netlify.app/"
+          imageData={forkitImage}
+          imageAltText="Forkit project image"
+        />
+
+        <TechStackSection
+          techStack={[
+            "React",
+            "React-router",
+            "TypeScript",
+            "Sass",
+            "Firebase",
+            "Vite",
+          ]}
+        />
+      </div>
+
       {/* Ecosphere PROJECT */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
         <TitleSection
@@ -69,50 +149,6 @@ function Projects({ lang }: Props) {
             "Bcrypt",
             "Multer",
             "Google Cloud Storage",
-          ]}
-        />
-      </div>
-
-      {/* TOTART PROJECT */}
-      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <TitleSection
-          projectUrl="http://ec2-3-87-231-53.compute-1.amazonaws.com:3000/"
-          projectTitle="TotArt"
-        />
-
-        <DescriptionSection
-          description={lang.Totart}
-          gitHubURL="https://github.com/RZajacc/totArt_v.2.0"
-          gitHubText={lang.gitHub}
-          clickHereText={lang.clickHere}
-        >
-          <DescriptionSpan
-            label={lang.deployment}
-            text="AWS-EC2"
-          />
-        </DescriptionSection>
-
-        <ImageSection
-          projectURL="http://ec2-3-87-231-53.compute-1.amazonaws.com:3000/"
-          imageData={totArtImage}
-          imageAltText="Totart project image"
-        />
-
-        <TechStackSection
-          techStack={[
-            "NextJS",
-            "React",
-            "SWR",
-            "TypeScript",
-            "TailwindCSS",
-            "NodeJS",
-            "ExpressJS",
-            "MongoDB",
-            "JWT",
-            "Passport",
-            "Bcrypt",
-            "Multer",
-            "Docker"
           ]}
         />
       </div>
@@ -155,45 +191,6 @@ function Projects({ lang }: Props) {
             "MongoDB",
             "GraphQL",
             "NextAuth",
-          ]}
-        />
-      </div>
-
-      {/* FORKIT PROJECT */}
-      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <TitleSection
-          projectUrl="https://forkitorleaveit.netlify.app/"
-          projectTitle="ForkIt"
-        />
-
-        <DescriptionSection
-          description={lang.ForkIt}
-          gitHubURL="https://github.com/RZajacc/ForkIt_2.0"
-          gitHubText={lang.gitHub}
-          clickHereText={lang.clickHere}
-        >
-          <DescriptionLink
-            label={lang.data}
-            url="https://spoonacular.com/food-api"
-            clickText="Spoonacular API"
-          />
-          <DescriptionSpan label={lang.deployment} text="Neflify" />
-        </DescriptionSection>
-
-        <ImageSection
-          projectURL="https://forkitorleaveit.netlify.app/"
-          imageData={forkitImage}
-          imageAltText="Forkit project image"
-        />
-
-        <TechStackSection
-          techStack={[
-            "React",
-            "React-router",
-            "TypeScript",
-            "Sass",
-            "Firebase",
-            "Vite",
           ]}
         />
       </div>

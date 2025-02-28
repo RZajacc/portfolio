@@ -74,6 +74,48 @@ function Projects({ lang }: Props) {
         />
       </div>
 
+      {/* CODASK PROJECT */}
+      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
+        {/* Project title */}
+        <TitleSection
+          projectUrl="http://ec2-3-87-231-53.compute-1.amazonaws.com:3001/"
+          projectTitle="CodaSk"
+        />
+
+        <DescriptionSection
+          description={lang.Codask}
+          gitHubURL="https://github.com/RZajacc/CodaSk"
+          gitHubText={lang.gitHub}
+          clickHereText={lang.clickHere}
+        >
+          <DescriptionLink
+            label="Figma"
+            url="https://www.figma.com/design/EvR6lR70uN6tXBimvGPnVR/Codask---Public?node-id=0-1&node-type=canvas&t=eiqCdGfBDypqMns4-0"
+            clickText={lang.clickHere + "!"}
+          />
+        </DescriptionSection>
+
+        <ImageSection
+          projectURL="http://ec2-3-87-231-53.compute-1.amazonaws.com:3001/"
+          imageData={codeAskImage}
+          imageAltText="Codask project image"
+        />
+
+        <TechStackSection
+          techStack={[
+            "NextJS",
+            "React",
+            "TypeScript",
+            "TailwindCSS",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "GraphQL",
+            "NextAuth",
+          ]}
+        />
+      </div>
+
       {/* FORKIT PROJECT */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
         <TitleSection
@@ -149,48 +191,6 @@ function Projects({ lang }: Props) {
             "Bcrypt",
             "Multer",
             "Google Cloud Storage",
-          ]}
-        />
-      </div>
-
-      {/* CODASK PROJECT */}
-      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        {/* Project title */}
-        <TitleSection
-          projectUrl="https://github.com/RZajacc/CodaSk"
-          projectTitle="CodaSk"
-        />
-
-        <DescriptionSection
-          description={lang.Codask}
-          gitHubURL="https://github.com/RZajacc/CodaSk"
-          gitHubText={lang.gitHub}
-          clickHereText={lang.clickHere}
-        >
-          <DescriptionLink
-            label="Figma"
-            url="https://www.figma.com/design/EvR6lR70uN6tXBimvGPnVR/Codask---Public?node-id=0-1&node-type=canvas&t=eiqCdGfBDypqMns4-0"
-            clickText={lang.clickHere + "!"}
-          />
-        </DescriptionSection>
-
-        <ImageSection
-          projectURL="https://github.com/RZajacc/CodaSk"
-          imageData={codeAskImage}
-          imageAltText="Codask project image"
-        />
-
-        <TechStackSection
-          techStack={[
-            "NextJS",
-            "React",
-            "TypeScript",
-            "TailwindCSS",
-            "NodeJS",
-            "ExpressJS",
-            "MongoDB",
-            "GraphQL",
-            "NextAuth",
           ]}
         />
       </div>

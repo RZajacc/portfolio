@@ -1,7 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import ExperienceURL from "./ExperienceURL";
 
 type Props = {
   jobTitle: string;
@@ -26,24 +24,8 @@ function ExperienceElement({
       <p className="exp-entry__location font-bold">{employer}</p>
       <small className="exp-entry__date text-gray-400">{employmentTime}</small>
       <div className="exp-entry__url">
-        {pageURL && (
-          <a
-            href={pageURL}
-            target="_blank"
-            className="cursor-myhand hover:animate-pulse"
-          >
-            <FontAwesomeIcon icon={faGlobe} className="mr-5 w-8" />
-          </a>
-        )}
-        {githubURL && (
-          <a
-            href={githubURL}
-            target="_blank"
-            className="cursor-myhand hover:animate-pulse"
-          >
-            <FontAwesomeIcon icon={faGithub} className="mr-5 w-8" />
-          </a>
-        )}
+        {pageURL && <ExperienceURL pageURL={pageURL} />}
+        {githubURL && <ExperienceURL githubURL={githubURL} />}
       </div>
 
       <p className="exp-entry__description">{description}</p>

@@ -57,11 +57,11 @@
     "deployment": "Deployed to: ",
     "clickHere": "Click here",
     "data": "Data: ",
-    "Ecosphere": "Web application inspired by Meetup. Created for individuals eager to learn more about sustainable living and join workshops or events. Ecosphere allows to easily publish and manage events, making it simple for people to discover and engage with sustainability-focused activities.",
-    "Totart": " Web application that allows its users to create and share content about interesting but lesser-known places in Berlin.",
-    "Codask": "A collaborative project that aims to create an online platform for Code Academy students to share knowledge and help each other solve problems.",
-    "ForkIt": "Food blog-style web application that allows users to browse and save their favourite recipes.",
-    "MarsRover": "Web application for people interested in space exploration. Users can search and view images of selected Mars rovers."
+    "Ecosphere": "A web application inspired by Meetup. Created for individuals eager to learn more about sustainable living and join workshops or events. Ecosphere allows to easily publish and manage events, making it simple for people to discover and engage with sustainability-focused activities.",
+    "Totart": "A platform for users to share unique, lesser-known locations around Berlin that deserve more attention. Users can browse locations created by other users, create own, add comments and save favourite locations into their accounts.",
+    "Codask": "Collaborative project that aims to serve as an educational platform for students, graduates and mentors at Code Academy Berlin. It is designed to provide an opportunity for students to post questions related to coding challenges they face while learning at Code-Academy. Users can browse previously posted questions, offer solutions to other students through comments, and post new questions.",
+    "ForkIt": "Culinary app for people looking for new recipes and dishes to try. It relies on Spoonacular API to browse recipes from different cuisines and dish types. Users can browse recipes by categories, create own account and save favourite recipes.",
+    "MarsRover": "App designed for people interested in space exploration. It queries the data from NASA's open API (Mars rover photos) and displays a gallery along with some information about the images. The user can choose which rover's data should be displayed, select a solar day on which the image was taken, and optionally query data collected by only one selected camera."
   },
   "footer": "And finally the project you are currently looking at. It was built with NextJS and React. Styled with TailwindCSS, and deployed on Vercel. Hope you like it!"
 }

@@ -58,10 +58,10 @@
     "clickHere": "Kliknij tutaj",
     "data": "Dane: ",
     "Ecosphere": "Aplikacja inspirowana przez Meetup. Stworzona dla osób chcących dowiedzieć się więcej o zasadach zrównoważonego rozwoju poprzez dołączenie do warsztatów i wydarzeń. Ecosphere pozwala w łatwy sposób publikować i zarządzać wydarzeniami, ułatwiając w ten sposób dotarcie do i aktywny udział do zorientowanych na zrównoważony rozwój wydarzeń.",
-    "Totart": " Aplikacja umożliwiająca użytkownikom publikowanie postów na temat interesujących ale mniej znanych miejsc w Berlinie.",
-    "Codask": "Grupowy projekt mający na celu storzenie platformy dla studentów Code Academy do dzielenie się wiedzą i pomocy w rozwiązywaniu napotanych problemów.",
-    "ForkIt": "Aplikacja wzorowana na blogach kulinarnych, pozwala użytkownikom na wyszukiwanie przepisów i zapisywanie ulubionych w swoim profilu.",
-    "MarsRover": "Aplikacja dla osób interesujących się eksploracją kosmosu. Użytkownicy mogą wyświetlać zdjęcia wybranego przez siebie marsjańskiego łazika."
+    "Totart": "Platforma dla użytkowników do dzielenia się unikalnymi, mniej znanymi miejscami w Berlinie, które zasługują na większą uwagę. Użytkownicy mogą przeglądać lokalizacje dodane przez innych, tworzyć własne, dodawać komentarze oraz zapisywać ulubione miejsca na swoim koncie.",
+    "Codask": "Grupowy projekt, który ma służyć jako platforma edukacyjna dla studentów, absolwentów i mentorów Code Academy Berlin. Został zaprojektowany, aby umożliwić studentom zadawanie pytań dotyczących wyzwań programistycznych, z którymi mierzą się podczas nauki. Użytkownicy mogą przeglądać wcześniej opublikowane pytania, oferować rozwiązania innym studentom poprzez komentarze oraz dodawać nowe pytania.",
+    "ForkIt": "Aplikacja kulinarna dla osób poszukujących nowych przepisów i dań. Wykorzystuje API Spoonacular do przeglądania przepisów z różnych kuchni i typów dań. Użytkownicy mogą przeglądać przepisy według kategorii, tworzyć własne konto i zapisywać ulubione przepisy.",
+    "MarsRover": "Aplikacja zaprojektowana dla osób zainteresowanych eksploracją kosmosu. Pobiera dane z otwartego API NASA (Mars Rover Photos) i wyświetla galerię wraz z informacjami o obrazach. Użytkownik może wybrać, z którego łazika mają być wyświetlane dane, określić dzień solarny, w którym zdjęcie zostało wykonane, oraz opcjonalnie pobrać dane zebrane tylko przez wybraną kamerę."
   },
   "footer": "I w końcu projekt na który teraz patrzysz. Został zbudowany z NextJS i React. Styl stworzony z TailwindCSS i wdrożenie z Vercel. Mam nadzieję, że Ci się podoba!"
 }

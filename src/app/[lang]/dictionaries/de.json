@@ -58,10 +58,10 @@
     "clickHere": "Klick hier",
     "data": "Datei: ",
     "Ecosphere": "Eine von Meetup inspirierte Web-Anwendung. Entwickelt für Menschen, die mehr über nachhaltiges Leben erfahren und an Workshops oder Veranstaltungen teilnehmen möchten. Ecosphere macht es einfach, Veranstaltungen zu veröffentlichen und zu verwalten, so dass es für die Menschen einfach ist, Nachhaltigkeitsaktivitäten zu entdecken und daran teilzunehmen.",
-    "Totart": " Web-Applikation, die es ihren Nutzern ermöglicht, Inhalte über interessante, aber weniger bekannte Orte in Berlin zu erstellen und zu teilen.",
-    "Codask": "Ein Gemeinschaftsprojekt zur Schaffung einer Online-Plattform für Code Academy Studenten, um Wissen auszutauschen und sich gegenseitig bei der Lösung von Problemen zu helfen.",
-    "ForkIt": "Web-Applikation im Stil eines Food-Blogs, mit der Nutzer ihre Lieblingsrezepte durchsuchen und speichern können. ",
-    "MarsRover": "Web-Applikation für Menschen, die sich für die Erforschung des Weltraums interessieren. Die Nutzer können Bilder ausgewählter Marsrover suchen und betrachten."
+    "Totart": "Eine Plattform für Nutzer, um einzigartige, weniger bekannte Orte in Berlin zu teilen, die mehr Aufmerksamkeit verdienen. Benutzer können von anderen erstellte Orte durchsuchen, eigene hinzufügen, Kommentare hinterlassen und ihre Lieblingsorte in ihrem Konto speichern.",
+    "Codask": "Kollaborationsprojekt, das als Bildungsplattform für Studierende, Absolventen und Mentoren der Code Academy Berlin dient. Es wurde entwickelt, um Studierenden die Möglichkeit zu geben, Fragen zu Programmierherausforderungen zu stellen, denen sie während ihres Lernens an der Code Academy begegnen. Benutzer können bereits gestellte Fragen durchsuchen, anderen Studierenden durch Kommentare Lösungen anbieten und neue Fragen posten.",
+    "ForkIt": "Eine kulinarische App für Menschen, die nach neuen Rezepten und Gerichten suchen. Sie nutzt die Spoonacular-API, um Rezepte aus verschiedenen Küchen und für unterschiedliche Gerichte zu durchsuchen. Benutzer können Rezepte nach Kategorien durchsuchen, ein eigenes Konto erstellen und Lieblingsrezepte speichern.",
+    "MarsRover": "Eine App für Menschen, die sich für die Erforschung des Weltraums interessieren. Sie ruft Daten aus der offenen NASA-API (Mars Rover Photos) ab und zeigt eine Galerie mit Informationen zu den Bildern an. Der Benutzer kann auswählen, von welchem Rover die Daten angezeigt werden sollen, einen Sol-Tag wählen, an dem das Bild aufgenommen wurde, und optional Daten abrufen, die nur von einer bestimmten Kamera erfasst wurden."
   },
   "footer": "Und schließlich das Projekt, das Sie gerade sehen. Es wurde mit NextJS und React erstellt. Entworfen mit TailwindCSS und im Einsatz auf Vercel. Ich hoffe, es gefällt Ihnen!"
 }

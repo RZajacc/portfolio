@@ -33,21 +33,55 @@ function Projects({ lang }: Props) {
     <section id="projects">
       <h4 className="font-bold">{lang.title}</h4>
 
+      {/* CODASK PROJECT */}
+      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
+        {/* Project title */}
+        <TitleSection projectTitle="CodaSk" />
+
+        <DescriptionSection
+          description={lang.Codask}
+          githubURL="https://github.com/RZajacc/CodaSk"
+          pageURL="http://ec2-3-87-231-53.compute-1.amazonaws.com:3001/"
+          figmaURL="https://www.figma.com/design/EvR6lR70uN6tXBimvGPnVR/Codask---Public?node-id=0-1&node-type=canvas&t=eiqCdGfBDypqMns4-0"
+        >
+          <p className=" py-1 text-lg text-red-500">Ongoing project!</p>
+        </DescriptionSection>
+
+        <ImageSection
+          projectURL="http://ec2-3-87-231-53.compute-1.amazonaws.com:3001/"
+          imageData={codeAskImage}
+          imageAltText="Codask project image"
+        />
+
+        <TechStackSection
+          techStack={[
+            "NextJS",
+            "Next-Auth",
+            "React",
+            "TypeScript",
+            "TailwindCSS",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "GraphQL",
+            "Docker",
+            "Jest",
+            "Playwright",
+            "Github Actions",
+            "AWS",
+          ]}
+        />
+      </div>
+
       {/* TOTART PROJECT */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <TitleSection
-          projectUrl="http://ec2-3-87-231-53.compute-1.amazonaws.com:3000/"
-          projectTitle="TotArt"
-        />
+        <TitleSection projectTitle="TotArt" />
 
         <DescriptionSection
           description={lang.Totart}
-          gitHubURL="https://github.com/RZajacc/totArt_v.2.0"
-          gitHubText={lang.gitHub}
-          clickHereText={lang.clickHere}
-        >
-          <DescriptionSpan label={lang.deployment} text="AWS-EC2" />
-        </DescriptionSection>
+          githubURL="https://github.com/RZajacc/totArt_v.2.0"
+          pageURL="http://ec2-3-87-231-53.compute-1.amazonaws.com:3000/"
+        />
 
         <ImageSection
           projectURL="http://ec2-3-87-231-53.compute-1.amazonaws.com:3000/"
@@ -66,76 +100,21 @@ function Projects({ lang }: Props) {
             "ExpressJS",
             "MongoDB",
             "JWT",
-            "Passport",
-            "Bcrypt",
-            "Multer",
             "Docker",
-          ]}
-        />
-      </div>
-
-      {/* CODASK PROJECT */}
-      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        {/* Project title */}
-        <TitleSection
-          projectUrl="http://ec2-3-87-231-53.compute-1.amazonaws.com:3001/"
-          projectTitle="CodaSk"
-        />
-
-        <DescriptionSection
-          description={lang.Codask}
-          gitHubURL="https://github.com/RZajacc/CodaSk"
-          gitHubText={lang.gitHub}
-          clickHereText={lang.clickHere}
-        >
-          <DescriptionLink
-            label="Figma"
-            url="https://www.figma.com/design/EvR6lR70uN6tXBimvGPnVR/Codask---Public?node-id=0-1&node-type=canvas&t=eiqCdGfBDypqMns4-0"
-            clickText={lang.clickHere + "!"}
-          />
-        </DescriptionSection>
-
-        <ImageSection
-          projectURL="http://ec2-3-87-231-53.compute-1.amazonaws.com:3001/"
-          imageData={codeAskImage}
-          imageAltText="Codask project image"
-        />
-
-        <TechStackSection
-          techStack={[
-            "NextJS",
-            "React",
-            "TypeScript",
-            "TailwindCSS",
-            "NodeJS",
-            "ExpressJS",
-            "MongoDB",
-            "GraphQL",
-            "NextAuth",
+            "AWS",
           ]}
         />
       </div>
 
       {/* FORKIT PROJECT */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <TitleSection
-          projectUrl="https://forkitorleaveit.netlify.app/"
-          projectTitle="ForkIt"
-        />
+        <TitleSection projectTitle="ForkIt" />
 
         <DescriptionSection
           description={lang.ForkIt}
-          gitHubURL="https://github.com/RZajacc/ForkIt_2.0"
-          gitHubText={lang.gitHub}
-          clickHereText={lang.clickHere}
-        >
-          <DescriptionLink
-            label={lang.data}
-            url="https://spoonacular.com/food-api"
-            clickText="Spoonacular API"
-          />
-          <DescriptionSpan label={lang.deployment} text="Neflify" />
-        </DescriptionSection>
+          githubURL="https://github.com/RZajacc/ForkIt_2.0"
+          pageURL="https://forkitorleaveit.netlify.app/"
+        />
 
         <ImageSection
           projectURL="https://forkitorleaveit.netlify.app/"
@@ -157,16 +136,11 @@ function Projects({ lang }: Props) {
 
       {/* Ecosphere PROJECT */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <TitleSection
-          projectUrl="https://github.com/RZajacc/EcoSphere"
-          projectTitle="EcoSphere"
-        />
+        <TitleSection projectTitle="EcoSphere" />
 
         <DescriptionSection
           description={lang.Ecosphere}
-          gitHubURL="https://github.com/RZajacc/EcoSphere"
-          gitHubText={lang.gitHub}
-          clickHereText={lang.clickHere}
+          githubURL="https://github.com/RZajacc/EcoSphere"
         />
 
         <ImageSection
@@ -187,9 +161,6 @@ function Projects({ lang }: Props) {
             "ExpressJS",
             "PostgreSQL",
             "JWT",
-            "Passport",
-            "Bcrypt",
-            "Multer",
             "Google Cloud Storage",
           ]}
         />
@@ -197,24 +168,13 @@ function Projects({ lang }: Props) {
 
       {/* MARS ROVER PROJECT */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <TitleSection
-          projectUrl="https://marsroverapp.netlify.app/"
-          projectTitle="Mars Rover"
-        />
+        <TitleSection projectTitle="Mars Rover" />
 
         <DescriptionSection
           description={lang.MarsRover}
-          gitHubURL="https://github.com/RZajacc/MarsRover_3.0"
-          gitHubText={lang.gitHub}
-          clickHereText={lang.clickHere}
-        >
-          <DescriptionLink
-            label={lang.data}
-            url="https://api.nasa.gov/"
-            clickText="NASA API"
-          />
-          <DescriptionSpan label={lang.deployment} text="Neflify" />
-        </DescriptionSection>
+          githubURL="https://github.com/RZajacc/MarsRover_3.0"
+          pageURL="https://marsroverapp.netlify.app/"
+        />
 
         <ImageSection
           projectURL="https://marsroverapp.netlify.app/"

@@ -40,7 +40,7 @@
     },
     "brv": {
       "title": "Game analyst",
-      "desc": "A game analyst who uses self-built Python tools in his daily work to present data to the team in a better and more readable way."
+      "desc": "As a game analyst, I collected and analyzed data to develop game strategies, working closely with the coaching staff. Recognizing opportunities for automation in my workflow, I used Python together with its rich data processing and visualisation libraries. This led to a more efficient workflow, reducing time spent on manual data analysis and enabling faster decision-making for the team."
     },
     "dg": {
       "title": "Game analyst",
@@ -48,7 +48,7 @@
     },
     "awf": {
       "title": "Technician",
-      "desc": "As a technician, I was actively involved in data collection and pre-processing for various scientific projects within the department."
+      "desc": "As a technician, I supported scientific projects by collecting, pre-processing, and visualizing data using Python and Excel. I collaborated with research teams to ensure data accuracy and streamline processes, resulting in more efficient data analysis."
     }
   },
   "projects": {

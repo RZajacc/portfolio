@@ -40,7 +40,7 @@
     },
     "brv": {
       "title": "Statystyk",
-      "desc": "Analiza gry przeciwnika, z wykorzystaniem własnych skryptów napisanych w języku Python w celu lepszej i bardziej przystępnej wizualnie prezentacji danych dla sztabu i zawodników."
+      "desc": "Jako analityk gier zbierałem i analizowałem dane w celu opracowania strategii gry, ściśle współpracując ze sztabem trenerskim. Dostrzegając możliwości automatyzacji w moim procesie pracy, wykorzystałem Pythona wraz z jego bogatymi bibliotekami do przetwarzania i wizualizacji danych. Dzięki temu usprawniłem organizację pracy, skracając czas poświęcany na ręczną analizę danych i umożliwiając szybsze podejmowanie decyzji przez zespół"
     },
     "dg": {
       "title": "Statystyk",
@@ -48,7 +48,7 @@
     },
     "awf": {
       "title": "Technik",
-      "desc": "Jako techink byłem zaangażowany w pozyskiwanie i opracowywanie danych w ramach prowadzonych przez zakład projektów badawczych."
+      "desc": "Jako technik udzielałem wsparcia w szeregu naukowó projektów, zbierając, wstępnie przetwarzając i wizualizując dane za pomocą Pythona i Excela. Współpracowałem z zespołami badawczymi, aby zapewnić wysoką jakość danych i usprawnić procesy, co skutkowało bardziej efektywną analizą danych."
     }
   },
   "projects": {

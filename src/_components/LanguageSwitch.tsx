@@ -25,7 +25,7 @@ const SwitchLang = ({}: Props) => {
       <select
         value={currentLang}
         onChange={handleLangSel}
-        className="cursor-myhand rounded-sm bg-slate-600 py-1"
+        className="cursor-myhand rounded-sm bg-slate-600 p-1"
       >
         {/* Depending on the browser it will render either flag or contry code */}
         <option value="en">&#x1F1EC;&#x1F1E7;</option>

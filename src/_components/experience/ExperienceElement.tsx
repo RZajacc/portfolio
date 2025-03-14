@@ -27,7 +27,6 @@ function ExperienceElement({
         {pageURL && <ExperienceURL pageURL={pageURL} />}
         {githubURL && <ExperienceURL githubURL={githubURL} />}
       </div>
-
       <p className="exp-entry__description">{description}</p>
     </div>
   );

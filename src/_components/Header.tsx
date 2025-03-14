@@ -18,7 +18,7 @@ function Header({ lang }: Props) {
       <h3 className="font-bold">Rafał Zając</h3>
       <h5 className="mt-2">Junior Full Stack Developer</h5>
       <p className="mt-2 text-gray-400">{lang.description}</p>
-      <div className="mt-2 flex p-2">
+      <div className="mt-2 flex justify-center p-2 md:justify-start">
         <a
           href={"https://www.linkedin.com/in/rafalzajac88/"}
           target="_blank"
@@ -44,11 +44,11 @@ function Header({ lang }: Props) {
           <FontAwesomeIcon icon={faEnvelope} className="w-8" target="_blank" />
         </a>
       </div>
-      <div className="mt-4">
+      <div className="mt-4 justify-center">
         <a
           href="./RafalZajacResume.pdf"
           target="_blank"
-          className="flex w-56 cursor-myhand text-xl hover:animate-pulse"
+          className="flex cursor-myhand justify-center text-xl hover:animate-pulse md:justify-start"
         >
           {lang.resume} <Image src={linkIcon} alt="link-icon" />
         </a>

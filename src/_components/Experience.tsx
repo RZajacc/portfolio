@@ -32,12 +32,15 @@ function Experience({ lang }: Props) {
         employer="Code Academy Berlin"
         employmentTime="07/2023 - 12-2023"
         description={lang.codac.desc}
+        pageURL="https://www.codeacademyberlin.com/"
       />
       <ExperienceElement
         jobTitle={lang.brv.title}
         employer="Berlin Recycling Volleys"
         employmentTime="2019 - 2023"
         description={lang.brv.desc}
+        pageURL="https://www.berlin-recycling-volleys.de/"
+        githubURL="https://github.com/RZajacc/VertData"
       />
       <ExperienceElement
         jobTitle={lang.dg.title}
@@ -50,6 +53,8 @@ function Experience({ lang }: Props) {
         employer="Academy of Physical Education in Katowice"
         employmentTime="2016 - 2017"
         description={lang.awf.desc}
+        pageURL="https://awf.katowice.pl/"
+        githubURL="https://github.com/RZajacc/ForcePlatform"
       />
     </section>
   );

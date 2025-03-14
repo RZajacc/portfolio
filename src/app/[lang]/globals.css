@@ -8,10 +8,50 @@ body {
     default;
 }
 
+/* General page grid */
 #page-grid-container {
   display: grid;
   row-gap: 3rem;
 }
+
+/* Experience entries grid style */
+.exp-entry {
+  display: grid;
+  grid-template-areas:
+  "title"
+  "location"
+  "date"
+  "description"
+  "url"
+  ;
+}
+
+.exp-entry__date {
+  grid-area: date;
+  padding: 0.35rem 0rem;
+}
+
+  .exp-entry__title {
+    grid-area: title;
+  }
+
+  .exp-entry__url {
+    grid-area: url;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.7rem 0rem;
+    
+  }
+
+  .exp-entry__location {
+    grid-area: location;
+  }
+
+  .exp-entry__description {
+    grid-area: description;
+  }
+
 
 @media (min-width: 640px) {
   .exp-entry {
@@ -20,8 +60,8 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "date title title title"
-      "date location location location"
-      "date description description description";
+      "url location location location"
+      "url description description description";
   }
   .exp-entry__date {
     grid-area: date;
@@ -30,6 +70,15 @@ body {
 
   .exp-entry__title {
     grid-area: title;
+  }
+
+  .exp-entry__url {
+    grid-area: url;
+    display: flex;
+    align-items: center;
+    /* justify-content: baseline; */
+    gap: 0.5rem;
+    margin-left: 0.5rem;
   }
 
   .exp-entry__location {

@@ -10,7 +10,7 @@
     "projects": "Projekty"
   },
   "header": {
-    "description": "Ciągle uczę się czegoś nowego i zagłębiam się w tematy, które już znam. Pracuję głównie ze stackiem MERN. Staram się również dodać do niego język niemiecki.",
+    "description": "Junior Full Stack Developer z praktycznym doświadczeniem w tworzeniu aplikacji frontendowych przy użyciu React i Next.js oraz backendowych z wykorzystaniem Node.js. Wprawny w projektowaniu REST API, konteneryzacji aplikacji za pomocą Dockera oraz wdrażaniu na platformach chmurowych, takich jak AWS. Aktualnie zdobywa doświadczenie w praktykach CI/CD z GitHub Actions i zautomatyzowanych testach. Zorientowany na szczegóły, z silnym naciskiem na czysty i łatwy w utrzymaniu kod.",
     "resume": " Zobacz CV"
   },
   "about": {

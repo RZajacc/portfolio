@@ -10,8 +10,6 @@ import TitleSection from "./projects/TitleSection";
 import TechStackSection from "./projects/TechStackSection";
 import ImageSection from "./projects/ImageSection";
 import DescriptionSection from "./projects/DescriptionSection";
-import DescriptionSpan from "./projects/DescriptionSpan";
-import DescriptionLink from "./projects/DescriptionLink";
 
 type Props = {
   lang: {
@@ -44,7 +42,7 @@ function Projects({ lang }: Props) {
           pageURL="http://ec2-3-87-231-53.compute-1.amazonaws.com:3001/"
           figmaURL="https://www.figma.com/design/EvR6lR70uN6tXBimvGPnVR/Codask---Public?node-id=0-1&node-type=canvas&t=eiqCdGfBDypqMns4-0"
         >
-          <p className=" py-1 text-lg text-red-500">Ongoing project!</p>
+          <p className=" py-1 text-lg text-red-500">Ongoing project</p>
         </DescriptionSection>
 
         <ImageSection

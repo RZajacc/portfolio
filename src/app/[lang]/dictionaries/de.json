@@ -15,22 +15,10 @@
   },
   "about": {
     "title": "Über mich",
-    "p1": {
-      "part1": "Ich habe vor kurzem mein Studium an der ",
-      "part2": " als ",
-      "part3": " abgeschlossen. Es waren fünf intensive Monate des Lernens unter der Aufsicht eines Mentors. Aber das war nicht mein erster Kontakt mit der Programmierung."
-    },
-    "p2": {
-      "part1": "Davor habe ich als Volleyball-Scout gearbeitet. Meine täglichen Aufgaben konzentrierten sich hauptsächlich auf das Sammeln von Informationen über andere Mannschaften mithilfe einer speziellen Software (Data Volley), die alle Spiele in einfacher Codeform darstellt. Es ist eine ziemlich mächtige Software, aber mir fehlten einige Funktionen, also begann ich ",
-      "part2": " zu lernen um mehr aus diesen Dateien herauszuholen und einige Änderungen automatisch vorzunehmen."
-    },
-    "p3": {
-      "part1": "Das war auch nicht meine erste Begegnung mit der Programmierung. Davor hatte ich zwei jahre lang ",
-      "part2": " Computer Science",
-      "part3": "studiert, mit",
-      "part4": "als Hauptprogrammiersprache Programmiersprache. Leider konnte ich wegen der Anforderungen meines damaligen Jobs nicht weitermachen, aber ich denke darüber nach, wieder einzusteigen."
-    },
-    "p4": "Obwohl ich schon einige Male mit dem Programmieren zu tun hatte, habe ich nie ernsthaft versucht, es zu meinem Beruf zu machen. Dieses Mal habe ich mich entschlossen, es wirklich zu tun!"
+    "p1": "",
+    "p2": "",
+    "p3": "",
+    "p4": ""
   },
   "experience": {
     "title": "ERFAHRUNG",

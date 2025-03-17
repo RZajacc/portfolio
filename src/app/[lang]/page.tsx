@@ -22,8 +22,8 @@ export default async function Page({ params: { lang } }: Props) {
       <NavBar lang={intl.navbar} />
       <Header lang={intl.header} />
       <About lang={intl.about} />
-      <Experience lang={intl.experience} />
       <Projects lang={intl.projects} />
+      <Experience lang={intl.experience} />
       <Footer lang={intl.footer} />
     </div>
   );

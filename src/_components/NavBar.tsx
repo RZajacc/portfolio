@@ -62,8 +62,8 @@ function NavBar({ lang }: Props) {
         scroll={false}
         className={
           activeSection === "about"
-            ? "cursor-myhand my-1 rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in hover:animate-pulse lg:mx-1"
-            : "cursor-myhand my-1 px-2  py-1 hover:animate-pulse lg:mx-1"
+            ? "my-1 cursor-myhand rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in hover:animate-pulse lg:mx-1"
+            : "my-1 cursor-myhand px-2  py-1 hover:animate-pulse lg:mx-1"
         }
         onClick={(e) => {
           handleLinkClick(e, "about");
@@ -72,32 +72,32 @@ function NavBar({ lang }: Props) {
         {lang.about}
       </Link>
       <Link
-        href={"#experience"}
-        scroll={false}
-        className={
-          activeSection === "experience"
-            ? "cursor-myhand my-1 rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in hover:animate-pulse lg:mx-1"
-            : "cursor-myhand my-1 px-2 py-1 hover:animate-pulse lg:mx-1"
-        }
-        onClick={(e) => {
-          handleLinkClick(e, "experience");
-        }}
-      >
-        {lang.experience}
-      </Link>
-      <Link
         href={"#projects"}
         scroll={false}
         className={
           activeSection === "projects"
-            ? "cursor-myhand my-1 mr-1 rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in hover:animate-pulse lg:mx-1"
-            : "cursor-myhand my-1 px-2 py-1 hover:animate-pulse lg:mx-1"
+            ? "my-1 mr-1 cursor-myhand rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in hover:animate-pulse lg:mx-1"
+            : "my-1 cursor-myhand px-2 py-1 hover:animate-pulse lg:mx-1"
         }
         onClick={(e) => {
           handleLinkClick(e, "projects");
         }}
       >
         {lang.projects}
+      </Link>
+      <Link
+        href={"#experience"}
+        scroll={false}
+        className={
+          activeSection === "experience"
+            ? "my-1 cursor-myhand rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in hover:animate-pulse lg:mx-1"
+            : "my-1 cursor-myhand px-2 py-1 hover:animate-pulse lg:mx-1"
+        }
+        onClick={(e) => {
+          handleLinkClick(e, "experience");
+        }}
+      >
+        {lang.experience}
       </Link>
       <LanguageSwitch />
     </nav>

@@ -15,10 +15,10 @@
   },
   "about": {
     "title": "Über mich",
-    "p1": "",
-    "p2": "",
-    "p3": "",
-    "p4": ""
+    "p1": "Ich bin ein Full Stack Developer mit einem vielfältigen Hintergrund. Meine Neugier für Technik und Softwareentwicklung führte mich dazu, Informatik zu studieren, wo ich fundierte Kenntnisse in Java erwarb und ein breites Verständnis für IT-Prinzipien entwickelte.",
+    "p2": "Meine Karriere nahm eine andere Wendung, als ich begann, als Volleyball Spielanalyst zu arbeiten. Die meisten meiner Aufgaben waren datenbezogen, und ich erkannte schnell Bereiche, die verbessert werden konnten. Dies führte mich dazu, Python zu lernen und die umfangreichen Bibliotheken für Datenanalyse und visualisierung zu nutzen, um Arbeitsabläufe zu optimieren und tiefere, aussagekräftigere Analysen zu erstellen.",
+    "p3": "Da mich Webentwicklung mehr interessierte als datenbezogene Arbeit, entschloss ich mich, einen strukturierteren Ansatz zum Lernen zu wählen. Ich trat der Code Academy Berlin bei, wo ich mich als Full Stack Web Developer mit Fokus auf den MERN Stack ausbilden ließ.",
+    "p4": "Meine Leidenschaft für Softwareentwicklung und Nuegier treibt mich auch heute noch an. Ich lerne und entdecke ständig neue Technologien. Ich freue mich darauf, weiterhin neue Chancen in der Welt der Technik zu erkunden."
   },
   "experience": {
     "title": "ERFAHRUNG",

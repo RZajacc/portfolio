@@ -15,22 +15,10 @@
   },
   "about": {
     "title": "O mnie",
-    "p1": {
-      "part1": "Niedawno ukończyłem bootcamp w ",
-      "part2": " jako ",
-      "part3": ". To było pięć bardzo intensywnych miesięcy nauki pod okiem mentora. To jednak nie był początek mojej przygody z programowaniem."
-    },
-    "p2": {
-      "part1": "Przed podjęciem nauki pracowałem jako statystyk w klubie siatkarskim. Moje obowiązki skupiały się głównie na zbieraniu informacji na temat przeciwnych drużyn z wykorzystaniem specjalnego oprogramowania (Data Volley), w którym każdy mecz reprezentowany jest w postaci prostego kodu. To bardzo zaawansowane oprogramowanie jednak brakowało mi w nim paru funkcjonalności, więc zacząłem się uczyć języka programowania ",
-      "part2": " aby móc wyciągnąć z tych danych nieco więcej i zautomatyzować niektóre czynności."
-    },
-    "p3": {
-      "part1": "To również nie był początek mojej przygody z programowanie. Wcześniej studiowałem ",
-      "part2": " informatykę",
-      "part3": "przez dwa lata z językiem ",
-      "part4": "jako wiodącym językiem programowania. Niestety z powodu wymagań mojej ówczesnej pracy nie mogłem dokończyć studiów, ale rozważam powrót do nich."
-    },
-    "p4": "Podsumowując, mimo, że nie jest to moje pierwsze podejście do programowania to nigdy nie próbowałem uczynić z tego swojego zawodu. Do teraz!"
+    "p1": "Jestem Full Stack Developerem o różnorodnym doświadczeniu. Moja ciekawość technologii i rozwoju oprogramowania skłoniła mnie do studiowania Informatyki, gdzie zdobyłem solidne podstawy programowania w języku Java i rozwinąłem szerokie zrozumienie podstaw IT.",
+    "p2": "Moja kariera potoczyła się w innym kierunku, gdy rozpocząłem pracę jako siatkarski statystyk. Większość moich zadań była związana z danymi i szybko zauważyłem obszary do optymalizacji. To skłoniło mnie do nauki Pythona z wykorzystaniem jego bogatych bibliotek do analiz i wizualizacji danych w celu optymalizacji procesów i tworzenia bardziej wnikliwych analiz.",
+    "p3": "Ponieważ technologie webowe interesują mnie bardziej niż praca z danymi, postanowiłem podejść do nauki w bardziej spójny sposób i dołączyłem do Code Academy Berlin, gdzie szkoliłem się jako Full Stack Web Developer z naciskiem na stack MERN.",
+    "p4": "Moja pasja do rozwoju oprogramowania i ciekawość napędzają mnie do dzisiaj. Kontynuuję naukę i z zainteresowaniem przyglądam się nowościom w świecie technologii."
   },
   "experience": {
     "title": "DOŚWIADCZENIE",

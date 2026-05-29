@@ -50,7 +50,6 @@ function Projects({ lang }: Props) {
 
         <TechStackSection
           techStack={[
-            "NextJS",
             "React",
             "TypeScript",
             "TailwindCSS",

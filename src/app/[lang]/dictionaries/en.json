@@ -51,5 +51,5 @@
     "ForkIt": "Culinary app for people looking for new recipes and dishes to try. It relies on Spoonacular API to browse recipes from different cuisines and dish types. Users can browse recipes by categories, create own account and save favourite recipes.",
     "MarsRover": "App designed for people interested in space exploration. It queries the data from NASA's open API (Mars rover photos) and displays a gallery along with some information about the images. The user can choose which rover's data should be displayed, select a solar day on which the image was taken, and optionally query data collected by only one selected camera."
   },
-  "footer": "And finally the project you are currently looking at. It was built with NextJS and React. Styled with TailwindCSS, and deployed on Vercel. Hope you like it!"
+  "footer": "And finally the project you are currently looking at. It was built with NextJS. Styled with TailwindCSS, and deployed on Vercel. Hope you like it!"
 }

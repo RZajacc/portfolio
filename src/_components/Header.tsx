@@ -16,7 +16,7 @@ function Header({ lang }: Props) {
   return (
     <div id="header" className="lg:sticky lg:top-20 lg:h-1/3">
       <h3 className="font-bold">Rafał Zając</h3>
-      <h5 className="mt-2">Junior Full Stack Developer</h5>
+      <h5 className="mt-2">Full Stack Developer</h5>
       <p className="mt-2 text-gray-400">{lang.description}</p>
       <div className="mt-2 flex justify-center p-2 md:justify-start">
         <a

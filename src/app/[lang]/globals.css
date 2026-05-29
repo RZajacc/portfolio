@@ -129,8 +129,8 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "about about about about header header "
+      "experience experience experience experience header header "
       "projects projects projects projects header header "
-      "experience experience experience experience header header ";
   }
 
   #header {

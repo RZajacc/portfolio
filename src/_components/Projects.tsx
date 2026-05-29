@@ -4,7 +4,6 @@ import totArtImage from "/public/totart.png";
 import codeAskImage from "/public/codask.jpg";
 import forkitImage from "/public/forkit.jpeg";
 import marsRoverImage from "/public/mars_rover.jpeg";
-import ecosphereImage from "/public/ecosphere.png";
 // Project sections
 import TitleSection from "./projects/TitleSection";
 import TechStackSection from "./projects/TechStackSection";
@@ -71,39 +70,6 @@ function Projects({ lang }: Props) {
         />
       </div>
 
-      {/* TOTART PROJECT */}
-      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <TitleSection projectTitle="TotArt" />
-
-        <DescriptionSection
-          description={lang.Totart}
-          githubURL="https://github.com/RZajacc/totArt_v.2.0"
-          pageURL="http://ec2-3-87-231-53.compute-1.amazonaws.com:3000/"
-        />
-
-        <ImageSection
-          projectURL="http://ec2-3-87-231-53.compute-1.amazonaws.com:3000/"
-          imageData={totArtImage}
-          imageAltText="Totart project image"
-        />
-
-        <TechStackSection
-          techStack={[
-            "NextJS",
-            "React",
-            "SWR",
-            "TypeScript",
-            "TailwindCSS",
-            "NodeJS",
-            "ExpressJS",
-            "MongoDB",
-            "JWT",
-            "Docker",
-            "AWS",
-          ]}
-        />
-      </div>
-
       {/* FORKIT PROJECT */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
         <TitleSection projectTitle="ForkIt" />
@@ -132,37 +98,6 @@ function Projects({ lang }: Props) {
         />
       </div>
 
-      {/* Ecosphere PROJECT */}
-      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <TitleSection projectTitle="EcoSphere" />
-
-        <DescriptionSection
-          description={lang.Ecosphere}
-          githubURL="https://github.com/RZajacc/EcoSphere"
-        />
-
-        <ImageSection
-          projectURL="https://github.com/RZajacc/EcoSphere"
-          imageData={ecosphereImage}
-          imageAltText="EcoSphere project image"
-        />
-
-        <TechStackSection
-          techStack={[
-            "NextJS",
-            "React",
-            "SWR",
-            "ZOD",
-            "TypeScript",
-            "TailwindCSS",
-            "NodeJS",
-            "ExpressJS",
-            "PostgreSQL",
-            "JWT",
-            "Google Cloud Storage",
-          ]}
-        />
-      </div>
 
       {/* MARS ROVER PROJECT */}
       <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">

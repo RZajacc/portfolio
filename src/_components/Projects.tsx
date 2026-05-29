@@ -17,8 +17,6 @@ type Props = {
     deployment: string;
     clickHere: string;
     data: string;
-    Ecosphere: string;
-    Totart: string;
     MarsRover: string;
     ForkIt: string;
     Codask: string;
@@ -38,7 +36,7 @@ function Projects({ lang }: Props) {
         <DescriptionSection
           description={lang.Codask}
           githubURL="https://github.com/RZajacc/CodaSk"
-          pageURL="http://ec2-3-87-231-53.compute-1.amazonaws.com:3001/"
+          pageURL="https://codask.org/"
           figmaURL="https://www.figma.com/design/EvR6lR70uN6tXBimvGPnVR/Codask---Public?node-id=0-1&node-type=canvas&t=eiqCdGfBDypqMns4-0"
         >
           <p className=" py-1 text-lg text-red-500">Ongoing project</p>
@@ -53,19 +51,21 @@ function Projects({ lang }: Props) {
         <TechStackSection
           techStack={[
             "NextJS",
-            "Next-Auth",
             "React",
             "TypeScript",
             "TailwindCSS",
-            "NodeJS",
-            "ExpressJS",
+            "React-Hook-Form",
+            "Zod",
+            "NestJS",
             "MongoDB",
-            "GraphQL",
             "Docker",
-            "Jest",
-            "Playwright",
             "Github Actions",
             "AWS",
+            "S3",
+            "Cloudfront",
+            "Route53",
+            "Lambda",
+            "ApiGateway",
           ]}
         />
       </div>

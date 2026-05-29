@@ -1,9 +1,7 @@
 import React from "react";
 // Images
-import totArtImage from "/public/totart.png";
 import codeAskImage from "/public/codask.jpg";
 import forkitImage from "/public/forkit.jpeg";
-import marsRoverImage from "/public/mars_rover.jpeg";
 // Project sections
 import TitleSection from "./projects/TitleSection";
 import TechStackSection from "./projects/TechStackSection";
@@ -17,7 +15,6 @@ type Props = {
     deployment: string;
     clickHere: string;
     data: string;
-    MarsRover: string;
     ForkIt: string;
     Codask: string;
   };
@@ -97,27 +94,6 @@ function Projects({ lang }: Props) {
         />
       </div>
 
-
-      {/* MARS ROVER PROJECT */}
-      <div className="proj-entry mt-5 rounded-sm p-1 hover:bg-slate-200/10">
-        <TitleSection projectTitle="Mars Rover" />
-
-        <DescriptionSection
-          description={lang.MarsRover}
-          githubURL="https://github.com/RZajacc/MarsRover_3.0"
-          pageURL="https://marsroverapp.netlify.app/"
-        />
-
-        <ImageSection
-          projectURL="https://marsroverapp.netlify.app/"
-          imageData={marsRoverImage}
-          imageAltText="Mars rover project image"
-        />
-
-        <TechStackSection
-          techStack={["JavaScript", "TypeScript", "Sass", "Vitest", "Webpack"]}
-        />
-      </div>
     </section>
   );
 }

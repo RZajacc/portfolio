@@ -4,6 +4,11 @@ import ExperienceElement from "./experience/ExperienceElement";
 type Props = {
   lang: {
     title: string;
+    sensorfarm: {
+      title: string;
+      dateTo: string;
+      desc: string;
+    };
     codac: {
       title: string;
       desc: string;
@@ -27,6 +32,13 @@ function Experience({ lang }: Props) {
   return (
     <section id="experience">
       <h4 className="font-bold">{lang.title}</h4>
+      <ExperienceElement
+        jobTitle={lang.sensorfarm.title}
+        employer="Sensorfarm Polska"
+        employmentTime={`04/2025 - ${lang.sensorfarm.dateTo}`}
+        description={lang.sensorfarm.desc}
+        pageURL="https://sensorfarm.pl/"
+      />
       <ExperienceElement
         jobTitle={lang.codac.title}
         employer="Code Academy Berlin"

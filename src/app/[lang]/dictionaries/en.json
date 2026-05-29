@@ -22,8 +22,13 @@
   },
   "experience": {
     "title": "EXPERIENCE",
+    "sensorfarm": {
+      "title": "Full Stack Web Developer",
+      "dateTo": "present",
+      "desc": "Worked on two distinct project. Initially involved in a strongly frontend leaning map based project where I developed interactive dashboard to manage operations being managed on the map. Also had a minor contribution to Java Spring Boot based backend and PostgreSQL database. Currently leading migration from a legacy Java/JSP application to NestJS/React. Also developed and implemented secure authentication flows using passport-auth and JWT tokens, including token rotation. Built email based password reset feature, and developed interactive dashboard using React Grid Layout"
+    },
     "codac": {
-      "title": "Full Stack Web Development",
+      "title": "Full Stack Web Developer",
       "desc": "Full-Time on site coding bootcamp covering 840h of practical project based work in SCRUM methodology."
     },
     "brv": {

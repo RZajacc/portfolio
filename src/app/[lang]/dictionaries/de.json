@@ -22,8 +22,13 @@
   },
   "experience": {
     "title": "ERFAHRUNG",
+    "sensorfarm": {
+      "title": "Full Stack Web Entwickler",
+      "dateTo": "aktuell",
+      "desc": "Ich habe an zwei unterschiedlichen Projekten gearbeitet. Zunächst war ich an einem stark frontend-orientierten, kartenbasierten Projekt beteiligt, bei dem ich ein interaktives Dashboard zur Verwaltung der auf der Karte dargestellten Operationen entwickelt habe. Zusätzlich habe ich kleinere Beiträge zum Backend auf Basis von Java Spring Boot sowie zur PostgreSQL-Datenbank geleistet.\n\nAktuell leite ich die Migration einer Legacy-Anwendung auf Basis von Java/JSP hin zu einer modernen Architektur mit NestJS und React. Außerdem habe ich sichere Authentifizierungsprozesse mit Passport Auth und JWT-Tokens entwickelt und implementiert, einschließlich Token Rotation. Darüber hinaus habe ich eine E-Mail-basierte Passwort-Reset-Funktion umgesetzt sowie ein interaktives Dashboard mit React Grid Layout entwickelt."
+    },
     "codac": {
-      "title": "Full Stack Web Entwicklung",
+      "title": "Full Stack Web Entwickler",
       "desc": "Vollzeit Coding Bootcamp vor Ort mit 840 Stunden praktischer, projektbasierter Arbeit in der SCRUM-Methodik."
     },
     "brv": {

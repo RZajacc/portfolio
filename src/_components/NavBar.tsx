@@ -72,20 +72,6 @@ function NavBar({ lang }: Props) {
         {lang.about}
       </Link>
       <Link
-        href={"#projects"}
-        scroll={false}
-        className={
-          activeSection === "projects"
-            ? "my-1 mr-1 cursor-myhand rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in hover:animate-pulse lg:mx-1"
-            : "my-1 cursor-myhand px-2 py-1 hover:animate-pulse lg:mx-1"
-        }
-        onClick={(e) => {
-          handleLinkClick(e, "projects");
-        }}
-      >
-        {lang.projects}
-      </Link>
-      <Link
         href={"#experience"}
         scroll={false}
         className={
@@ -99,6 +85,21 @@ function NavBar({ lang }: Props) {
       >
         {lang.experience}
       </Link>
+      <Link
+        href={"#projects"}
+        scroll={false}
+        className={
+          activeSection === "projects"
+            ? "my-1 mr-1 cursor-myhand rounded-2xl bg-gradient-radial from-slate-800 to-slate-500 px-2 py-1 font-bold duration-300 ease-in hover:animate-pulse lg:mx-1"
+            : "my-1 cursor-myhand px-2 py-1 hover:animate-pulse lg:mx-1"
+        }
+        onClick={(e) => {
+          handleLinkClick(e, "projects");
+        }}
+      >
+        {lang.projects}
+      </Link>
+
       <LanguageSwitch />
     </nav>
   );

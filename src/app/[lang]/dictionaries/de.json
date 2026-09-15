@@ -15,10 +15,18 @@
   },
   "about": {
     "title": "Über mich",
-    "p1": "Ich bin ein Full Stack Developer mit einem vielfältigen Hintergrund. Meine Neugier für Technik und Softwareentwicklung führte mich dazu, Informatik zu studieren, wo ich fundierte Kenntnisse in Java erwarb und ein breites Verständnis für IT-Prinzipien entwickelte.",
-    "p2": "Meine Karriere nahm eine andere Wendung, als ich begann, als Volleyball Spielanalyst zu arbeiten. Die meisten meiner Aufgaben waren datenbezogen, und ich erkannte schnell Bereiche, die verbessert werden konnten. Dies führte mich dazu, Python zu lernen und die umfangreichen Bibliotheken für Datenanalyse und visualisierung zu nutzen, um Arbeitsabläufe zu optimieren und tiefere, aussagekräftigere Analysen zu erstellen.",
-    "p3": "Da mich Webentwicklung mehr interessierte als datenbezogene Arbeit, entschloss ich mich, einen strukturierteren Ansatz zum Lernen zu wählen. Ich trat der Code Academy Berlin bei, wo ich mich als Full Stack Web Developer mit Fokus auf den MERN Stack ausbilden ließ.",
-    "p4": "Meine Leidenschaft für Softwareentwicklung und Nuegier treibt mich auch heute noch an. Ich lerne und entdecke ständig neue Technologien. Ich freue mich darauf, weiterhin neue Chancen in der Welt der Technik zu erkunden."
+    "p1": "Ich bin ein Full Stack Developer aus Berlin, der hauptsächlich mit React, TypeScript, Node.js, NestJS und MySQL arbeitet.",
+    "p2": "Mein Weg in die Softwareentwicklung war schrittweise und nicht zufällig. Ich war schon früh an Informatik und Programmierung interessiert, studierte später Informatik parallel zu meiner beruflichen Tätigkeit und begann Python zu nutzen, um sich wiederholende analytische Aufgaben zu automatisieren, lange bevor ich vollständig in die Softwareentwicklung wechselte. Heute arbeite ich beruflich auf den Bereichen Frontend, Backend und Datenbanken. Bei Sensorfarm bin ich an der Modernisierung einer Legacy-Transaktionsplattform auf Basis von Java/JSP zu einer React- und NestJS-Anwendung beteiligt. Meine Arbeit umfasst die Entwicklung von REST-APIs, relationale Datenmodellierung, Datenbankmigrationen, JWT-basierte Authentifizierung, Passwort-Wiederherstellung und interaktive Analysefunktionen.",
+    "p3": "Ich habe auch praktische Erfahrung mit Docker, GitHub Actions, CI/CD und AWS. In meinem eigenen Projekt CodaSk habe ich über den gesamten Lebenszyklus der Anwendung gearbeitet, darunter Frontend- und Backend-Entwicklung, Authentifizierung, API-Dokumentation und Deployment mit AWS-Diensten wie Lambda, API Gateway, S3, CloudFront und Route 53.",
+    "p4": "Was meinen Hintergrund besonders macht, ist das, was vor der Softwareentwicklung lag.",
+    "p5": "Ich habe einen PhD in Physical Culture Sciences (Sportwissenschaft) und war mehrere Jahre in der wissenschaftlichen Forschung tätig, wo ich mit experimentellen und biomechanischen Daten, analytischen Methoden und eigenständigen Forschungsprojekten gearbeitet habe. Später war ich sechs Jahre in der professionellen Volleyballanalyse tätig, unter anderem in der deutschen Bundesliga, der CEV Champions League und der polnischen Spitzenliga.",
+    "p6": "In diesen Rollen arbeitete ich eng mit Trainerteams zusammen, um komplexe Leistungsdaten in praxisnahe Empfehlungen in kurzen Wettbewerbszyklen umzuwandeln. Ich entwickelte außerdem Python- und VBA-Automatisierungen, um sich wiederholende Datenverarbeitungsaufgaben zu reduzieren und analytische Workflows zu verbessern.",
+    "p7": "Diese Erfahrung prägt auch heute noch meinen Ansatz für Software. Ich genieße es, komplexe Probleme zu verstehen, Daten zu strukturieren, Anforderungen in praktische Lösungen umzusetzen und Prozesse durch Technologie zu verbessern.",
+    "p8": "Schwerpunkte:",
+    "p9": "React | TypeScript | JavaScript | Node.js | NestJS | MySQL | PostgreSQL | MongoDB | REST APIs | SQL | Datenmodellierung | Docker | GitHub Actions | CI/CD | AWS | Jest | React Testing Library | Python",
+    "p10": "Ich suche derzeit nach Full Stack Developer / Full Stack Engineer Positionen in Deutschland, idealerweise in Berlin. Ich bin außerdem offen für Remote-Stellen bei Unternehmen in Polen und Europa.",
+    "p11": "Sprachen:",
+    "p12": "Polnisch muttersprachlich | Englisch professionelle Vertrautheit | Deutsch fortgeschritten, derzeit absolviere ich die C1-Ausbildung."
   },
   "experience": {
     "title": "ERFAHRUNG",

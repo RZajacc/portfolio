@@ -15,10 +15,18 @@
   },
   "about": {
     "title": "About",
-    "p1": "I am a Full Stack Developer with a diverse background. My curiosity for tech and software development led me to study Computer Science, where I gained strong foundational knowledge in Java and developed a broad understanding of IT principles.",
-    "p2": "My career took a different turn when I started working as a game analyst for a volleyball club. Most of my tasks were data-related, and I quickly noticed areas for improvement. This led me to learn Python, leveraging its rich libraries for data analysis and visualization to enhance workflows and build more insightful analyses.",
-    "p3": "Since web development interested me more than data-related work, I decided to take a more structured approach to learning. I joined Code Academy Berlin, where I trained as a Full Stack Web Developer with a focus on the MERN stack.",
-    "p4": "My passion for software development and curiosity continues to drive me until today. I am constantly learning and exploring new technologies, and I am excited to continue exploring new opportunities in the world of tech."
+    "p1": "I'm a Full Stack Developer based in Berlin, working mainly with React, TypeScript, Node.js, NestJS and MySQL.",
+    "p2": "My path into software development has been gradual rather than accidental. I was interested in computing and programming early on, later studied Computer Science alongside my professional career, and started using Python to automate repetitive analytical work long before moving fully into software development. Today I work commercially across frontend, backend and database layers. At Sensorfarm, I'm involved in modernising a legacy Java/JSP transaction platform into a React and NestJS application. My work includes REST API development, relational data modelling, database migrations, JWT-based authentication, password recovery and interactive analytics features.",
+    "p3": "I also have hands-on experience with Docker, GitHub Actions, CI/CD and AWS. In my own CodaSk project, I have worked across the full application lifecycle, including frontend and backend development, authentication, API documentation and deployment using AWS services such as Lambda, API Gateway, S3, CloudFront and Route 53.",
+    "p4": "What makes my background different is what came before software engineering.",
+    "p5": "I hold a PhD in Physical Culture Sciences (Sport Science) and spent several years in academic research, working with experimental and biomechanical data, analytical methods and independent research projects. Later, I spent six years in professional volleyball analytics, including Germany’s Bundesliga, the CEV Champions League and Poland’s top division.",
+    "p6": "In those roles, I worked closely with coaching teams to turn complex performance data into practical recommendations under short competition cycles. I also developed Python and VBA automations to reduce repetitive data-processing work and improve analytical workflows.",
+    "p7": "That experience still shapes how I approach software today. I enjoy understanding complex problems, structuring data, translating requirements into practical solutions and improving processes through technology.",
+    "p8": "Core areas:",
+    "p9": "React | TypeScript | JavaScript | Node.js | NestJS | MySQL | PostgreSQL | MongoDB | REST APIs | SQL | Data Modelling | Docker | GitHub Actions | CI/CD | AWS | Jest | React Testing Library | Python",
+    "p10": "I'm currently looking for Full Stack Developer / Full Stack Engineer opportunities in Germany, ideally in Berlin. I'm also open to remote roles with companies in Poland and across Europe.",
+    "p11": "Languages:",
+    "p12": "Polish native | English professional proficiency | German advanced, currently completing C1-level training."
   },
   "experience": {
     "title": "EXPERIENCE",

@@ -7,6 +7,14 @@ type Props = {
     p2: string;
     p3: string;
     p4: string;
+    p5: string;
+    p6: string;
+    p7: string;
+    p8: string;
+    p9: string;
+    p10: string;
+    p11: string;
+    p12: string;
   };
 };
 
@@ -18,6 +26,14 @@ function About({ lang }: Props) {
       <p className="my-2 ">{lang.p2}</p>
       <p className="my-2">{lang.p3}</p>
       <p className="mt-2">{lang.p4}</p>
+      <p className="mt-2">{lang.p5}</p>
+      <p className="mt-2">{lang.p6}</p>
+      <p className="mt-2">{lang.p7}</p>
+      <p className="mt-2 font-bold">{lang.p8}</p>
+      <p className="mt-2">{lang.p9}</p>
+      <p className="mt-2">{lang.p10}</p>
+      <p className="mt-2 font-bold">{lang.p11}</p>
+      <p className="mt-2">{lang.p12}</p>
     </section>
   );
 }

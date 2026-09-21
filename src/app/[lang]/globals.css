@@ -21,8 +21,8 @@ body {
     "title"
     "location"
     "date"
-    "description"
-    "url";
+    "url"
+    "description";
 }
 
 .exp-entry__date {
@@ -37,7 +37,7 @@ body {
 .exp-entry__url {
   grid-area: url;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   gap: 0.5rem;
   padding: 0.7rem 0rem;
 }
@@ -78,6 +78,7 @@ body {
   .exp-entry__url {
     grid-area: url;
     display: flex;
+    justify-content: end;
     align-items: center;
     gap: 0.5rem;
     margin-left: 0.5rem;

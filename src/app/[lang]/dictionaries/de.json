@@ -29,25 +29,25 @@
   "experience": {
     "title": "ERFAHRUNG",
     "sensorfarm": {
-      "title": "Full Stack Web Entwickler",
+      "title": "Full Stack Software Entwickler",
       "dateTo": "aktuell",
-      "desc": "Ich habe an zwei unterschiedlichen Projekten gearbeitet. Zunächst war ich an einem stark frontend-orientierten, kartenbasierten Projekt beteiligt, bei dem ich ein interaktives Dashboard zur Verwaltung der auf der Karte dargestellten Operationen entwickelt habe. Zusätzlich habe ich kleinere Beiträge zum Backend auf Basis von Java Spring Boot sowie zur PostgreSQL-Datenbank geleistet.\n\nAktuell leite ich die Migration einer Legacy-Anwendung auf Basis von Java/JSP hin zu einer modernen Architektur mit NestJS und React. Außerdem habe ich sichere Authentifizierungsprozesse mit Passport Auth und JWT-Tokens entwickelt und implementiert, einschließlich Token Rotation. Darüber hinaus habe ich eine E-Mail-basierte Passwort-Reset-Funktion umgesetzt sowie ein interaktives Dashboard mit React Grid Layout entwickelt."
+      "desc": "Ich begann mit der Arbeit an einer kartenbasierten Betriebsplattform, wo ich im gesamten Stack mitarbeitete, mich aber vor allem auf das Frontend konzentrierte. Ich habe ein Dashboard entworfen und entwickelt, das Teams ermöglichte, ihre Abläufe in Echtzeit zu visualisieren — meine erste echte Erfahrung mit einer Microservices-Architektur.\n\nDiese Erfahrung bereitete mich auf meine aktuelle Tätigkeit vor: die Modernisierung einer bestehenden Transaktionsplattform. Ich baue sie von Java/JSP zu React und NestJS um und arbeite dabei direkt mit dem CEO zusammen, um die Richtung des Produkts mitzugestalten. Aus einem Tool für einen einzelnen Kunden wurde etwas Ambitionierteres: eine konfigurierbare Plattform, die komplexe Transaktionsstrukturen für mehrere Kunden verarbeitet. Ich habe die Datenarchitektur entworfen, interaktive Analysen entwickelt und entlang des Weges Testpraktiken etabliert. Es war ein starker Fortschritt von der Mitarbeit an einem bestehenden System zur Verantwortung für dessen Weiterentwicklung."
     },
     "codac": {
       "title": "Full Stack Web Entwickler",
-      "desc": "Vollzeit Coding Bootcamp vor Ort mit 840 Stunden praktischer, projektbasierter Arbeit in der SCRUM-Methodik."
+      "desc": "Vollzeit-Coding-Bootcamp vor Ort mit 840 Stunden praktischer, projektbasierter Arbeit in der SCRUM-Methodik."
     },
     "brv": {
-      "title": "Spiel analyst",
-      "desc": "Als Spiel Analyst sammelte und analysierte ich Daten, um Spielstrategien zu entwickeln, und arbeitete dabei eng mit dem Trainer Team zusammen. Da ich Möglichkeiten zur Automatisierung in meinem Arbeitsablauf erkannte, nutzte ich Python zusammen mit seinen umfangreichen Bibliotheken zur Datenverarbeitung und -visualisierung. Dies führte zu einem effizienteren Arbeitsablauf, reduzierte den Zeitaufwand für die manuelle Datenanalyse und ermöglichte schnellere Entscheidungen für das Team."
+      "title": "Sportdatenanalyst & Volleyball-Statistiker",
+      "desc": "Ich arbeitete mit dem Trainerteam als Sportanalyst zusammen, sammelte und analysierte Matchdaten, um die Vorbereitung und taktische Entscheidungen zu unterstützen. Die Arbeit war schnelllebig — typischerweise in 3–6-Tage-Wettkampfzyklen — daher musste ich Rohdaten schnell in Erkenntnisse umwandeln, die am Spieltag tatsächlich nutzbar waren.\n\nWas als manuelle Datenverarbeitung begann, wurde zu einer Gelegenheit zur Automatisierung. Ich entwickelte Python-Skripte, um repetitive Aufgaben zu bereinigen und dadurch den früheren Zeitaufwand von einer Stunde auf etwa 10 Minuten pro Woche zu reduzieren. Das war eine gute Lektion darin, Ineffizienzen zu erkennen und sie mit Code zu lösen. Diese Rolle lehrte mich, Analysen in handlungsrelevante Erkenntnisse für Menschen zu übersetzen, die unter Zeitdruck Entscheidungen treffen mussten, und Lösungen auf Basis von Feedback der Nutzer weiterzuentwickeln."
     },
     "dg": {
-      "title": "Spiel analyst",
-      "desc": "Als Spielanalytiker sammelte und analysierte ich Daten, um Spielstrategien zu entwickeln, und präsentierte meine Ergebnisse dem Team."
+      "title": "Sportdatenanalyst & Volleyball-Statistiker",
+      "desc": "Ich sammelte und analysierte Matchdaten mit Data Volley, um das Trainerteam auf jedes Spiel vorzubereiten. Jeder Gegner verlangte einen anderen Ansatz, daher passte ich meine Analysen und Berichte an die Bedürfnisse des jeweiligen Trainers an. Zudem automatisierte ich wiederkehrende Reporting-Aufgaben mit Excel und VBA und reduzierte so 15 Minuten manuelle Arbeit auf unter 5. Dadurch blieb mehr Zeit für tiefere Analysen, und das Team konnte sich auf Strategie statt auf Datenvorbereitung konzentrieren."
     },
     "awf": {
-      "title": "Techniker",
-      "desc": "Als Techniker unterstützte ich wissenschaftliche Projekte, indem ich Daten mit Python und Excel sammelte, vorverarbeitete und visualisierte. Ich arbeitete mit Forschungsteams zusammen, um die Datenqualität sicherzustellen und Prozesse zu optimieren, was zu effizienterer Datenanalyse führte."
+      "title": "Forscher & Seniorlabortechniker",
+      "desc": "Ich führte meine Doktorarbeit in Sportwissenschaft durch, begann mit einer Mischung aus Lehre und Forschung und wechselte später in eine technische Rolle mit Fokus auf experimentelle Arbeit und Datenanalyse. Ich leitete Forschungsprojekte von Anfang bis Ende — definierte Forschungsfragen, rekrutierte Studiengruppen, sammelte und verarbeitete Daten, führte Analysen durch und präsentierte Ergebnisse. Ein Großteil meiner Arbeit lag im Bereich menschlicher Balance und posturaler Kontrolle, wobei ich Leistungssportler mit anderen Gruppen verglich. Ich arbeitete mit experimentellen und biomechanischen Daten in Excel und MATLAB und unterstützte die Schulung jüngerer Kolleginnen und Kollegen in Laborverfahren und Gerätehandhabung."
     }
   },
   "projects": {

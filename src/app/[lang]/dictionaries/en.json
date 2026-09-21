@@ -29,25 +29,25 @@
   "experience": {
     "title": "EXPERIENCE",
     "sensorfarm": {
-      "title": "Full Stack Web Developer",
+      "title": "Full Stack Software Developer",
       "dateTo": "present",
-      "desc": "Worked on two distinct project. Initially involved in a strongly frontend leaning map based project where I developed interactive dashboard to manage operations being managed on the map. Also had a minor contribution to Java Spring Boot based backend and PostgreSQL database. Currently leading migration from a legacy Java/JSP application to NestJS/React. Also developed and implemented secure authentication flows using passport-auth and JWT tokens, including token rotation. Built email based password reset feature, and developed interactive dashboard using React Grid Layout"
+      "desc": "I started by diving into a map-based operations platform, working across the full stack but mostly focusing on frontend. I designed and built a dashboard that let teams visualise their operations in real time—my first real experience working within a microservices architecture.\n\n That experience set me up for what I'm working on now: modernising a legacy transaction platform. I'm rebuilding it from Java/JSP into React and NestJS, working directly with the CEO to shape where the product goes. What began as a single-client tool has grown into something more ambitious—a configurable platform handling complex transaction structures across multiple clients. I've designed the data architecture, built interactive analytics, and established testing practices along the way. It's been a solid progression from contributing to an established system to owning the evolution of one."
     },
     "codac": {
       "title": "Full Stack Web Developer",
       "desc": "Full-Time on site coding bootcamp covering 840h of practical project based work in SCRUM methodology."
     },
     "brv": {
-      "title": "Game analyst",
-      "desc": "As a game analyst, I collected and analyzed data to develop game strategies, working closely with the coaching staff. Recognizing opportunities for automation in my workflow, I used Python together with its rich data processing and visualisation libraries. This led to a more efficient workflow, reducing time spent on manual data analysis and enabling faster decision-making for the team."
+      "title": "Performance Data Analyst & Volleyball Statistician",
+      "desc": "I worked with a coaching staff as a sports analyst, collecting and analysing match data to help them prepare and make tactical decisions. The work moved fast—typically 3-6 day competition cycles—which meant I had to quickly turn raw data into insights they could actually use on game day.\n\n What started as manual data processing became an opportunity to automate. I built Python scripts to clean repetitive tasks, cutting what used to take an hour down to about 10 minutes each week. It was a good lesson in identifying inefficiencies and solving them with code. The role taught me how to translate analysis into something actionable for people who needed to make real decisions under time pressure, and how to iterate based on feedback from people actually using your work."
     },
     "dg": {
-      "title": "Game analyst",
-      "desc": "As a game analyst, I collected and analyzed data to develop strategies, and presented insights to the team."
+      "title": "Performance Data Analyst & Volleyball Statistician",
+      "desc": "I collected and analysed match data using Data Volley to help the coaching staff prepare for each game. Every opponent required a different approach, so I adapted my analysis and reporting based on what each coach needed to see. I also automated the recurring reporting tasks using Excel and VBA, cutting 15 minutes of manual work down to under 5. That freed up time for deeper analysis work, and it meant the team could focus on strategy instead of data prep."
     },
     "awf": {
-      "title": "Technician",
-      "desc": "As a technician, I supported scientific projects by collecting, pre-processing, and visualizing data using Python and Excel. I collaborated with research teams to ensure data accuracy and streamline processes, resulting in more efficient data analysis."
+      "title": "Researcher & Senior Technician",
+      "desc": "I did my doctoral research in Sport Science, starting with a mix of teaching and research before moving into a technical role focused on experimental work and data analysis. I managed research projects end-to-end—defining research questions, recruiting study groups, collecting and preprocessing data, running analysis, and presenting findings. Most of my work centred on human balance and postural control, comparing competitive athletes against other groups. I worked with experimental and biomechanical data using Excel and MATLAB, and helped train junior colleagues on laboratory procedures and equipment."
     }
   },
   "projects": {

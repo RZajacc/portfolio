@@ -51,14 +51,14 @@ function Experience({ lang }: Props) {
           "React Testing Library",
         ]}
       />
-      <ExperienceElement
+      {/* <ExperienceElement
         jobTitle={lang.codac.title}
         employer="Code Academy Berlin"
         employmentTime="07/2023 - 12-2023"
         description={lang.codac.desc}
         pageURL="https://www.codeacademyberlin.com/"
         techStack={["React", "Typescript", "Node.js", "MongoDB", "Mongoose"]}
-      />
+      /> */}
       <ExperienceElement
         jobTitle={lang.brv.title}
         employer="Berlin Recycling Volleys"

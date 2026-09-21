@@ -29,25 +29,25 @@
   "experience": {
     "title": "DOŚWIADCZENIE",
     "sensorfarm": {
-      "title": "Full Stack Web Developer",
+      "title": "Full Stack Software Developer",
       "dateTo": "present",
-      "desc": "Pracowałem nad dwoma różnymi projektami. Początkowo byłem zaangażowany w projekt oparty na mapach, mocno ukierunkowany na frontend, gdzie rozwijałem interaktywny dashboard do zarządzania operacjami prezentowanymi na mapie. Miałem również niewielki wkład w backend oparty na Java Spring Boot oraz bazę danych PostgreSQL.\n\nObecnie prowadzę migrację legacy aplikacji opartej na Java/JSP do nowoczesnego stacku NestJS/React. Opracowałem i wdrożyłem również bezpieczne mechanizmy uwierzytelniania z wykorzystaniem Passport Auth i tokenów JWT, w tym rotację tokenów. Dodatkowo stworzyłem funkcję resetowania hasła opartą na e-mailach oraz interaktywny dashboard z wykorzystaniem React Grid Layout."
+      "desc": "Zacząłem od pracy nad mapową platformą operacyjną, rozwijając produkt w pełnym stacku, ale głównie skupiając się na frontendzie. Zaprojektowałem i zbudowałem dashboard, który pozwalał zespołom wizualizować operacje w czasie rzeczywistym — to był mój pierwszy realny kontakt z architekturą mikroserwisową.\n\nTo doświadczenie przygotowało mnie do obecnej pracy: modernizacji legacy platformy transakcyjnej. Przebudowuję ją z Java/JSP do React i NestJS, współpracując bezpośrednio z dyrektorem zarządzającym nad kształtowaniem kierunku produktu. To, co zaczęło się jako narzędzie dla jednego klienta, rozrosło się w bardziej ambitną, konfigurowalną platformę obsługującą złożone struktury transakcyjne dla wielu klientów. Zaprojektowałem architekturę danych, zbudowałem interaktywne analityki i wprowadziłem praktyki testowe. To była spójna ścieżka od udziału w istniejącym systemie do odpowiadania za jego dalszy rozwój."
     },
     "codac": {
-      "title": "Programista Full Stack",
-      "desc": "Pełnowymiarowy, stacjonarny bootcamp obejmujący 840h pracy opartej na projektach w metodologii SCRUM."
+      "title": "Full Stack Web Developer",
+      "desc": "Pełnoetatowy, stacjonarny bootcamp programistyczny obejmujący 840 godzin praktycznej pracy projektowej w metodologii SCRUM."
     },
     "brv": {
-      "title": "Statystyk",
-      "desc": "Jako analityk zbierałem i analizowałem dane w celu opracowania strategii gry, ściśle współpracując ze sztabem trenerskim. Dostrzegając możliwości automatyzacji w moim procesie pracy, wykorzystałem Pythona wraz z jego bogatymi bibliotekami do przetwarzania i wizualizacji danych. Dzięki temu usprawniłem organizację pracy, skracając czas poświęcany na ręczną analizę danych i umożliwiając szybsze podejmowanie decyzji przez zespół."
+      "title": "Analityk danych & statystyk",
+      "desc": "Pracowałem z zespołem trenerskim jako analityk sportowy, zbierając i analizując dane meczowe, aby wspierać przygotowanie taktyczne i podejmowanie decyzji. Praca była szybka — zwykle cykle konkurencji trwały 3–6 dni — więc musiałem błyskawicznie zamieniać surowe dane w informacje, które można było wykorzystać na meczu.\n\nTo, co zaczęło się jako ręczna obróbka danych, stało się okazją do automatyzacji. Napisałem skrypty w Pythonie, aby usprawnić powtarzalne zadania, skracając czas z godziny do około 10 minut tygodniowo. To był dobry przykład rozpoznawania nieefektywności i rozwiązywania ich za pomocą kodu. Ta rola nauczyła mnie, jak zamieniać analitykę w działania, które pomagają ludziom podejmować realne decyzje pod presją czasu oraz jak rozwijać rozwiązania na podstawie opinii osób, które faktycznie z nich korzystają."
     },
     "dg": {
-      "title": "Statystyk",
-      "desc": "Do moich zadań jako statystyka należało zbieranie zdanych, przygotowanie meczowej strategii i jej prezentacja dla zespołu."
+      "title": "Analityk danych & statystyk",
+      "desc": "Zbierałem i analizowałem dane meczowe za pomocą Data Volley, aby wspierać sztab szkoleniowy w przygotowaniu do każdego meczu. Każdy przeciwnik wymagał innego podejścia, więc dostosowywałem analizę i raportowanie do tego, czego potrzebował dany trener. Automatyzowałem również powtarzalne zadania raportowe za pomocą Excela i VBA, skracając 15 minut ręcznej pracy do poniżej 5. To uwolniło czas na głębszą analizę i pozwoliło zespołowi skupić się na strategii zamiast na przygotowaniu danych."
     },
     "awf": {
-      "title": "Technik",
-      "desc": "Jako technik udzielałem wsparcia w szeregu naukowó projektów, zbierając, wstępnie przetwarzając i wizualizując dane za pomocą Pythona i Excela. Współpracowałem z zespołami badawczymi, aby zapewnić wysoką jakość danych i usprawnić procesy, co skutkowało bardziej efektywną analizą danych."
+      "title": "Pracownik naukowy & Starszy Technik",
+      "desc": "Prowadziłem badania doktoranckie z nauk o sporcie, zaczynając od połączenia nauczania i badań, zanim przeszedłem do roli technicznej skoncentrowanej na pracy eksperymentalnej i analizie danych. Zarządzałem projektami badawczymi od początku do końca — definiowałem pytania badawcze, rekrutowałem grupy badawcze, zbierałem i wstępnie przetwarzałem dane, przeprowadzałem analizę i prezentowałem wyniki. Większość mojej pracy dotyczyła równowagi człowieka i kontroli posturalnej, porównując zawodowych sportowców z innymi grupami. Pracowałem z danymi eksperymentalnymi i biomechanicznymi w Excelu i MATLAB, a także szkoliłem młodszych pracowników w procedurach laboratoryjnych i obsłudze sprzętu."
     }
   },
   "projects": {

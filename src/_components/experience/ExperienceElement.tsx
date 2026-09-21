@@ -30,7 +30,9 @@ function ExperienceElement({
         {pageURL && <ExperienceURL pageURL={pageURL} />}
         {githubURL && <ExperienceURL githubURL={githubURL} />}
       </div>
-      <p className="exp-entry__description">{description}</p>
+      <p className="exp-entry__description mt-2 whitespace-pre-line indent-7">
+        {description}
+      </p>
       <TechStackSection techStack={techStack} />
     </div>
   );

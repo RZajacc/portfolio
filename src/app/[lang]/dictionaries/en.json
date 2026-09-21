@@ -16,17 +16,15 @@
   "about": {
     "title": "About",
     "p1": "I'm a Full Stack Developer based in Berlin, working mainly with React, TypeScript, Node.js, NestJS and MySQL.",
-    "p2": "My path into software development has been gradual rather than accidental. I was interested in computing and programming early on, later studied Computer Science alongside my professional career, and started using Python to automate repetitive analytical work long before moving fully into software development. Today I work commercially across frontend, backend and database layers. At Sensorfarm, I'm involved in modernising a legacy Java/JSP transaction platform into a React and NestJS application. My work includes REST API development, relational data modelling, database migrations, JWT-based authentication, password recovery and interactive analytics features.",
-    "p3": "I also have hands-on experience with Docker, GitHub Actions, CI/CD and AWS. In my own CodaSk project, I have worked across the full application lifecycle, including frontend and backend development, authentication, API documentation and deployment using AWS services such as Lambda, API Gateway, S3, CloudFront and Route 53.",
-    "p4": "What makes my background different is what came before software engineering.",
-    "p5": "I hold a PhD in Physical Culture Sciences (Sport Science) and spent several years in academic research, working with experimental and biomechanical data, analytical methods and independent research projects. Later, I spent six years in professional volleyball analytics, including Germany’s Bundesliga, the CEV Champions League and Poland’s top division.",
-    "p6": "In those roles, I worked closely with coaching teams to turn complex performance data into practical recommendations under short competition cycles. I also developed Python and VBA automations to reduce repetitive data-processing work and improve analytical workflows.",
-    "p7": "That experience still shapes how I approach software today. I enjoy understanding complex problems, structuring data, translating requirements into practical solutions and improving processes through technology.",
-    "p8": "Core areas:",
-    "p9": "React | TypeScript | JavaScript | Node.js | NestJS | MySQL | PostgreSQL | MongoDB | REST APIs | SQL | Data Modelling | Docker | GitHub Actions | CI/CD | AWS | Jest | React Testing Library | Python",
-    "p10": "I'm currently looking for Full Stack Developer / Full Stack Engineer opportunities in Germany, ideally in Berlin. I'm also open to remote roles with companies in Poland and across Europe.",
-    "p11": "Languages:",
-    "p12": "Polish native | English professional proficiency | German advanced, currently completing C1-level training."
+    "p2": "My path into software development has been gradual, but not accidental. I was interested in computing and programming early on, later studied Computer Science alongside my professional career, and started using Python to automate repetitive analytical tasks before moving fully into software development. Today I work as a full stack developer.",
+    "p3": "What makes my background different is what came before software engineering.",
+    "p4": "I hold a PhD in Physical Culture Sciences and spent several years in academic research, working with experimental and biomechanical data, analytical methods and independent research projects. Later, I spent six years in professional volleyball analytics, including Germany's Bundesliga, the CEV Champions League and Poland's top division.",
+    "p5": "That experience still shapes how I approach software today. I enjoy understanding complex problems, structuring data, translating requirements into practical solutions and improving processes through technology.",
+    "p6": "Core areas:",
+    "p7": "React | TypeScript | JavaScript | Node.js | NestJS | MySQL | PostgreSQL | MongoDB | REST APIs | SQL | Data Modelling | Docker | GitHub Actions | CI/CD | AWS | Jest | React Testing Library | Python",
+    "p8": "I'm currently looking for Full Stack Developer / Full Stack Engineer opportunities in Germany, ideally in Berlin. I'm also open to remote roles with companies in Poland and across Europe.",
+    "p9": "Languages:",
+    "p10": "Polish native | English professional proficiency | German advanced, currently completing C1-level training."
   },
   "experience": {
     "title": "EXPERIENCE",

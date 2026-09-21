@@ -38,6 +38,18 @@ function Experience({ lang }: Props) {
         employmentTime={`04/2025 - ${lang.sensorfarm.dateTo}`}
         description={lang.sensorfarm.desc}
         pageURL="https://sensorfarm.pl/"
+        techStack={[
+          "React",
+          "Typescript",
+          "Zustand",
+          "NestJS",
+          "Node.js",
+          "MySQL",
+          "TypeORM",
+          "Docker",
+          "Jest",
+          "React Testing Library",
+        ]}
       />
       <ExperienceElement
         jobTitle={lang.codac.title}
@@ -45,6 +57,7 @@ function Experience({ lang }: Props) {
         employmentTime="07/2023 - 12-2023"
         description={lang.codac.desc}
         pageURL="https://www.codeacademyberlin.com/"
+        techStack={["React", "Typescript", "Node.js", "MongoDB", "Mongoose"]}
       />
       <ExperienceElement
         jobTitle={lang.brv.title}

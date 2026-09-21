@@ -32,8 +32,6 @@ function About({ lang }: Props) {
       <p className="mt-2 font-bold">{lang.p8}</p>
       <p className="mt-2">{lang.p9}</p>
       <p className="mt-2">{lang.p10}</p>
-      <p className="mt-2 font-bold">{lang.p11}</p>
-      <p className="mt-2">{lang.p12}</p>
     </section>
   );
 }

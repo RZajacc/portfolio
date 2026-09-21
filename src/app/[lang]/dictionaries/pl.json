@@ -16,17 +16,15 @@
   "about": {
     "title": "O mnie",
     "p1": "Jestem Full Stack Developerem z Berlina, pracującym głównie z React, TypeScript, Node.js, NestJS i MySQL.",
-    "p2": "Moja ścieżka do rozwoju oprogramowania była stopniowa, a nie przypadkowa. Już wcześnie interesowałem się technologią i programowaniem, później studiowałem Informatykę równolegle z pracą zawodową, a zanim w pełni przeszedłem do rozwoju oprogramowania, zacząłem używać Pythona do automatyzacji powtarzalnych zadań analitycznych. Obecnie pracuję komercyjnie na poziomie frontend, backend i bazy danych. W firmie Sensorfarm jestem zaangażowany w modernizację legacy platformy transakcyjnej Java/JSP do aplikacji w React i NestJS. Moja praca obejmuje rozwój REST API, modelowanie danych relacyjnych, migracje baz danych, uwierzytelnianie oparte na JWT, odzyskiwanie hasła oraz interaktywne funkcje analityczne.",
-    "p3": "Mam także praktyczne doświadczenie z Dockerem, GitHub Actions, CI/CD i AWS. W swoim projekcie CodaSk pracowałem w całym cyklu życia aplikacji, w tym przy tworzeniu frontend i backend, uwierzytelnianiu, dokumentacji API oraz wdrożeniu z wykorzystaniem usług AWS, takich jak Lambda, API Gateway, S3, CloudFront i Route 53.",
-    "p4": "To, co wyróżnia moje doświadczenie, to to, co było przed inżynierią oprogramowania.",
-    "p5": "Posiadam doktorat z nauk o kulturze fizycznej i przez kilka lat pracowałem w badaniach naukowych, operując danymi eksperymentalnymi i biomechanicznymi, metodami analitycznymi oraz niezależnymi projektami badawczymi. Później przez sześć lat pracowałem w profesjonalnej analizie siatkówki, w tym w niemieckiej Bundeslidze, Lidze Mistrzów CEV i polskiej ekstraklasie.",
-    "p6": "W tych rolach ściśle współpracowałem z trenerami, aby zamieniać złożone dane o wydajności w praktyczne rekomendacje w krótkich cyklach rywalizacji. Rozwijałem także automatyzacje w Pythonie i VBA, aby ograniczyć powtarzalne przetwarzanie danych i usprawnić workflow analityczny.",
-    "p7": "To doświadczenie nadal kształtuje mój sposób podejścia do oprogramowania. Lubię rozumieć złożone problemy, strukturę danych, tłumaczyć wymagania na praktyczne rozwiązania i usprawniać procesy dzięki technologii.",
-    "p8": "Główne obszary:",
-    "p9": "React | TypeScript | JavaScript | Node.js | NestJS | MySQL | PostgreSQL | MongoDB | REST API | SQL | Modelowanie danych | Docker | GitHub Actions | CI/CD | AWS | Jest | React Testing Library | Python",
-    "p10": "Obecnie poszukuję możliwości pracy na stanowiskach Full Stack Developer / Full Stack Engineer w Niemczech, idealnie w Berlinie. Jestem również otwarty na role zdalne w firmach w Polsce i w całej Europie.",
-    "p11": "Języki:",
-    "p12": "Polski - ojczysty | Angielski - biegłość profesjonalna | Niemiecki - zaawansowany, obecnie kończę szkolenie na poziomie C1."
+    "p2": "Moja ścieżka do rozwoju oprogramowania była stopniowa, ale nie przypadkowa. Już wcześnie interesowałem się technologią i programowaniem, później studiowałem Informatykę równolegle z pracą zawodową, a zanim w pełni przeszedłem do rozwoju oprogramowania, zacząłem używać Pythona do automatyzacji powtarzalnych zadań analitycznych. Obecnie pracuję jako fullstack developer.",
+    "p3": "To, co wyróżnia moje doświadczenie, to to, co było przed inżynierią oprogramowania.",
+    "p4": "Posiadam doktorat z nauk o kulturze fizycznej i przez kilka lat pracowałem w badaniach naukowych, operując danymi eksperymentalnymi i biomechanicznymi, metodami analitycznymi oraz niezależnymi projektami badawczymi. Później przez sześć lat pracowałem w profesjonalnej analizie siatkówki, w tym w niemieckiej Bundeslidze, Lidze Mistrzów CEV i polskiej ekstraklasie.",
+    "p5": "To doświadczenie nadal kształtuje mój sposób podejścia do oprogramowania. Lubię rozumieć złożone problemy, strukturę danych, tłumaczyć wymagania na praktyczne rozwiązania i usprawniać procesy dzięki technologii.",
+    "p6": "Główne obszary:",
+    "p7": "React | TypeScript | JavaScript | Node.js | NestJS | MySQL | PostgreSQL | MongoDB | REST API | SQL | Modelowanie danych | Docker | GitHub Actions | CI/CD | AWS | Jest | React Testing Library | Python",
+    "p8": "Obecnie poszukuję możliwości pracy na stanowiskach Full Stack Developer / Full Stack Engineer w Niemczech, idealnie w Berlinie. Jestem również otwarty na role zdalne w firmach w Polsce i w całej Europie.",
+    "p9": "Języki:",
+    "p10": "Polski - ojczysty | Angielski - biegłość profesjonalna | Niemiecki - zaawansowany, obecnie kończę szkolenie na poziomie C1."
   },
   "experience": {
     "title": "DOŚWIADCZENIE",

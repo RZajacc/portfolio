@@ -58,7 +58,8 @@ body {
     grid-template-areas:
       "date title title title"
       "url location location location"
-      "url description description description";
+      "url description description description"
+      "stack stack stack stack";
   }
   .exp-entry__date {
     grid-area: date;
@@ -130,7 +131,7 @@ body {
     grid-template-areas:
       "about about about about header header "
       "experience experience experience experience header header "
-      "projects projects projects projects header header "
+      "projects projects projects projects header header ";
   }
 
   #header {

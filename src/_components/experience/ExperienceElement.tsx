@@ -1,5 +1,6 @@
 import React from "react";
 import ExperienceURL from "./ExperienceURL";
+import TechStackSection from "../projects/TechStackSection";
 
 type Props = {
   jobTitle: string;
@@ -8,6 +9,7 @@ type Props = {
   description: string;
   pageURL?: string;
   githubURL?: string;
+  techStack?: string[];
 };
 
 function ExperienceElement({
@@ -17,6 +19,7 @@ function ExperienceElement({
   description,
   pageURL,
   githubURL,
+  techStack,
 }: Props) {
   return (
     <div className="exp-entry mt-3 rounded-sm p-1 hover:bg-slate-200/10">
@@ -28,6 +31,7 @@ function ExperienceElement({
         {githubURL && <ExperienceURL githubURL={githubURL} />}
       </div>
       <p className="exp-entry__description">{description}</p>
+      <TechStackSection techStack={techStack} />
     </div>
   );
 }

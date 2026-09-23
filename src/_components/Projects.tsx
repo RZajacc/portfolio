@@ -93,7 +93,6 @@ function Projects({ lang }: Props) {
           ]}
         />
       </div>
-
     </section>
   );
 }

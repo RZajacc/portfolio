@@ -61,11 +61,6 @@ body {
       "location location location location"
       "description description description description"
       "stack stack stack stack";
-    /* grid-template-areas:
-      "date title title title"
-      "url location location location"
-      "url description description description"
-      "stack stack stack stack"; */
   }
   .exp-entry__date {
     grid-area: date;

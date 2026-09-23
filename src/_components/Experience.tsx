@@ -1,5 +1,5 @@
 import React from "react";
-import ExperienceElement from "./experience/ExperienceElement";
+import ExperienceEntry from "./experience/ExperienceEntry";
 
 type Props = {
   lang: {
@@ -32,7 +32,8 @@ function Experience({ lang }: Props) {
   return (
     <section id="experience">
       <h4 className="font-bold">{lang.title}</h4>
-      <ExperienceElement
+      {/* ======= SENSORFARM ======= */}
+      <ExperienceEntry
         jobTitle={lang.sensorfarm.title}
         employer="Sensorfarm Polska"
         employmentTime={`04/2025 - ${lang.sensorfarm.dateTo}`}
@@ -51,15 +52,8 @@ function Experience({ lang }: Props) {
           "React Testing Library",
         ]}
       />
-      {/* <ExperienceElement
-        jobTitle={lang.codac.title}
-        employer="Code Academy Berlin"
-        employmentTime="07/2023 - 12-2023"
-        description={lang.codac.desc}
-        pageURL="https://www.codeacademyberlin.com/"
-        techStack={["React", "Typescript", "Node.js", "MongoDB", "Mongoose"]}
-      /> */}
-      <ExperienceElement
+      {/* ======= BRVOLLEYS ======= */}
+      <ExperienceEntry
         jobTitle={lang.brv.title}
         employer="Berlin Recycling Volleys"
         employmentTime="2019 - 2023"
@@ -67,13 +61,15 @@ function Experience({ lang }: Props) {
         pageURL="https://www.berlin-recycling-volleys.de/"
         githubURL="https://github.com/RZajacc/VertData"
       />
-      <ExperienceElement
+      {/* ======= MKS DG ======= */}
+      <ExperienceEntry
         jobTitle={lang.dg.title}
         employer="MKS Dąbrowa Górnicza"
         employmentTime="2017 - 2019"
         description={lang.dg.desc}
       />
-      <ExperienceElement
+      {/* ======= AWF ======= */}
+      <ExperienceEntry
         jobTitle={lang.awf.title}
         employer="Academy of Physical Education in Katowice"
         employmentTime="2016 - 2017"

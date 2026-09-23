@@ -1,6 +1,7 @@
 import React from "react";
 import ExperienceURL from "./ExperienceURL";
 import TechStackSection from "../projects/TechStackSection";
+import TechStackPill from "../projects/TechStackPill";
 
 type Props = {
   jobTitle: string;
@@ -12,7 +13,7 @@ type Props = {
   techStack?: string[];
 };
 
-function ExperienceElement({
+function ExperienceEntry({
   jobTitle,
   employer,
   employmentTime,
@@ -33,9 +34,16 @@ function ExperienceElement({
       <p className="exp-entry__description mt-2 whitespace-pre-line indent-7">
         {description}
       </p>
+      {techStack && (
+        <div className="proj-entry__stack mt-3 flex flex-wrap">
+          {techStack.map((label, idx) => {
+            return <TechStackPill label={label} key={idx} />;
+          })}
+        </div>
+      )}
       <TechStackSection techStack={techStack} />
     </div>
   );
 }
 
-export default ExperienceElement;
+export default ExperienceEntry;

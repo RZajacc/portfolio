@@ -13,8 +13,6 @@ type Props = {
     p8: string;
     p9: string;
     p10: string;
-    p11: string;
-    p12: string;
   };
 };
 

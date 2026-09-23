@@ -44,11 +44,7 @@ function ProjectEntry({
 
       {/* IMAGE SECTION */}
       <div className="proj-entry__image">
-        <a
-          href={pageURL}
-          target="_blank"
-          className="cursor-myhand hover:animate-pulse"
-        >
+        <a href={pageURL} target="_blank" className=" hover:animate-pulse">
           <Image
             src={imageData}
             alt={imageAltText}

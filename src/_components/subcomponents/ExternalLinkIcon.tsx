@@ -14,7 +14,7 @@ function ExternalLinkIcon({ pageURL, githubURL, figmaURL }: Props) {
     <a
       href={pageURL || githubURL || figmaURL}
       target="_blank"
-      className="cursor-myhand hover:animate-pulse"
+      className="hover:animate-pulse"
     >
       <FontAwesomeIcon
         icon={pageURL ? faGlobe : githubURL ? faGithub : faFigma}

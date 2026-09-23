@@ -100,9 +100,10 @@
     column-gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
-      "image image title title title"
+      "title title title title title"
+      "url url url url url"
       "image image description description description"
-      "image image state state state"
+      "image image description description description"
       "stack stack stack stack stack";
     /* Height adjusted to icon default height */
     grid-template-rows: 32px auto auto;
@@ -115,6 +116,10 @@
 
   .proj-entry__title {
     grid-area: title;
+  }
+
+  .proj-entry_url {
+    grid-area: url;
   }
 
   .proj-entry__description {

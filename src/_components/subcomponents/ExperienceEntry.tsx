@@ -1,6 +1,6 @@
 import React from "react";
 import ExternalLinkIcon from "./ExternalLinkIcon";
-import TechStack from "../projects/TechStack";
+import TechStack from "./TechStack";
 
 type Props = {
   jobTitle: string;

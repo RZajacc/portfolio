@@ -1,5 +1,5 @@
 import React from "react";
-import TechStackPill from "../subcomponents/TechStackPill";
+import TechStackPill from "./TechStackPill";
 
 type Props = {
   techStack?: string[];

@@ -1,5 +1,5 @@
 import React from "react";
-import ExperienceURL from "../experience/ExperienceURL";
+import ExternalLinkIcon from "../subcomponents/ExternalLinkIcon";
 
 type Props = {
   description: string;
@@ -22,9 +22,9 @@ function DescriptionSection({
       {children}
       <p>{description}</p>
       <div className="flex justify-center gap-5 p-3">
-        {githubURL && <ExperienceURL githubURL={githubURL} />}
-        {pageURL && <ExperienceURL pageURL={pageURL} />}
-        {figmaURL && <ExperienceURL figmaURL={figmaURL} />}
+        {githubURL && <ExternalLinkIcon githubURL={githubURL} />}
+        {pageURL && <ExternalLinkIcon pageURL={pageURL} />}
+        {figmaURL && <ExternalLinkIcon figmaURL={figmaURL} />}
       </div>
     </div>
   );

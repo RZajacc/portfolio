@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   cursor:
     url("/mycursor.svg") 12 12,
     default;
-}
+} */
 
 /* General page grid */
 #page-grid-container {
@@ -50,6 +50,10 @@ body {
   grid-area: description;
 }
 
+.tech_stack {
+  margin-top: 0.5rem;
+}
+
 @media (min-width: 640px) {
   .exp-entry {
     display: grid;
@@ -87,6 +91,10 @@ body {
     grid-area: description;
   }
 
+  .tech_stack {
+    grid-area: stack;
+  }
+
   .proj-entry {
     display: grid;
     column-gap: 1rem;
@@ -117,9 +125,8 @@ body {
     grid-area: state;
   }
 
-  .proj-entry__stack {
+  .tech_stack {
     grid-area: stack;
-    margin-top: 0.5rem;
   }
 }
 

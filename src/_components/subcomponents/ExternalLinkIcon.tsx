@@ -9,7 +9,7 @@ type Props = {
   figmaURL?: string;
 };
 
-function ExperienceURL({ pageURL, githubURL, figmaURL }: Props) {
+function ExternalLinkIcon({ pageURL, githubURL, figmaURL }: Props) {
   return (
     <a
       href={pageURL || githubURL || figmaURL}
@@ -24,4 +24,4 @@ function ExperienceURL({ pageURL, githubURL, figmaURL }: Props) {
   );
 }
 
-export default ExperienceURL;
+export default ExternalLinkIcon;

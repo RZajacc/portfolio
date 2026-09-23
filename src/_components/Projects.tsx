@@ -4,7 +4,7 @@ import codeAskImage from "/public/codask.jpg";
 import forkitImage from "/public/forkit.jpeg";
 // Project sections
 import TitleSection from "./projects/TitleSection";
-import TechStackSection from "./projects/TechStackSection";
+import TechStack from "./projects/TechStack";
 import ImageSection from "./projects/ImageSection";
 import DescriptionSection from "./projects/DescriptionSection";
 
@@ -45,7 +45,7 @@ function Projects({ lang }: Props) {
           imageAltText="Codask project image"
         />
 
-        <TechStackSection
+        <TechStack
           techStack={[
             "React",
             "TypeScript",
@@ -82,7 +82,7 @@ function Projects({ lang }: Props) {
           imageAltText="Forkit project image"
         />
 
-        <TechStackSection
+        <TechStack
           techStack={[
             "React",
             "React-router",

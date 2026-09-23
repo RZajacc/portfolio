@@ -1,7 +1,6 @@
 import React from "react";
-import ExperienceURL from "./ExperienceURL";
-import TechStackSection from "../projects/TechStackSection";
-import TechStackPill from "../projects/TechStackPill";
+import ExternalLinkIcon from "./ExternalLinkIcon";
+import TechStack from "../projects/TechStack";
 
 type Props = {
   jobTitle: string;
@@ -28,20 +27,13 @@ function ExperienceEntry({
       <p className="exp-entry__location font-bold">{employer}</p>
       <small className="exp-entry__date text-gray-400">{employmentTime}</small>
       <div className="exp-entry__url">
-        {pageURL && <ExperienceURL pageURL={pageURL} />}
-        {githubURL && <ExperienceURL githubURL={githubURL} />}
+        {pageURL && <ExternalLinkIcon pageURL={pageURL} />}
+        {githubURL && <ExternalLinkIcon githubURL={githubURL} />}
       </div>
       <p className="exp-entry__description mt-2 whitespace-pre-line indent-7">
         {description}
       </p>
-      {techStack && (
-        <div className="proj-entry__stack mt-3 flex flex-wrap">
-          {techStack.map((label, idx) => {
-            return <TechStackPill label={label} key={idx} />;
-          })}
-        </div>
-      )}
-      <TechStackSection techStack={techStack} />
+      <TechStack techStack={techStack} />
     </div>
   );
 }

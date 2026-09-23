@@ -1,5 +1,5 @@
 import React from "react";
-import ExperienceEntry from "./experience/ExperienceEntry";
+import ExperienceEntry from "./subcomponents/ExperienceEntry";
 
 type Props = {
   lang: {
@@ -32,6 +32,7 @@ function Experience({ lang }: Props) {
   return (
     <section id="experience">
       <h4 className="font-bold">{lang.title}</h4>
+
       {/* ======= SENSORFARM ======= */}
       <ExperienceEntry
         jobTitle={lang.sensorfarm.title}
@@ -52,6 +53,7 @@ function Experience({ lang }: Props) {
           "React Testing Library",
         ]}
       />
+
       {/* ======= BRVOLLEYS ======= */}
       <ExperienceEntry
         jobTitle={lang.brv.title}
@@ -61,6 +63,7 @@ function Experience({ lang }: Props) {
         pageURL="https://www.berlin-recycling-volleys.de/"
         githubURL="https://github.com/RZajacc/VertData"
       />
+
       {/* ======= MKS DG ======= */}
       <ExperienceEntry
         jobTitle={lang.dg.title}
@@ -68,6 +71,7 @@ function Experience({ lang }: Props) {
         employmentTime="2017 - 2019"
         description={lang.dg.desc}
       />
+
       {/* ======= AWF ======= */}
       <ExperienceEntry
         jobTitle={lang.awf.title}

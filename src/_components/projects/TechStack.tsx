@@ -1,5 +1,5 @@
 import React from "react";
-import TechStackPill from "./TechStackPill";
+import TechStackPill from "../subcomponents/TechStackPill";
 
 type Props = {
   techStack?: string[];
@@ -8,7 +8,7 @@ type Props = {
 function TechStack({ techStack }: Props) {
   if (techStack) {
     return (
-      <div className="proj-entry__stack mt-3 flex flex-wrap">
+      <div className="tech_stack mt-3 flex flex-wrap">
         {techStack.map((label, idx) => {
           return <TechStackPill label={label} key={idx} />;
         })}

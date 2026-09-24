@@ -56,8 +56,8 @@
     "deployment": "Deployed to: ",
     "clickHere": "Click here",
     "data": "Data: ",
-    "Codask": "Collaborative project that aims to serve as an educational platform for students, graduates and mentors at Code Academy Berlin. It is designed to provide an opportunity for students to post questions related to coding challenges they face while learning at Code-Academy. Users can browse previously posted questions, offer solutions to other students through comments, and post new questions.",
-    "ForkIt": "Culinary app for people looking for new recipes and dishes to try. It relies on Spoonacular API to browse recipes from different cuisines and dish types. Users can browse recipes by categories, create own account and save favourite recipes."
+    "Codask": "I built this educational platform as part of a three-person team during a bootcamp, and later continued developing it independently, using the project to deepen my practical understanding of full-stack architecture, authentication, and API development. I eventually deployed the application on AWS using S3, CloudFront, Lambda, API Gateway, and Route 53, with automated CI/CD pipelines through GitHub Actions.",
+    "ForkIt": "I developed a web application for discovering and saving recipes, leveraging the Spoonacular API to provide users with a diverse recipe catalog. The platform includes recipe discovery, categorization, user accounts, and a favorites system for saving preferred recipes. Building this project strengthened my practical experience with React, TypeScript, external API integration, and Firebase authentication."
   },
   "footer": "And finally the project you are currently looking at. It was built with NextJS. Styled with TailwindCSS, and deployed on Vercel. Hope you like it!"
 }

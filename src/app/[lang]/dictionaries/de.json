@@ -56,8 +56,8 @@
     "deployment": "Bereitgestellt auf: ",
     "clickHere": "Klick hier",
     "data": "Datei: ",
-    "Codask": "Kollaborationsprojekt, das als Bildungsplattform für Studierende, Absolventen und Mentoren der Code Academy Berlin dient. Es wurde entwickelt, um Studierenden die Möglichkeit zu geben, Fragen zu Programmierherausforderungen zu stellen, denen sie während ihres Lernens an der Code Academy begegnen. Benutzer können bereits gestellte Fragen durchsuchen, anderen Studierenden durch Kommentare Lösungen anbieten und neue Fragen posten.",
-    "ForkIt": "Eine kulinarische App für Menschen, die nach neuen Rezepten und Gerichten suchen. Sie nutzt die Spoonacular-API, um Rezepte aus verschiedenen Küchen und für unterschiedliche Gerichte zu durchsuchen. Benutzer können Rezepte nach Kategorien durchsuchen, ein eigenes Konto erstellen und Lieblingsrezepte speichern."
+    "Codask": "Ich habe diese Bildungsplattform als Teil eines Drei-Personen-Teams während eines Bootcamps entwickelt und später weiter eigenständig ausgebaut. Dabei nutzte ich das Projekt, um mein praktisches Verständnis für Full-Stack-Architektur, Authentifizierung und API-Entwicklung zu vertiefen. Schließlich habe ich die Anwendung auf AWS bereitgestellt, unter Verwendung von S3, CloudFront, Lambda, API Gateway und Route 53, mit automatisierten CI/CD-Pipelines über GitHub Actions.",
+    "ForkIt": "Ich habe diese Webanwendung zur Entdeckung und Speicherung von Rezepten entwickelt und dabei die Spoonacular-API genutzt, um den Nutzern ein vielfältiges Rezeptangebot zu bieten. Die Plattform umfasst Rezeptsuche, Kategorisierung, Benutzerkonten und ein Favoritensystem zum Speichern bevorzugter Rezepte. Die Entwicklung dieses Projekts stärkte meine praktische Erfahrung mit React, TypeScript, der Integration externer APIs und Firebase-Authentifizierung."
   },
   "footer": "Und schließlich das Projekt, das Sie gerade sehen. Es wurde mit NextJS erstellt. Entworfen mit TailwindCSS und im Einsatz auf Vercel. Ich hoffe, es gefällt Ihnen!"
 }

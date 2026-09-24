@@ -56,8 +56,8 @@
     "deployment": "Wdrożenie: ",
     "clickHere": "Kliknij tutaj",
     "data": "Dane: ",
-    "Codask": "Grupowy projekt, który ma służyć jako platforma edukacyjna dla studentów, absolwentów i mentorów Code Academy Berlin. Został zaprojektowany, aby umożliwić studentom zadawanie pytań dotyczących wyzwań programistycznych, z którymi mierzą się podczas nauki. Użytkownicy mogą przeglądać wcześniej opublikowane pytania, oferować rozwiązania innym studentom poprzez komentarze oraz dodawać nowe pytania.",
-    "ForkIt": "Aplikacja kulinarna dla osób poszukujących nowych przepisów i dań. Wykorzystuje API Spoonacular do przeglądania przepisów z różnych kuchni i typów dań. Użytkownicy mogą przeglądać przepisy według kategorii, tworzyć własne konto i zapisywać ulubione przepisy."
+    "Codask": "Zbudowałem tę platformę edukacyjną będąc częścią trzyosobowego zespołu podczas bootcampu, a następnie kontynuowałem jej rozwój samodzielnie, wykorzystując projekt do pogłębienia praktycznego zrozumienia architektury full-stack, uwierzytelniania i rozwoju API. Ostatecznie wdrożyłem aplikację na AWS z wykorzystaniem S3, CloudFront, Lambda, API Gateway i Route 53, wraz z zautomatyzowanymi pipeline'ami CI/CD przez GitHub Actions.",
+    "ForkIt": "Opracowałem aplikację webową do znajdowania i zapisywania przepisów, wykorzystując API Spoonacular, aby zapewnić użytkownikom szeroką ofertę przepisów. Platforma obejmuje wyszukiwanie przepisów, kategoryzację, konta użytkowników oraz system ulubionych do zapisywania preferowanych przepisów. Budowa tego projektu wzmocniła moje praktyczne doświadczenie z React, TypeScript, integracją zewnętrznych API i uwierzytelnianiem Firebase."
   },
   "footer": "I w końcu projekt na który teraz patrzysz. Został zbudowany z NextJS. Styl stworzony z TailwindCSS i wdrożenie z Vercel. Mam nadzieję, że Ci się podoba!"
 }
